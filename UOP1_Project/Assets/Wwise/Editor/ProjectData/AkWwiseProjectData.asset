@@ -120,7 +120,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: cd4a6721a693ed4382e34f20bf0d65e6
     GuidInternal: 
-    m_lastTime: -8584908049825377564
+    m_lastTime: -8584907390964379427
     List:
     - name: Music
       guid: 18618433eb301f49ba516b900b7b3237
@@ -162,7 +162,7 @@ MonoBehaviour:
     ParentPath: Events\Ambient (Base)(2D)
     guid: d2ced58090a83945ae65d1fa261578a0
     GuidInternal: 
-    m_lastTime: -8584907781798530925
+    m_lastTime: -8584907438691057798
     List:
     - name: Beach_
       guid: e03bb6d37565e1419283cf75e0a74998
@@ -352,7 +352,7 @@ MonoBehaviour:
     ParentPath: Events\Ambient (Points)(3D)
     guid: 7cb72a011d2bc1429bf2f3ff77fbe3b3
     GuidInternal: 
-    m_lastTime: -8584907781798132034
+    m_lastTime: -8584907438691322469
     List:
     - name: Amb_BoilingWater
       guid: 6d923f86f9104b4aa39c049d7f18389a
@@ -502,7 +502,7 @@ MonoBehaviour:
     ParentPath: Events\Control
     guid: 9eb86487acbeb14b8d7b846d143e520d
     GuidInternal: 
-    m_lastTime: -8584908281932977567
+    m_lastTime: -8584907426746937463
     List:
     - name: Scene_Change
       guid: 487ac7076141334793741e25b5b1642d
@@ -532,7 +532,7 @@ MonoBehaviour:
     ParentPath: Events\Creatures(Monsters)
     guid: 5736434a442be54db57dc20e791eedf7
     GuidInternal: 
-    m_lastTime: -8584907776672798322
+    m_lastTime: -8584907438690992696
     List:
     - name: Critter_Plant_Attack
       guid: 6a77b50a33ea0442bae60709ee38769f
@@ -652,8 +652,8 @@ MonoBehaviour:
         guid: 3431aa41f0d9ad49821507b0ac29bcab
       Path: Events\Creatures(Monsters)\Rock Monster\Critter_Rock_Death
       maxAttenuation: 0
-      maxDuration: 1.9962373
-      minDuration: 1.9962373
+      maxDuration: 3.018594
+      minDuration: 3.018594
     - name: Critter_Rock_GettingHit
       guid: 439842c3c4a12544b0504ca4e665e7ae
       id: 65587878
@@ -712,8 +712,8 @@ MonoBehaviour:
         guid: 4981cee02ec59f498966219a965ea303
       Path: Events\Creatures(Monsters)\Rock Monster\Critter_Rock_Move
       maxAttenuation: 0
-      maxDuration: 0.42353332
-      minDuration: 0.42353332
+      maxDuration: 0.33113182
+      minDuration: 0.33113182
     - name: Critter_Slime_Attack
       guid: ec3e8c88c91c9d4d99fac6db409effe1
       id: 3907341830
@@ -732,8 +732,8 @@ MonoBehaviour:
         guid: ec3e8c88c91c9d4d99fac6db409effe1
       Path: Events\Creatures(Monsters)\Slime Monster\Critter_Slime_Attack
       maxAttenuation: 0
-      maxDuration: 0.8126984
-      minDuration: 0.8126984
+      maxDuration: 0.74677473
+      minDuration: 0.74677473
     - name: Critter_Slime_Death
       guid: d6133a9bdad84a4fbcf850cf7252822a
       id: 3934772412
@@ -889,7 +889,7 @@ MonoBehaviour:
     ParentPath: Events\Music
     guid: 24f83e979b92a2468d7881b31c0bdfac
     GuidInternal: 
-    m_lastTime: -8584907988639530278
+    m_lastTime: -8584907393762379812
     List:
     - name: Music
       guid: eedf99a3aa2e3d4aa209a7ad7aae02b5
@@ -906,8 +906,8 @@ MonoBehaviour:
         guid: eedf99a3aa2e3d4aa209a7ad7aae02b5
       Path: Events\Music\Music
       maxAttenuation: 0
-      maxDuration: 0
-      minDuration: 0
+      maxDuration: 27.605707
+      minDuration: 27.605707
     - name: Music_Main
       guid: db953f41ecd29341a90414e368b096c4
       id: 1615767906
@@ -923,8 +923,8 @@ MonoBehaviour:
         guid: db953f41ecd29341a90414e368b096c4
       Path: Events\Music\Music_Main
       maxAttenuation: 0
-      maxDuration: 61.18458
-      minDuration: 61.18458
+      maxDuration: 27.6
+      minDuration: 27.6
     - name: Pause_Menu_Off
       guid: 1bdcdf0876821d41a16d09b36d0fe31d
       id: 2179654399
@@ -957,8 +957,8 @@ MonoBehaviour:
         guid: b5f11ae441722e479d34d46a690b69dc
       Path: Events\Music\Pause_Menu_On
       maxAttenuation: 0
-      maxDuration: 0
-      minDuration: 0
+      maxDuration: 1.7383958
+      minDuration: 1.7383958
   - PhysicalPath: Events\NPC.wwu
     PathAndIcons:
     - ElementName: Events
@@ -970,7 +970,7 @@ MonoBehaviour:
     ParentPath: Events\NPC
     guid: 02c9b70ffd4c684e9622b6c42694b456
     GuidInternal: 
-    m_lastTime: -8584907771251951861
+    m_lastTime: -8584907430862450657
     List:
     - name: NPC_Hare_Song_Long
       guid: 197a7a814b3fec42a50b2c80b3ac2a94
@@ -990,8 +990,8 @@ MonoBehaviour:
         guid: 197a7a814b3fec42a50b2c80b3ac2a94
       Path: Events\NPC\NPCHare\NPC_Hare_Song_Long
       maxAttenuation: 0
-      maxDuration: 30.476208
-      minDuration: 30.476208
+      maxDuration: 7
+      minDuration: 7
     - name: NPC_Hare_Talk
       guid: 507790ef6b590b4cb2efc75cfa87c1e1
       id: 1419286180
@@ -1010,8 +1010,8 @@ MonoBehaviour:
         guid: 507790ef6b590b4cb2efc75cfa87c1e1
       Path: Events\NPC\NPCHare\NPC_Hare_Talk
       maxAttenuation: 0
-      maxDuration: 9.276375
-      minDuration: 9.276375
+      maxDuration: 2.6090293
+      minDuration: 2.6090293
     - name: NPC_Phoenix_Flap
       guid: a6f5e6c72966c24cb381ee65ef069d99
       id: 4270597360
@@ -1214,7 +1214,7 @@ MonoBehaviour:
     ParentPath: Events\Player
     guid: 8d912c6e47fbb84985ac8a24f6ef70a5
     GuidInternal: 
-    m_lastTime: -8584907781797951752
+    m_lastTime: -8584907393762460192
     List:
     - name: Beach
       guid: cc18163b139f8c499bf8a3d069097fde
@@ -1376,6 +1376,46 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 4.5089574
       minDuration: 4.5089574
+    - name: Player_Jump_Landing
+      guid: 32d0fe8e061aab409eb70d7487e62ca4
+      id: 3856109001
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Player
+        ObjectType: 12
+        guid: 8d912c6e47fbb84985ac8a24f6ef70a5
+      - ElementName: PlayerAction
+        ObjectType: 4
+        guid: 61b8da84fb504b44b2e48512f69aad5a
+      - ElementName: Player_Jump_Landing
+        ObjectType: 3
+        guid: 32d0fe8e061aab409eb70d7487e62ca4
+      Path: Events\Player\PlayerAction\Player_Jump_Landing
+      maxAttenuation: 0
+      maxDuration: 0.475
+      minDuration: 0.475
+    - name: Player_Jump_Liftoff
+      guid: d9e4c57c2aa5e8488e804643b20c679f
+      id: 1363577934
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Player
+        ObjectType: 12
+        guid: 8d912c6e47fbb84985ac8a24f6ef70a5
+      - ElementName: PlayerAction
+        ObjectType: 4
+        guid: 61b8da84fb504b44b2e48512f69aad5a
+      - ElementName: Player_Jump_Liftoff
+        ObjectType: 3
+        guid: d9e4c57c2aa5e8488e804643b20c679f
+      Path: Events\Player\PlayerAction\Player_Jump_Liftoff
+      maxAttenuation: 0
+      maxDuration: 0.20410417
+      minDuration: 0.20410417
     - name: Player_Talk
       guid: f99a5be1670f044b9f653205a0934667
       id: 2675089675
@@ -1414,7 +1454,7 @@ MonoBehaviour:
         guid: ea7c98815f0dc04992c0928acb77078f
       Path: Events\Player\PlayerAction\Player_Water_Splash
       maxAttenuation: 0
-      maxDuration: 0
+      maxDuration: 0.88807714
       minDuration: 0
     - name: PlayerAction
       guid: 61b8da84fb504b44b2e48512f69aad5a
@@ -1501,7 +1541,7 @@ MonoBehaviour:
     ParentPath: Events\UI
     guid: 07e68c76d0817942aa7af676e48dec95
     GuidInternal: 
-    m_lastTime: -8584907776672873348
+    m_lastTime: -8584907438690300684
     List:
     - name: AddToInventory
       guid: 0a0c5f7c99d5a74b9aa29e2726522f9b
@@ -1521,8 +1561,8 @@ MonoBehaviour:
         guid: 0a0c5f7c99d5a74b9aa29e2726522f9b
       Path: Events\UI\UIingredients\AddToInventory
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 0.5487013
+      minDuration: 0.5487013
     - name: UI_Click
       guid: eabdf9562c1e454ca302de9a83e21e4e
       id: 2249769530
@@ -1541,8 +1581,8 @@ MonoBehaviour:
         guid: eabdf9562c1e454ca302de9a83e21e4e
       Path: Events\UI\UIingredients\UI_Click
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 1.8493211
+      minDuration: 1.8493211
     - name: UI_Shuffle
       guid: 6cbfaedb94eef946b2c431fd8ee55df3
       id: 592624029
@@ -1561,8 +1601,8 @@ MonoBehaviour:
         guid: 6cbfaedb94eef946b2c431fd8ee55df3
       Path: Events\UI\UIingredients\UI_Shuffle
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 0.37151927
+      minDuration: 0.37151927
     - name: UI_Use
       guid: ec5a091b865fc24f9c5c5204354bf3c6
       id: 3210856931
@@ -1581,8 +1621,8 @@ MonoBehaviour:
         guid: ec5a091b865fc24f9c5c5204354bf3c6
       Path: Events\UI\UIingredients\UI_Use
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 0.15669017
+      minDuration: 0.15669017
     - name: UIingredients
       guid: 77bade30e424d841ab2e5d080bef53f0
       id: 1897008173

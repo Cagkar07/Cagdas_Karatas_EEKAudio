@@ -23,7 +23,6 @@
 					<ChildrenList>
 						<Sound Name="Critter_Plant_Idle" ID="{EE1AEC40-63A4-497A-8061-FA9797ED4980}" ShortID="118934627">
 							<PropertyList>
-								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 								<Property Name="IsLoopingInfinite" Type="bool" Value="False"/>
 								<Property Name="LoopCount" Type="int32" Value="1"/>
 								<Property Name="Volume" Type="Real64">
@@ -60,7 +59,6 @@
 						</Sound>
 						<Sound Name="Critter_Plant_Attack" ID="{5B242968-2A96-4D56-92F1-EC646F528D12}" ShortID="819849342">
 							<PropertyList>
-								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 								<Property Name="IsLoopingInfinite" Type="bool" Value="False"/>
 								<Property Name="LoopCount" Type="int32" Value="1"/>
 							</PropertyList>
@@ -93,7 +91,6 @@
 						</Sound>
 						<Sound Name="Critter_Plant_GettingHit" ID="{1E4FB459-CFAA-45EC-9A9C-39EBCE00203E}" ShortID="890878304">
 							<PropertyList>
-								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 								<Property Name="IsLoopingInfinite" Type="bool" Value="False"/>
 								<Property Name="LoopCount" Type="int32" Value="1"/>
 							</PropertyList>
@@ -127,7 +124,6 @@
 						</Sound>
 						<Sound Name="Critter_Plant_Death" ID="{3AB66E2F-1179-4F36-8F66-4A82E3DEB9C2}" ShortID="114820406">
 							<PropertyList>
-								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 								<Property Name="IsLoopingInfinite" Type="bool" Value="False"/>
 								<Property Name="LoopCount" Type="int32" Value="1"/>
 							</PropertyList>
@@ -346,7 +342,6 @@
 					<ChildrenList>
 						<Sound Name="Critter_Rock_Death" ID="{F188AFF0-E785-461D-AB74-4B968F755611}" ShortID="85132234">
 							<PropertyList>
-								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 								<Property Name="IsLoopingInfinite" Type="bool" Value="False"/>
 								<Property Name="LoopCount" Type="int32" Value="1"/>
 							</PropertyList>
@@ -379,7 +374,6 @@
 						</Sound>
 						<Sound Name="Critter_Rock_GettingHit" ID="{8FB9567D-BF19-4DA4-B2E4-5EC233F3C187}" ShortID="914716839">
 							<PropertyList>
-								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 								<Property Name="IsLoopingInfinite" Type="bool" Value="False"/>
 								<Property Name="LoopCount" Type="int32" Value="1"/>
 							</PropertyList>
@@ -411,7 +405,6 @@
 						</Sound>
 						<Sound Name="Critter_Rock_Idle" ID="{6286C81A-97A4-4B11-B9B1-09F969FCF4C9}" ShortID="900103239">
 							<PropertyList>
-								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 								<Property Name="IsLoopingInfinite" Type="bool" Value="False"/>
 								<Property Name="LoopCount" Type="int32" Value="1"/>
 							</PropertyList>
@@ -450,7 +443,6 @@
 						</Sound>
 						<Sound Name="Critter_Rock_Move" ID="{E9975A4C-6F68-443E-B6BC-54EAEBBBF49A}" ShortID="1034432218">
 							<PropertyList>
-								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 								<Property Name="IsLoopingInfinite" Type="bool" Value="False"/>
 								<Property Name="LoopCount" Type="int32" Value="1"/>
 								<Property Name="Volume" Type="Real64">
@@ -489,7 +481,6 @@
 						</Sound>
 						<Sound Name="Critter_Rock_Attack" ID="{52741CB2-79A6-41FD-818B-99C4DE7652FF}" ShortID="301109571">
 							<PropertyList>
-								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 								<Property Name="IsLoopingInfinite" Type="bool" Value="False"/>
 								<Property Name="LoopCount" Type="int32" Value="1"/>
 							</PropertyList>

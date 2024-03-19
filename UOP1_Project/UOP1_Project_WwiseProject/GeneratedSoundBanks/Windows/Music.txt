@@ -5,7 +5,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	3991942870	Music			\Music\Music	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	153992654	Music	C:\Users\cagka\Documents\GitHub\Cagdas_Karatas_EEKAudio\UOP1_Project\UOP1_Project_WwiseProject\.cache\Windows\SFX\background music chop chop_818F3B66.wem		\Actor-Mixer Hierarchy\Music\Musicingredients\Music		10793056
+	153992654	Music	C:\Users\cagka\Documents\GitHub\Cagdas_Karatas_EEKAudio\UOP1_Project\UOP1_Project_WwiseProject\.cache\Windows\SFX\background music chop chop_AF39E2C6.wem		\Actor-Mixer Hierarchy\Music\Musicingredients\Music		4869744
 	544990344	Pause_Menu_On	C:\Users\cagka\Documents\GitHub\Cagdas_Karatas_EEKAudio\UOP1_Project\UOP1_Project_WwiseProject\.cache\Windows\SFX\pause_818F3B66.wem		\Actor-Mixer Hierarchy\Music\Musicingredients\Pause_Menu_On		333868
-	1053085023	Music_Main	C:\Users\cagka\Documents\GitHub\Cagdas_Karatas_EEKAudio\UOP1_Project\UOP1_Project_WwiseProject\.cache\Windows\SFX\background music chop chop_552F4CF6.wem		\Actor-Mixer Hierarchy\Music\Musicingredients\Music_Main		10793056
+	1053085023	Music_Main	C:\Users\cagka\Documents\GitHub\Cagdas_Karatas_EEKAudio\UOP1_Project\UOP1_Project_WwiseProject\.cache\Windows\SFX\background music chop chop_D3FCBA86.wem		\Actor-Mixer Hierarchy\Music\Musicingredients\Music_Main		4868736
 

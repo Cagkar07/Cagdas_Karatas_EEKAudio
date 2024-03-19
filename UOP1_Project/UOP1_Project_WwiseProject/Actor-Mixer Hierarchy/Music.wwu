@@ -14,6 +14,15 @@
 					</ReferenceList>
 					<ChildrenList>
 						<Sound Name="Music_Main" ID="{1B8F6EBC-0A93-43AD-810E-4A28D9458811}" ShortID="533256628">
+							<PropertyList>
+								<Property Name="IsLoopingInfinite" Type="bool" Value="False"/>
+								<Property Name="LoopCount" Type="int32" Value="1"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-20</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CA2A11F9-F9B6-45AB-B0AF-48C8E0FFA811}"/>
@@ -25,9 +34,10 @@
 							<ChildrenList>
 								<AudioFileSource Name="background music chop chop" ID="{E7786D04-5FB2-4360-86ED-191CE4FEDA5A}">
 									<PropertyList>
-										<Property Name="FadeInDuration" Type="Real64" Value="4.5708009022744"/>
-										<Property Name="FadeOutDuration" Type="Real64" Value="2.80663213297551"/>
+										<Property Name="FadeInDuration" Type="Real64" Value="27.6"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="27.6"/>
 										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimEnd" Type="Real64" Value="27.6"/>
 									</PropertyList>
 									<Language>SFX</Language>
 									<AudioFile>background music chop chop.wav</AudioFile>
@@ -41,6 +51,15 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="Music" ID="{D14D7FA2-851F-4B35-A5E1-012F619B6AC4}" ShortID="180232532">
+							<PropertyList>
+								<Property Name="IsLoopingInfinite" Type="bool" Value="False"/>
+								<Property Name="LoopCount" Type="int32" Value="1"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-20</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CA2A11F9-F9B6-45AB-B0AF-48C8E0FFA811}"/>
@@ -51,6 +70,12 @@
 							</ReferenceList>
 							<ChildrenList>
 								<AudioFileSource Name="background music chop chop" ID="{3C7F7768-F4CF-4002-ABFA-E6D8ED7C91DE}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="27.6057078240267"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="27.6057078240267"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimEnd" Type="Real64" Value="27.6057078240267"/>
+									</PropertyList>
 									<Language>SFX</Language>
 									<AudioFile>background music chop chop.wav</AudioFile>
 									<MediaIDList>
@@ -74,6 +99,8 @@
 						</Sound>
 						<Sound Name="Pause_Menu_On" ID="{DB11EB15-739D-4EF6-BD49-DAAEE8CCCDBB}" ShortID="702437412">
 							<PropertyList>
+								<Property Name="IsLoopingInfinite" Type="bool" Value="False"/>
+								<Property Name="LoopCount" Type="int32" Value="1"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
 										<Value>-30</Value>

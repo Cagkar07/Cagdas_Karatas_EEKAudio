@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{33846118-30EB-491F-BA51-6B900B7B3237}",
     "Language": "SFX",
-    "Hash": "{25EC8BC4-9DB7-FF04-96DE-9671609265CE}",
+    "Hash": "{8B7B1C92-1BF6-727D-96FE-A8ED67819FAC}",
     "ShortName": "Music",
     "Path": "Music.bnk",
     "Media": [
@@ -20,7 +20,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "background music chop chop.wav",
-      "CachePath": "SFX/background music chop chop_818F3B66.wem"
+      "CachePath": "SFX/background music chop chop_AF39E2C6.wem"
      },
      {
       "Id": "544990344",
@@ -36,7 +36,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "background music chop chop.wav",
-      "CachePath": "SFX/background music chop chop_552F4CF6.wem"
+      "CachePath": "SFX/background music chop chop_D3FCBA86.wem"
      }
     ],
     "Events": [
@@ -45,8 +45,8 @@
       "Name": "Music",
       "GUID": "{A399DFEE-2EAA-4A3D-A209-A7AD7AAE02B5}",
       "DurationType": "OneShot",
-      "DurationMin": "61.18458",
-      "DurationMax": "61.18458",
+      "DurationMin": "27.605707",
+      "DurationMax": "27.605707",
       "MediaRefs": [
        {
         "Id": "153992654"
@@ -58,8 +58,8 @@
       "Name": "Music_Main",
       "GUID": "{413F95DB-D2EC-4193-A904-14E368B096C4}",
       "DurationType": "OneShot",
-      "DurationMin": "61.18458",
-      "DurationMax": "61.18458",
+      "DurationMin": "27.6",
+      "DurationMax": "27.6",
       "MediaRefs": [
        {
         "Id": "1053085023"
@@ -123,6 +123,6 @@
     ]
    }
   ],
-  "FileHash": "{02F3F666-A492-20E8-0FEE-605FE2F9E282}"
+  "FileHash": "{1868464E-B35B-9570-EA36-F1AD32777EC8}"
  }
 }

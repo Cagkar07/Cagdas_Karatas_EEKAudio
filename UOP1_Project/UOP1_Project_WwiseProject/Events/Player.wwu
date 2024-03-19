@@ -26,7 +26,7 @@
 						</Event>
 						<Event Name="Player_Talk" ID="{E15B9AF9-0F67-4B04-9F65-3205A0934667}">
 							<ChildrenList>
-								<Action Name="" ID="{3EF93902-5BF4-4CDA-B0C1-0B9FEEDD630E}" ShortID="481767128">
+								<Action Name="" ID="{24AB146F-0B53-4001-999C-58933B853E90}" ShortID="66867960">
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="Player_Talk" ID="{AA899D7F-B0ED-457E-B76D-3E79A8175457}" WorkUnitID="{BB27B640-3822-49B7-B9D8-D8EF3702B6BB}"/>
@@ -90,6 +90,28 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="Player_Heartbeat" ID="{F988A01C-3DF3-41BB-88AD-5AF820AF98A1}" WorkUnitID="{BB27B640-3822-49B7-B9D8-D8EF3702B6BB}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Player_Jump_Landing" ID="{8EFED032-1A06-40AB-9EB7-0D7487E62CA4}">
+							<ChildrenList>
+								<Action Name="" ID="{85942124-CAFC-4C15-8D89-E71C6AA3962E}" ShortID="1055391496">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Player_Jump_Landing" ID="{B81D87BB-2D51-4005-A9D6-50B90E7BAFF2}" WorkUnitID="{BB27B640-3822-49B7-B9D8-D8EF3702B6BB}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Player_Jump_Liftoff" ID="{7CC5E4D9-A52A-48E8-8E80-4643B20C679F}">
+							<ChildrenList>
+								<Action Name="" ID="{9323E6C7-7456-46ED-985A-0A8ACBB2CF37}" ShortID="445254974">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Player_Jump_Liftoff" ID="{EC4E1A0B-93D1-425C-9626-BC6630484573}" WorkUnitID="{BB27B640-3822-49B7-B9D8-D8EF3702B6BB}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>

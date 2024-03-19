@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="3991942870" Type="User" GUID="{33846118-30EB-491F-BA51-6B900B7B3237}" Language="SFX" Hash="{25EC8BC4-9DB7-FF04-96DE-9671609265CE}">
+		<SoundBank Id="3991942870" Type="User" GUID="{33846118-30EB-491F-BA51-6B900B7B3237}" Language="SFX" Hash="{8B7B1C92-1BF6-727D-96FE-A8ED67819FAC}">
 			<ShortName>Music</ShortName>
 			<Path>Music.bnk</Path>
 			<Media>
 				<File Id="153992654" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>background music chop chop.wav</ShortName>
-					<CachePath>SFX/background music chop chop_818F3B66.wem</CachePath>
+					<CachePath>SFX/background music chop chop_AF39E2C6.wem</CachePath>
 				</File>
 				<File Id="544990344" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>pause.wav</ShortName>
@@ -15,16 +15,16 @@
 				</File>
 				<File Id="1053085023" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>background music chop chop.wav</ShortName>
-					<CachePath>SFX/background music chop chop_552F4CF6.wem</CachePath>
+					<CachePath>SFX/background music chop chop_D3FCBA86.wem</CachePath>
 				</File>
 			</Media>
 			<Events>
-				<Event Id="3991942870" Name="Music" GUID="{A399DFEE-2EAA-4A3D-A209-A7AD7AAE02B5}" DurationType="OneShot" DurationMin="61.18458" DurationMax="61.18458">
+				<Event Id="3991942870" Name="Music" GUID="{A399DFEE-2EAA-4A3D-A209-A7AD7AAE02B5}" DurationType="OneShot" DurationMin="27.605707" DurationMax="27.605707">
 					<MediaRefs>
 						<MediaRef Id="153992654"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="1615767906" Name="Music_Main" GUID="{413F95DB-D2EC-4193-A904-14E368B096C4}" DurationType="OneShot" DurationMin="61.18458" DurationMax="61.18458">
+				<Event Id="1615767906" Name="Music_Main" GUID="{413F95DB-D2EC-4193-A904-14E368B096C4}" DurationType="OneShot" DurationMin="27.6" DurationMax="27.6">
 					<MediaRefs>
 						<MediaRef Id="1053085023"/>
 					</MediaRefs>
@@ -51,5 +51,5 @@
 			</StateGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{42508CBF-3A3D-494B-1120-D460C21CF988}</FileHash>
+	<FileHash>{DA0410A3-46EC-2AFF-B29D-A5F9E857F378}</FileHash>
 </SoundBanksInfo>

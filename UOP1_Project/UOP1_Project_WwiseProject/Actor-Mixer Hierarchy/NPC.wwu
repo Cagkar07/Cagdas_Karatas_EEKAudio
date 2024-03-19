@@ -25,9 +25,13 @@
 							<ChildrenList>
 								<Sound Name="NPC_Hare_Talk" ID="{D2E0F99D-EFC7-4633-BE34-8B3A4529ACCB}" ShortID="724502843">
 									<PropertyList>
-										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 										<Property Name="IsLoopingInfinite" Type="bool" Value="False"/>
 										<Property Name="LoopCount" Type="int32" Value="1"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-15</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -38,12 +42,14 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="sound effect ｜｜ Grumpy old man sound effect, funny sound effect" ID="{6285E0FB-7D6C-41DC-AC0E-89FCEA36A5BA}">
+										<AudioFileSource Name="hare talk" ID="{6285E0FB-7D6C-41DC-AC0E-89FCEA36A5BA}">
 											<PropertyList>
-												<Property Name="FadeInDuration" Type="Real64" Value="3.68420114760638"/>
+												<Property Name="FadeInDuration" Type="Real64" Value="2.60902929040586"/>
 												<Property Name="FadeInShape" Type="int16" Value="8"/>
-												<Property Name="FadeOutDuration" Type="Real64" Value="4.502134"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="2.60902929040586"/>
 												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="3.10515495749242"/>
+												<Property Name="TrimEnd" Type="Real64" Value="5.71418424789829"/>
 											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>sound effect ｜｜ Grumpy old man sound effect, funny sound effect.wav</AudioFile>
@@ -53,17 +59,16 @@
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="sound effect ｜｜ Grumpy old man sound effect, funny sound effect" ID="{6285E0FB-7D6C-41DC-AC0E-89FCEA36A5BA}" Platform="Linked"/>
+										<ActiveSource Name="hare talk" ID="{6285E0FB-7D6C-41DC-AC0E-89FCEA36A5BA}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="NPC_Hare_Song_Long" ID="{3D74EC04-A125-40F0-AEDA-CD5A8FACBE10}" ShortID="942624284">
 									<PropertyList>
-										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 										<Property Name="IsLoopingInfinite" Type="bool" Value="False"/>
 										<Property Name="LoopCount" Type="int32" Value="1"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-4</Value>
+												<Value>-15</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -79,11 +84,17 @@
 										<AudioFileSource Name="Singing" ID="{57E890AB-1AB3-42A3-A812-4773CA6C0469}">
 											<PropertyList>
 												<Property Name="CrossfadeShape" Type="int16" Value="4"/>
-												<Property Name="FadeInDuration" Type="Real64" Value="30.4762083333333"/>
+												<Property Name="FadeInDuration" Type="Real64" Value="7"/>
 												<Property Name="FadeInShape" Type="int16" Value="0"/>
-												<Property Name="FadeOutDuration" Type="Real64" Value="30.4762083333333"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="7"/>
 												<Property Name="FadeOutShape" Type="int16" Value="2"/>
 												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="7"/>
+												<Property Name="VolumeOffset" Type="Real64">
+													<ValueList>
+														<Value>-3.6</Value>
+													</ValueList>
+												</Property>
 											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>Cartoon Character Bad Singing Sound Effect.wav</AudioFile>
@@ -106,7 +117,6 @@
 							<ChildrenList>
 								<Sound Name="Townsfolk_Female_Talk" ID="{357E5136-B4E2-490A-9780-FE15A8935FC5}" ShortID="342726701">
 									<PropertyList>
-										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 										<Property Name="IsLoopingInfinite" Type="bool" Value="False"/>
 										<Property Name="LoopCount" Type="int32" Value="1"/>
 									</PropertyList>
@@ -133,7 +143,6 @@
 								</Sound>
 								<Sound Name="Townsfolk_Male_Footsteps" ID="{343F3D03-FE36-4C85-8BF8-3DFC80D041E0}" ShortID="751021643">
 									<PropertyList>
-										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 										<Property Name="IsLoopingInfinite" Type="bool" Value="False"/>
 										<Property Name="LoopCount" Type="int32" Value="1"/>
 									</PropertyList>
@@ -155,7 +164,7 @@
 											<Language>SFX</Language>
 											<AudioFile>Walking sound effect.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="589196208"/>
+												<MediaID ID="329211248"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
@@ -165,7 +174,6 @@
 								</Sound>
 								<Sound Name="Townsfolk_Male_Talk" ID="{CE12D693-38C9-4FCB-8D54-275EBBE1E522}" ShortID="191347137">
 									<PropertyList>
-										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 										<Property Name="IsLoopingInfinite" Type="bool" Value="False"/>
 										<Property Name="LoopCount" Type="int32" Value="1"/>
 									</PropertyList>
@@ -192,7 +200,6 @@
 								</Sound>
 								<Sound Name="Townsfolk_Female_Footsteps" ID="{EB785A91-4B1E-4766-B210-4AC2044131B5}" ShortID="1052081961">
 									<PropertyList>
-										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 										<Property Name="IsLoopingInfinite" Type="bool" Value="False"/>
 										<Property Name="LoopCount" Type="int32" Value="1"/>
 									</PropertyList>
@@ -214,7 +221,7 @@
 											<Language>SFX</Language>
 											<AudioFile>Walking sound effect.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="589196208"/>
+												<MediaID ID="329211248"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
@@ -241,6 +248,11 @@
 									</ReferenceList>
 								</Sound>
 								<Sound Name="NPC_Phoenix_Nibble" ID="{88BAACDF-E37D-4826-9192-AD982DED8F82}" ShortID="247418266">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="IsLoopingInfinite" Type="bool" Value="False"/>
+										<Property Name="LoopCount" Type="int32" Value="1"/>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CA2A11F9-F9B6-45AB-B0AF-48C8E0FFA811}"/>
@@ -263,6 +275,11 @@
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="NPC_Phoenix_Flap" ID="{1F3C769E-8A58-459D-B2F7-25B64E98DD01}" ShortID="129666474">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="IsLoopingInfinite" Type="bool" Value="False"/>
+										<Property Name="LoopCount" Type="int32" Value="1"/>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CA2A11F9-F9B6-45AB-B0AF-48C8E0FFA811}"/>

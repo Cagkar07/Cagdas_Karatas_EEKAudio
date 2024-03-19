@@ -10,6 +10,9 @@
 				<Event Name="Music" ID="{A399DFEE-2EAA-4A3D-A209-A7AD7AAE02B5}">
 					<ChildrenList>
 						<Action Name="" ID="{AC179559-E235-49A9-9681-D5313B98A95A}" ShortID="1054953376">
+							<PropertyList>
+								<Property Name="FadeTime" Type="Real64" Value="5"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Music" ID="{D14D7FA2-851F-4B35-A5E1-012F619B6AC4}" WorkUnitID="{0A4A8BEE-3CEF-47ED-A53C-D70D9D8EAAA7}"/>
@@ -46,6 +49,10 @@
 				<Event Name="Music_Main" ID="{413F95DB-D2EC-4193-A904-14E368B096C4}">
 					<ChildrenList>
 						<Action Name="" ID="{BA253D92-175A-4CC9-BB4F-1188C9BD4212}" ShortID="453628745">
+							<PropertyList>
+								<Property Name="FadeInCurve" Type="int16" Value="0"/>
+								<Property Name="FadeTime" Type="Real64" Value="5"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Music_Main" ID="{1B8F6EBC-0A93-43AD-810E-4A28D9458811}" WorkUnitID="{0A4A8BEE-3CEF-47ED-A53C-D70D9D8EAAA7}"/>
