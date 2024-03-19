@@ -2,6 +2,10 @@
 <WwiseDocument Type="WorkUnit" ID="{768CE607-81D0-4279-AA7A-F676E48DEC95}" SchemaVersion="119">
 	<Events>
 		<WorkUnit Name="UI" ID="{768CE607-81D0-4279-AA7A-F676E48DEC95}" PersistMode="Standalone">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="19"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
 			<ChildrenList>
 				<Folder Name="UIingredients" ID="{30DEBA77-24E4-41D8-AB2E-5D080BEF53F0}" ShortID="590150932">
 					<ChildrenList>
@@ -40,7 +44,7 @@
 						</Event>
 						<Event Name="UI_Click" ID="{56F9BDEA-1E2C-4C45-A302-DE9A83E21E4E}">
 							<ChildrenList>
-								<Action Name="" ID="{9C8F2FB4-B38F-402B-8164-B2800997279F}" ShortID="643438798">
+								<Action Name="" ID="{A37DCDAC-0F53-4983-8971-9C8E948FE8A7}" ShortID="528174993">
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="UI_Click" ID="{455C5483-FD1E-4224-96AA-EE5338F7B97A}" WorkUnitID="{F413FAE8-F2AD-45B7-811F-E11F3EFE5CE9}"/>

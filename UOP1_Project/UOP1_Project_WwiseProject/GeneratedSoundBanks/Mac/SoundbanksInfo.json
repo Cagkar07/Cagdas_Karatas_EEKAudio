@@ -18,7 +18,7 @@
     "Type": "User",
     "GUID": "{9DF4FF59-820F-47C8-8B41-ED0471029A30}",
     "Language": "English(US)",
-    "Hash": "{07E3C579-84C0-3C20-F10A-F7A76C325C41}",
+    "Hash": "{6D58EE0C-741B-363F-EE18-E0076305BC50}",
     "ShortName": "SFX",
     "Path": "English(US)/SFX.bnk",
     "Media": [
@@ -76,7 +76,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Critter_Slime_Attack.wav",
-      "CachePath": "SFX/Critter_Slime_Attack_FBC78EF0.wem"
+      "CachePath": "SFX/Critter_Slime_Attack_677C53DB.wem"
      },
      {
       "Id": "114639328",
@@ -197,14 +197,6 @@
       "Location": "Memory",
       "ShortName": "Footsteps  rocks (All stones in game).wav",
       "CachePath": "SFX/Footsteps  rocks (All stones in game)_818F3B66.wem"
-     },
-     {
-      "Id": "534270782",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "Optimus primal (ROTB) roar sound effect.wav",
-      "CachePath": "SFX/Optimus primal (ROTB) roar sound effect_0473C829.wem"
      },
      {
       "Id": "545849856",
@@ -611,11 +603,11 @@
       "Name": "Critter_Rock_Death",
       "GUID": "{41AA3134-D9F0-49AD-8215-07B0AC29BCAB}",
       "DurationType": "OneShot",
-      "DurationMin": "1.9962373",
-      "DurationMax": "1.9962373",
+      "DurationMin": "3.018594",
+      "DurationMax": "3.018594",
       "MediaRefs": [
        {
-        "Id": "534270782"
+        "Id": "108433828"
        }
       ]
      },
@@ -663,8 +655,8 @@
       "Name": "Critter_Slime_Attack",
       "GUID": "{888C3EEC-1CC9-4D9D-99FA-C6DB409EFFE1}",
       "DurationType": "OneShot",
-      "DurationMin": "0.8126984",
-      "DurationMax": "0.8126984",
+      "DurationMin": "0.74677473",
+      "DurationMax": "0.74677473",
       "MediaRefs": [
        {
         "Id": "110159553"
@@ -1408,6 +1400,6 @@
     ]
    }
   ],
-  "FileHash": "{8DCC6575-E738-53C2-DA8A-DDAF3EBF1069}"
+  "FileHash": "{FC32C9BF-90DE-D76A-73AB-B496B4C4AC0F}"
  }
 }

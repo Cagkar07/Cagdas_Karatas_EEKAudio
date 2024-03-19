@@ -2,6 +2,10 @@
 <WwiseDocument Type="WorkUnit" ID="{4636C391-5690-4235-BAF0-F126A22B3A48}" SchemaVersion="119">
 	<AudioObjects>
 		<WorkUnit Name="Ambient (Points)(3D)" ID="{4636C391-5690-4235-BAF0-F126A22B3A48}" PersistMode="Standalone">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="10"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
 			<ChildrenList>
 				<ActorMixer Name="Main" ID="{D85E4569-A7F8-46EB-9ED0-18DC24D6ED99}" ShortID="218299735">
 					<ReferenceList>

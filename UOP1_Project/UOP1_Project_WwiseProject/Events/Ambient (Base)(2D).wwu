@@ -2,8 +2,16 @@
 <WwiseDocument Type="WorkUnit" ID="{80D5CED2-A890-4539-AE65-D1FA261578A0}" SchemaVersion="119">
 	<Events>
 		<WorkUnit Name="Ambient (Base)(2D)" ID="{80D5CED2-A890-4539-AE65-D1FA261578A0}" PersistMode="Standalone">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="1"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
 			<ChildrenList>
 				<Folder Name="Reverb" ID="{8DBBD3B0-1A46-4ECF-8D49-947518B3565B}" ShortID="335706828">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="18"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
 					<ChildrenList>
 						<Event Name="CaveReverb_Enable" ID="{ED01CA85-5445-4A10-BA81-E68194E22985}">
 							<ChildrenList>
@@ -36,6 +44,10 @@
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Main" ID="{92009486-90F4-4609-A603-4DC2D627A4BB}" ShortID="828793515">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="7"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
 					<ChildrenList>
 						<Folder Name="Hills" ID="{98A2EDD0-516E-4E84-B1FD-A9BE68E2AEDF}" ShortID="184416414">
 							<ChildrenList>

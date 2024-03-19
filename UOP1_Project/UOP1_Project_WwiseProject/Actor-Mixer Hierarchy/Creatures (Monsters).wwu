@@ -2,8 +2,16 @@
 <WwiseDocument Type="WorkUnit" ID="{77850EB1-8E96-4B4B-BE30-37FBF70BFBD9}" SchemaVersion="119">
 	<AudioObjects>
 		<WorkUnit Name="Creatures (Monsters)" ID="{77850EB1-8E96-4B4B-BE30-37FBF70BFBD9}" PersistMode="Standalone">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="6"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
 			<ChildrenList>
-				<ActorMixer Name="Plant Moster" ID="{B0D1AC15-9E41-4424-BE1C-B59CDF9D7AFB}" ShortID="41440285">
+				<ActorMixer Name="Plant Monster" ID="{B0D1AC15-9E41-4424-BE1C-B59CDF9D7AFB}" ShortID="41440285">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="18"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CA2A11F9-F9B6-45AB-B0AF-48C8E0FFA811}"/>
@@ -14,6 +22,16 @@
 					</ReferenceList>
 					<ChildrenList>
 						<Sound Name="Critter_Plant_Idle" ID="{EE1AEC40-63A4-497A-8061-FA9797ED4980}" ShortID="118934627">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="IsLoopingInfinite" Type="bool" Value="False"/>
+								<Property Name="LoopCount" Type="int32" Value="1"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-30</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CA2A11F9-F9B6-45AB-B0AF-48C8E0FFA811}"/>
@@ -41,6 +59,11 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="Critter_Plant_Attack" ID="{5B242968-2A96-4D56-92F1-EC646F528D12}" ShortID="819849342">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="IsLoopingInfinite" Type="bool" Value="False"/>
+								<Property Name="LoopCount" Type="int32" Value="1"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CA2A11F9-F9B6-45AB-B0AF-48C8E0FFA811}"/>
@@ -69,6 +92,11 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="Critter_Plant_GettingHit" ID="{1E4FB459-CFAA-45EC-9A9C-39EBCE00203E}" ShortID="890878304">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="IsLoopingInfinite" Type="bool" Value="False"/>
+								<Property Name="LoopCount" Type="int32" Value="1"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CA2A11F9-F9B6-45AB-B0AF-48C8E0FFA811}"/>
@@ -98,6 +126,11 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="Critter_Plant_Death" ID="{3AB66E2F-1179-4F36-8F66-4A82E3DEB9C2}" ShortID="114820406">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="IsLoopingInfinite" Type="bool" Value="False"/>
+								<Property Name="LoopCount" Type="int32" Value="1"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CA2A11F9-F9B6-45AB-B0AF-48C8E0FFA811}"/>
@@ -129,6 +162,10 @@
 					</ChildrenList>
 				</ActorMixer>
 				<ActorMixer Name="Slime Monster" ID="{8EB356B7-381A-483C-B0F1-BF24979261E9}" ShortID="1022429341">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="11"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CA2A11F9-F9B6-45AB-B0AF-48C8E0FFA811}"/>
@@ -149,6 +186,16 @@
 							</ReferenceList>
 						</Sound>
 						<Sound Name="Critter_Slime_Death" ID="{AC0C2A8A-BEE9-4717-9636-3500251EFB40}" ShortID="816461782">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="IsLoopingInfinite" Type="bool" Value="False"/>
+								<Property Name="LoopCount" Type="int32" Value="1"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>1</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CA2A11F9-F9B6-45AB-B0AF-48C8E0FFA811}"/>
@@ -176,6 +223,11 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="Critter_Slime_GettingHit" ID="{B265DF76-C602-4430-B8D2-2DF7E70A4B3E}" ShortID="266242966">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="IsLoopingInfinite" Type="bool" Value="False"/>
+								<Property Name="LoopCount" Type="int32" Value="1"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CA2A11F9-F9B6-45AB-B0AF-48C8E0FFA811}"/>
@@ -203,6 +255,16 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="Critter_Slime_Attack" ID="{2AD96581-87CA-49F0-94C7-E9B54CE3F469}" ShortID="499770215">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="IsLoopingInfinite" Type="bool" Value="False"/>
+								<Property Name="LoopCount" Type="int32" Value="1"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-15</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CA2A11F9-F9B6-45AB-B0AF-48C8E0FFA811}"/>
@@ -213,6 +275,11 @@
 							</ReferenceList>
 							<ChildrenList>
 								<AudioFileSource Name="Critter_Slime_Attack" ID="{0CEAE8DD-0F23-40B6-A86C-9A50C4B9A916}">
+									<PropertyList>
+										<Property Name="LoopBegin" Type="Real64" Value="0"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimEnd" Type="Real64" Value="0.7467747382641"/>
+									</PropertyList>
 									<Language>SFX</Language>
 									<AudioFile>Critter_Slime_Attack.wav</AudioFile>
 									<MediaIDList>
@@ -225,6 +292,16 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="Critter_Slime_Move" ID="{CBB06BC6-D772-49B4-A33A-9B01203396D7}" ShortID="264457887">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="IsLoopingInfinite" Type="bool" Value="False"/>
+								<Property Name="LoopCount" Type="int32" Value="1"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-13</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CA2A11F9-F9B6-45AB-B0AF-48C8E0FFA811}"/>
@@ -254,6 +331,10 @@
 					</ChildrenList>
 				</ActorMixer>
 				<ActorMixer Name="Rock Monster" ID="{1F539D3F-480D-4551-8E13-BD45B98A8A3D}" ShortID="541545548">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="4"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CA2A11F9-F9B6-45AB-B0AF-48C8E0FFA811}"/>
@@ -264,6 +345,11 @@
 					</ReferenceList>
 					<ChildrenList>
 						<Sound Name="Critter_Rock_Death" ID="{F188AFF0-E785-461D-AB74-4B968F755611}" ShortID="85132234">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="IsLoopingInfinite" Type="bool" Value="False"/>
+								<Property Name="LoopCount" Type="int32" Value="1"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CA2A11F9-F9B6-45AB-B0AF-48C8E0FFA811}"/>
@@ -292,6 +378,11 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="Critter_Rock_GettingHit" ID="{8FB9567D-BF19-4DA4-B2E4-5EC233F3C187}" ShortID="914716839">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="IsLoopingInfinite" Type="bool" Value="False"/>
+								<Property Name="LoopCount" Type="int32" Value="1"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CA2A11F9-F9B6-45AB-B0AF-48C8E0FFA811}"/>
@@ -319,6 +410,11 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="Critter_Rock_Idle" ID="{6286C81A-97A4-4B11-B9B1-09F969FCF4C9}" ShortID="900103239">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="IsLoopingInfinite" Type="bool" Value="False"/>
+								<Property Name="LoopCount" Type="int32" Value="1"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CA2A11F9-F9B6-45AB-B0AF-48C8E0FFA811}"/>
@@ -353,6 +449,16 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="Critter_Rock_Move" ID="{E9975A4C-6F68-443E-B6BC-54EAEBBBF49A}" ShortID="1034432218">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="IsLoopingInfinite" Type="bool" Value="False"/>
+								<Property Name="LoopCount" Type="int32" Value="1"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-12</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CA2A11F9-F9B6-45AB-B0AF-48C8E0FFA811}"/>
@@ -364,8 +470,10 @@
 							<ChildrenList>
 								<AudioFileSource Name="Stone breaking" ID="{EFB5E14F-5499-46FE-A1CD-8A84FCF3D803}">
 									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.331131820700354"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.331131820700354"/>
 										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-										<Property Name="TrimBegin" Type="Real64" Value="0.392650694444445"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.485052207077424"/>
 										<Property Name="TrimEnd" Type="Real64" Value="0.816184027777778"/>
 									</PropertyList>
 									<Language>SFX</Language>
@@ -380,6 +488,11 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="Critter_Rock_Attack" ID="{52741CB2-79A6-41FD-818B-99C4DE7652FF}" ShortID="301109571">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="IsLoopingInfinite" Type="bool" Value="False"/>
+								<Property Name="LoopCount" Type="int32" Value="1"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CA2A11F9-F9B6-45AB-B0AF-48C8E0FFA811}"/>

@@ -2,6 +2,10 @@
 <WwiseDocument Type="WorkUnit" ID="{8764B89E-BEAC-4BB1-8D7B-846D143E520D}" SchemaVersion="119">
 	<Events>
 		<WorkUnit Name="Control" ID="{8764B89E-BEAC-4BB1-8D7B-846D143E520D}" PersistMode="Standalone">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="4"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
 			<ChildrenList>
 				<Event Name="Scene_Change" ID="{07C77A48-4161-4733-9374-1E25B5B1642D}">
 					<ChildrenList>

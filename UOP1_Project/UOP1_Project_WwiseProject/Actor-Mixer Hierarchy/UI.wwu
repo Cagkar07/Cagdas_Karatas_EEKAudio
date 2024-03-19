@@ -2,6 +2,10 @@
 <WwiseDocument Type="WorkUnit" ID="{F413FAE8-F2AD-45B7-811F-E11F3EFE5CE9}" SchemaVersion="119">
 	<AudioObjects>
 		<WorkUnit Name="UI" ID="{F413FAE8-F2AD-45B7-811F-E11F3EFE5CE9}" PersistMode="Standalone">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="19"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
 			<ChildrenList>
 				<ActorMixer Name="UIingredients" ID="{93295D74-B2E0-47BC-ABB2-EE2803F94D45}" ShortID="684095326">
 					<ReferenceList>
@@ -26,6 +30,7 @@
 								<AudioFileSource Name="Base ui click for all buttons in game2" ID="{11F29271-3386-400C-905A-2955BF285620}">
 									<PropertyList>
 										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.286914652385777"/>
 									</PropertyList>
 									<Language>SFX</Language>
 									<AudioFile>Base ui click for all buttons in game2.wav</AudioFile>

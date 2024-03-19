@@ -5,6 +5,7 @@
 			<ChildrenList>
 				<SoundBank Name="SFX" ID="{9DF4FF59-820F-47C8-8B41-ED0471029A30}">
 					<ObjectInclusionList>
+						<ObjectRef Name="UI" ID="{768CE607-81D0-4279-AA7A-F676E48DEC95}" WorkUnitID="{768CE607-81D0-4279-AA7A-F676E48DEC95}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Ambient (Points)(3D)" ID="{012AB77C-2B1D-42C1-9BF2-F3FF77FBE3B3}" WorkUnitID="{012AB77C-2B1D-42C1-9BF2-F3FF77FBE3B3}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Ambient (Base)(2D)" ID="{80D5CED2-A890-4539-AE65-D1FA261578A0}" WorkUnitID="{80D5CED2-A890-4539-AE65-D1FA261578A0}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Music" ID="{973EF824-929B-46A2-8D78-81B31C0BDFAC}" WorkUnitID="{973EF824-929B-46A2-8D78-81B31C0BDFAC}" Origin="Manual" Filter="7"/>

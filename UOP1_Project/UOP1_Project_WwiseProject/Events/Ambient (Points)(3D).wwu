@@ -2,6 +2,10 @@
 <WwiseDocument Type="WorkUnit" ID="{012AB77C-2B1D-42C1-9BF2-F3FF77FBE3B3}" SchemaVersion="119">
 	<Events>
 		<WorkUnit Name="Ambient (Points)(3D)" ID="{012AB77C-2B1D-42C1-9BF2-F3FF77FBE3B3}" PersistMode="Standalone">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="10"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
 			<ChildrenList>
 				<Folder Name="Main" ID="{134B92E8-3260-45CB-B198-3D47E1623BD4}" ShortID="687967295">
 					<ChildrenList>

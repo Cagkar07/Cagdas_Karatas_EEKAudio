@@ -2,8 +2,16 @@
 <WwiseDocument Type="WorkUnit" ID="{6E2C918D-FB47-49B8-85AC-8A24F6EF70A5}" SchemaVersion="119">
 	<Events>
 		<WorkUnit Name="Player" ID="{6E2C918D-FB47-49B8-85AC-8A24F6EF70A5}" PersistMode="Standalone">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="13"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
 			<ChildrenList>
 				<Folder Name="PlayerAction" ID="{84DAB861-50FB-444B-B2E4-8512F69AAD5A}" ShortID="436260884">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="2"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
 					<ChildrenList>
 						<Event Name="Player_Attack" ID="{50C1037F-A208-4CE7-9883-62B8A4436806}">
 							<ChildrenList>
@@ -75,6 +83,10 @@
 					</ChildrenList>
 				</Folder>
 				<Folder Name="PlayerFootsteps" ID="{7CE67BB3-3924-45A1-887C-FA93C3300CC1}" ShortID="955288015">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="4"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
 					<ChildrenList>
 						<Event Name="Waterplane" ID="{6ECAA3B5-E97D-47F3-8849-33FFC45A4DE2}">
 							<ChildrenList>

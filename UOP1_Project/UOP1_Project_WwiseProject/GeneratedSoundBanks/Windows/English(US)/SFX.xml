@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="393239870" Type="User" GUID="{9DF4FF59-820F-47C8-8B41-ED0471029A30}" Language="English(US)" Hash="{07E3C579-84C0-3C20-F10A-F7A76C325C41}">
+		<SoundBank Id="393239870" Type="User" GUID="{9DF4FF59-820F-47C8-8B41-ED0471029A30}" Language="English(US)" Hash="{6D58EE0C-741B-363F-EE18-E0076305BC50}">
 			<ShortName>SFX</ShortName>
 			<Path>English(US)/SFX.bnk</Path>
 			<Media>
@@ -31,7 +31,7 @@
 				</File>
 				<File Id="110159553" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Critter_Slime_Attack.wav</ShortName>
-					<CachePath>SFX/Critter_Slime_Attack_FBC78EF0.wem</CachePath>
+					<CachePath>SFX/Critter_Slime_Attack_677C53DB.wem</CachePath>
 				</File>
 				<File Id="114639328" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Sound of fire under the pot in the Beach &amp; Field Farm Scenes.wav</ShortName>
@@ -92,10 +92,6 @@
 				<File Id="527445594" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footsteps  rocks (All stones in game).wav</ShortName>
 					<CachePath>SFX/Footsteps  rocks (All stones in game)_818F3B66.wem</CachePath>
-				</File>
-				<File Id="534270782" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Optimus primal (ROTB) roar sound effect.wav</ShortName>
-					<CachePath>SFX/Optimus primal (ROTB) roar sound effect_0473C829.wem</CachePath>
 				</File>
 				<File Id="545849856" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Tab switch in the settings menu.wav</ShortName>
@@ -271,9 +267,9 @@
 						<MediaRef Id="735108681"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="546421005" Name="Critter_Rock_Death" GUID="{41AA3134-D9F0-49AD-8215-07B0AC29BCAB}" DurationType="OneShot" DurationMin="1.9962373" DurationMax="1.9962373">
+				<Event Id="546421005" Name="Critter_Rock_Death" GUID="{41AA3134-D9F0-49AD-8215-07B0AC29BCAB}" DurationType="OneShot" DurationMin="3.018594" DurationMax="3.018594">
 					<MediaRefs>
-						<MediaRef Id="534270782"/>
+						<MediaRef Id="108433828"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="65587878" Name="Critter_Rock_GettingHit" GUID="{C3429843-A1C4-4425-B050-4CA4E665E7AE}" DurationType="OneShot" DurationMin="1.3082137" DurationMax="1.3082137">
@@ -291,7 +287,7 @@
 						<MediaRef Id="33873927"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="3907341830" Name="Critter_Slime_Attack" GUID="{888C3EEC-1CC9-4D9D-99FA-C6DB409EFFE1}" DurationType="OneShot" DurationMin="0.8126984" DurationMax="0.8126984">
+				<Event Id="3907341830" Name="Critter_Slime_Attack" GUID="{888C3EEC-1CC9-4D9D-99FA-C6DB409EFFE1}" DurationType="OneShot" DurationMin="0.74677473" DurationMax="0.74677473">
 					<MediaRefs>
 						<MediaRef Id="110159553"/>
 					</MediaRefs>
@@ -470,5 +466,5 @@
 			</StateGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{5DADE9FB-E247-EFE0-F603-B45648EF467C}</FileHash>
+	<FileHash>{E24814AC-3287-ADD9-286B-3E3EA60F17EB}</FileHash>
 </SoundBanksInfo>
