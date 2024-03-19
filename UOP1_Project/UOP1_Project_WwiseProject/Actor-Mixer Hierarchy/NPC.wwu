@@ -27,6 +27,7 @@
 									<PropertyList>
 										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 										<Property Name="IsLoopingInfinite" Type="bool" Value="False"/>
+										<Property Name="LoopCount" Type="int32" Value="1"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -59,9 +60,10 @@
 									<PropertyList>
 										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 										<Property Name="IsLoopingInfinite" Type="bool" Value="False"/>
+										<Property Name="LoopCount" Type="int32" Value="1"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-2</Value>
+												<Value>-4</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -106,6 +108,7 @@
 									<PropertyList>
 										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 										<Property Name="IsLoopingInfinite" Type="bool" Value="False"/>
+										<Property Name="LoopCount" Type="int32" Value="1"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -129,6 +132,11 @@
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="Townsfolk_Male_Footsteps" ID="{343F3D03-FE36-4C85-8BF8-3DFC80D041E0}" ShortID="751021643">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="IsLoopingInfinite" Type="bool" Value="False"/>
+										<Property Name="LoopCount" Type="int32" Value="1"/>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CA2A11F9-F9B6-45AB-B0AF-48C8E0FFA811}"/>
@@ -147,7 +155,7 @@
 											<Language>SFX</Language>
 											<AudioFile>Walking sound effect.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="869178051"/>
+												<MediaID ID="589196208"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
@@ -159,6 +167,7 @@
 									<PropertyList>
 										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 										<Property Name="IsLoopingInfinite" Type="bool" Value="False"/>
+										<Property Name="LoopCount" Type="int32" Value="1"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -182,6 +191,11 @@
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="Townsfolk_Female_Footsteps" ID="{EB785A91-4B1E-4766-B210-4AC2044131B5}" ShortID="1052081961">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="IsLoopingInfinite" Type="bool" Value="False"/>
+										<Property Name="LoopCount" Type="int32" Value="1"/>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CA2A11F9-F9B6-45AB-B0AF-48C8E0FFA811}"/>
@@ -200,7 +214,7 @@
 											<Language>SFX</Language>
 											<AudioFile>Walking sound effect.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="869178051"/>
+												<MediaID ID="589196208"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>

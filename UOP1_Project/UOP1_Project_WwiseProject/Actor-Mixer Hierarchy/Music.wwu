@@ -40,6 +40,67 @@
 								<ActiveSource Name="background music chop chop" ID="{E7786D04-5FB2-4360-86ED-191CE4FEDA5A}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
+						<Sound Name="Music" ID="{D14D7FA2-851F-4B35-A5E1-012F619B6AC4}" ShortID="180232532">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CA2A11F9-F9B6-45AB-B0AF-48C8E0FFA811}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FFF89F6D-37E9-4F4B-BBB7-3E1D357CB3C5}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="background music chop chop" ID="{3C7F7768-F4CF-4002-ABFA-E6D8ED7C91DE}">
+									<Language>SFX</Language>
+									<AudioFile>background music chop chop.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="153992654"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="background music chop chop" ID="{3C7F7768-F4CF-4002-ABFA-E6D8ED7C91DE}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Pause_Menu_Off" ID="{500553C9-D00C-43E6-AB86-4984E5A22AA7}" ShortID="311791885">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CA2A11F9-F9B6-45AB-B0AF-48C8E0FFA811}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FFF89F6D-37E9-4F4B-BBB7-3E1D357CB3C5}"/>
+								</Reference>
+							</ReferenceList>
+						</Sound>
+						<Sound Name="Pause_Menu_On" ID="{DB11EB15-739D-4EF6-BD49-DAAEE8CCCDBB}" ShortID="702437412">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-30</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CA2A11F9-F9B6-45AB-B0AF-48C8E0FFA811}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FFF89F6D-37E9-4F4B-BBB7-3E1D357CB3C5}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="pause" ID="{B4CCB49F-AD35-4E61-AB8A-0232E37B7998}">
+									<Language>SFX</Language>
+									<AudioFile>pause.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="544990344"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="pause" ID="{B4CCB49F-AD35-4E61-AB8A-0232E37B7998}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
 					</ChildrenList>
 				</ActorMixer>
 			</ChildrenList>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="393239870" Type="User" GUID="{9DF4FF59-820F-47C8-8B41-ED0471029A30}" Language="English(US)" Hash="{6D58EE0C-741B-363F-EE18-E0076305BC50}">
+		<SoundBank Id="393239870" Type="User" GUID="{9DF4FF59-820F-47C8-8B41-ED0471029A30}" Language="English(US)" Hash="{30917E86-0B60-1257-79D9-8CDF5E5712D8}">
 			<ShortName>SFX</ShortName>
 			<Path>English(US)/SFX.bnk</Path>
 			<Media>
@@ -40,6 +40,10 @@
 				<File Id="152861985" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Critter.wav</ShortName>
 					<CachePath>SFX/Critter_264FBA2A.wem</CachePath>
+				</File>
+				<File Id="153992654" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>background music chop chop.wav</ShortName>
+					<CachePath>SFX/background music chop chop_818F3B66.wem</CachePath>
 				</File>
 				<File Id="183560015" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Critter.wav</ShortName>
@@ -93,6 +97,10 @@
 					<ShortName>Footsteps  rocks (All stones in game).wav</ShortName>
 					<CachePath>SFX/Footsteps  rocks (All stones in game)_818F3B66.wem</CachePath>
 				</File>
+				<File Id="544990344" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>pause.wav</ShortName>
+					<CachePath>SFX/pause_818F3B66.wem</CachePath>
+				</File>
 				<File Id="545849856" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Tab switch in the settings menu.wav</ShortName>
 					<CachePath>SFX/Tab switch in the settings menu_818F3B66.wem</CachePath>
@@ -104,6 +112,10 @@
 				<File Id="578326918" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>sound effect ｜｜ Grumpy old man sound effect, funny sound effect.wav</ShortName>
 					<CachePath>SFX/sound effect ｜｜ Grumpy old man sound effect, funny sound effect_154734D4.wem</CachePath>
+				</File>
+				<File Id="589196208" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Walking sound effect.wav</ShortName>
+					<CachePath>SFX/Walking sound effect_D6B99FA8.wem</CachePath>
 				</File>
 				<File Id="621310129" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Beach Sound Effect.wav</ShortName>
@@ -153,10 +165,6 @@
 					<ShortName>Forest sound effect for editing for free.wav</ShortName>
 					<CachePath>SFX/Forest sound effect for editing for free_05A4D402.wem</CachePath>
 				</File>
-				<File Id="869178051" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Walking sound effect.wav</ShortName>
-					<CachePath>SFX/Walking sound effect_715BE83E.wem</CachePath>
-				</File>
 				<File Id="881298068" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Base ui click for all buttons in game2.wav</ShortName>
 					<CachePath>SFX/Base ui click for all buttons in game2_9954E0E3.wem</CachePath>
@@ -176,6 +184,10 @@
 				<File Id="973250072" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Player getting hit by Creatures.wav</ShortName>
 					<CachePath>SFX/Player getting hit by Creatures_E2559C71.wem</CachePath>
+				</File>
+				<File Id="1042422825" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Water Splash Bucket Sound Effects ｜ Best Quality HD - Free Audio &amp; Sound Effects No Copyright.wav</ShortName>
+					<CachePath>SFX/Water Splash Bucket Sound Effects ｜ Best Quality HD - Free Audio &amp; Sound Effects No Copyright_818F3B66.wem</CachePath>
 				</File>
 				<File Id="1053085023" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>background music chop chop.wav</ShortName>
@@ -328,18 +340,22 @@
 						<MediaRef Id="626669347"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="3991942870" Name="Music" GUID="{A399DFEE-2EAA-4A3D-A209-A7AD7AAE02B5}" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="3991942870" Name="Music" GUID="{A399DFEE-2EAA-4A3D-A209-A7AD7AAE02B5}" DurationType="OneShot" DurationMin="61.18458" DurationMax="61.18458">
+					<MediaRefs>
+						<MediaRef Id="153992654"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="1615767906" Name="Music_Main" GUID="{413F95DB-D2EC-4193-A904-14E368B096C4}" DurationType="OneShot" DurationMin="61.18458" DurationMax="61.18458">
 					<MediaRefs>
 						<MediaRef Id="1053085023"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="1717767246" Name="NPC_Hare_Song_Long" GUID="{817A7A19-3F4B-42EC-A50B-2C80B3AC2A94}" DurationType="OneShot" DurationMin="60.952415" DurationMax="60.952415">
+				<Event Id="1717767246" Name="NPC_Hare_Song_Long" GUID="{817A7A19-3F4B-42EC-A50B-2C80B3AC2A94}" DurationType="OneShot" DurationMin="30.476208" DurationMax="30.476208">
 					<MediaRefs>
 						<MediaRef Id="554384056"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="1419286180" Name="NPC_Hare_Talk" GUID="{EF907750-596B-4C0B-B2EF-C75CFA87C1E1}" DurationType="OneShot" DurationMin="18.55275" DurationMax="18.55275">
+				<Event Id="1419286180" Name="NPC_Hare_Talk" GUID="{EF907750-596B-4C0B-B2EF-C75CFA87C1E1}" DurationType="OneShot" DurationMin="9.276375" DurationMax="9.276375">
 					<MediaRefs>
 						<MediaRef Id="578326918"/>
 					</MediaRefs>
@@ -360,10 +376,10 @@
 						<ActionSetStateEntry GroupId="3092587493" Id="3967028551" Name="Pause_Off" GUID="{0725D63E-5068-4B78-9CBA-8997F1D1349F}"/>
 					</ActionSetState>
 				</Event>
-				<Event Id="3483621035" Name="Pause_Menu_On" GUID="{E41AF1B5-7241-472E-9D34-D46A690B69DC}" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0">
-					<ActionSetState>
-						<ActionSetStateEntry GroupId="3092587493" Id="3537680115" Name="Pause_On" GUID="{66FAFFE6-0D55-4278-8DCA-0354883339FD}"/>
-					</ActionSetState>
+				<Event Id="3483621035" Name="Pause_Menu_On" GUID="{E41AF1B5-7241-472E-9D34-D46A690B69DC}" DurationType="OneShot" DurationMin="1.7383958" DurationMax="1.7383958">
+					<MediaRefs>
+						<MediaRef Id="544990344"/>
+					</MediaRefs>
 				</Event>
 				<Event Id="2824512041" Name="Player_Attack" GUID="{50C1037F-A208-4CE7-9883-62B8A4436806}" DurationType="OneShot" DurationMin="0.59185016" DurationMax="0.59185016">
 					<MediaRefs>
@@ -395,7 +411,11 @@
 						<MediaRef Id="296239010"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="2060690880" Name="Player_Water_Splash" GUID="{81987CEA-0D5F-49C0-92C0-928ACB77078F}" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="2060690880" Name="Player_Water_Splash" GUID="{81987CEA-0D5F-49C0-92C0-928ACB77078F}" DurationType="OneShot" DurationMin="0" DurationMax="3.3998108">
+					<MediaRefs>
+						<MediaRef Id="1042422825"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="1863277117" Name="Rocks" GUID="{60E327E8-020B-4D9E-BCF7-EF115C5D1060}" DurationType="OneShot" DurationMin="1.9504791" DurationMax="1.9504791">
 					<MediaRefs>
 						<MediaRef Id="527445594"/>
@@ -409,20 +429,20 @@
 				</Event>
 				<Event Id="1299172729" Name="Townsfolk_Female_Footsteps" GUID="{C4264CB9-E7A6-40FF-AFD3-244586CC76EC}" DurationType="OneShot" DurationMin="4.3073125" DurationMax="4.3073125">
 					<MediaRefs>
-						<MediaRef Id="869178051"/>
+						<MediaRef Id="589196208"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="2971175702" Name="Townsfolk_Female_Talk" GUID="{39AF3215-53A0-4F95-A27C-6E5A92827DB3}" DurationType="OneShot" DurationMin="35.328" DurationMax="35.328">
+				<Event Id="2971175702" Name="Townsfolk_Female_Talk" GUID="{39AF3215-53A0-4F95-A27C-6E5A92827DB3}" DurationType="OneShot" DurationMin="17.664" DurationMax="17.664">
 					<MediaRefs>
 						<MediaRef Id="63558391"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="3008108842" Name="Townsfolk_Male_Footsteps" GUID="{CBE9B35D-2BE6-451F-BDA3-28F10D0C7D45}" DurationType="OneShot" DurationMin="4.3073125" DurationMax="4.3073125">
 					<MediaRefs>
-						<MediaRef Id="869178051"/>
+						<MediaRef Id="589196208"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="660562971" Name="Townsfolk_Male_Talk" GUID="{3114D135-BBA0-409B-B706-55F237CF699A}" DurationType="OneShot" DurationMin="37.674667" DurationMax="37.674667">
+				<Event Id="660562971" Name="Townsfolk_Male_Talk" GUID="{3114D135-BBA0-409B-B706-55F237CF699A}" DurationType="OneShot" DurationMin="18.837334" DurationMax="18.837334">
 					<MediaRefs>
 						<MediaRef Id="1053401280"/>
 					</MediaRefs>
@@ -466,5 +486,5 @@
 			</StateGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{E24814AC-3287-ADD9-286B-3E3EA60F17EB}</FileHash>
+	<FileHash>{123AB232-5F3E-66F7-33FC-436F6F958D0A}</FileHash>
 </SoundBanksInfo>

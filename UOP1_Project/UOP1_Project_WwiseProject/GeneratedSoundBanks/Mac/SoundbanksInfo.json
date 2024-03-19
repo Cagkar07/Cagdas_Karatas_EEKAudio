@@ -18,7 +18,7 @@
     "Type": "User",
     "GUID": "{9DF4FF59-820F-47C8-8B41-ED0471029A30}",
     "Language": "English(US)",
-    "Hash": "{6D58EE0C-741B-363F-EE18-E0076305BC50}",
+    "Hash": "{30917E86-0B60-1257-79D9-8CDF5E5712D8}",
     "ShortName": "SFX",
     "Path": "English(US)/SFX.bnk",
     "Media": [
@@ -93,6 +93,14 @@
       "Location": "Memory",
       "ShortName": "Critter.wav",
       "CachePath": "SFX/Critter_264FBA2A.wem"
+     },
+     {
+      "Id": "153992654",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "background music chop chop.wav",
+      "CachePath": "SFX/background music chop chop_818F3B66.wem"
      },
      {
       "Id": "183560015",
@@ -199,6 +207,14 @@
       "CachePath": "SFX/Footsteps  rocks (All stones in game)_818F3B66.wem"
      },
      {
+      "Id": "544990344",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "pause.wav",
+      "CachePath": "SFX/pause_818F3B66.wem"
+     },
+     {
       "Id": "545849856",
       "Language": "SFX",
       "Streaming": "false",
@@ -221,6 +237,14 @@
       "Location": "Memory",
       "ShortName": "sound effect ｜｜ Grumpy old man sound effect, funny sound effect.wav",
       "CachePath": "SFX/sound effect ｜｜ Grumpy old man sound effect, funny sound effect_154734D4.wem"
+     },
+     {
+      "Id": "589196208",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Walking sound effect.wav",
+      "CachePath": "SFX/Walking sound effect_D6B99FA8.wem"
      },
      {
       "Id": "621310129",
@@ -319,14 +343,6 @@
       "CachePath": "SFX/Forest sound effect for editing for free_05A4D402.wem"
      },
      {
-      "Id": "869178051",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "Walking sound effect.wav",
-      "CachePath": "SFX/Walking sound effect_715BE83E.wem"
-     },
-     {
       "Id": "881298068",
       "Language": "SFX",
       "Streaming": "false",
@@ -365,6 +381,14 @@
       "Location": "Memory",
       "ShortName": "Player getting hit by Creatures.wav",
       "CachePath": "SFX/Player getting hit by Creatures_E2559C71.wem"
+     },
+     {
+      "Id": "1042422825",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Water Splash Bucket Sound Effects ｜ Best Quality HD - Free Audio & Sound Effects No Copyright.wav",
+      "CachePath": "SFX/Water Splash Bucket Sound Effects ｜ Best Quality HD - Free Audio & Sound Effects No Copyright_818F3B66.wem"
      },
      {
       "Id": "1053085023",
@@ -764,8 +788,13 @@
       "Name": "Music",
       "GUID": "{A399DFEE-2EAA-4A3D-A209-A7AD7AAE02B5}",
       "DurationType": "OneShot",
-      "DurationMin": "0",
-      "DurationMax": "0"
+      "DurationMin": "61.18458",
+      "DurationMax": "61.18458",
+      "MediaRefs": [
+       {
+        "Id": "153992654"
+       }
+      ]
      },
      {
       "Id": "1615767906",
@@ -785,8 +814,8 @@
       "Name": "NPC_Hare_Song_Long",
       "GUID": "{817A7A19-3F4B-42EC-A50B-2C80B3AC2A94}",
       "DurationType": "OneShot",
-      "DurationMin": "60.952415",
-      "DurationMax": "60.952415",
+      "DurationMin": "30.476208",
+      "DurationMax": "30.476208",
       "MediaRefs": [
        {
         "Id": "554384056"
@@ -798,8 +827,8 @@
       "Name": "NPC_Hare_Talk",
       "GUID": "{EF907750-596B-4C0B-B2EF-C75CFA87C1E1}",
       "DurationType": "OneShot",
-      "DurationMin": "18.55275",
-      "DurationMax": "18.55275",
+      "DurationMin": "9.276375",
+      "DurationMax": "9.276375",
       "MediaRefs": [
        {
         "Id": "578326918"
@@ -862,16 +891,12 @@
       "Id": "3483621035",
       "Name": "Pause_Menu_On",
       "GUID": "{E41AF1B5-7241-472E-9D34-D46A690B69DC}",
-      "MaxAttenuation": "0",
       "DurationType": "OneShot",
-      "DurationMin": "0",
-      "DurationMax": "0",
-      "ActionSetState": [
+      "DurationMin": "1.7383958",
+      "DurationMax": "1.7383958",
+      "MediaRefs": [
        {
-        "GroupId": "3092587493",
-        "Id": "3537680115",
-        "Name": "Pause_On",
-        "GUID": "{66FAFFE6-0D55-4278-8DCA-0354883339FD}"
+        "Id": "544990344"
        }
       ]
      },
@@ -957,10 +982,14 @@
       "Id": "2060690880",
       "Name": "Player_Water_Splash",
       "GUID": "{81987CEA-0D5F-49C0-92C0-928ACB77078F}",
-      "MaxAttenuation": "0",
       "DurationType": "OneShot",
       "DurationMin": "0",
-      "DurationMax": "0"
+      "DurationMax": "3.3998108",
+      "MediaRefs": [
+       {
+        "Id": "1042422825"
+       }
+      ]
      },
      {
       "Id": "1863277117",
@@ -1004,7 +1033,7 @@
       "DurationMax": "4.3073125",
       "MediaRefs": [
        {
-        "Id": "869178051"
+        "Id": "589196208"
        }
       ]
      },
@@ -1013,8 +1042,8 @@
       "Name": "Townsfolk_Female_Talk",
       "GUID": "{39AF3215-53A0-4F95-A27C-6E5A92827DB3}",
       "DurationType": "OneShot",
-      "DurationMin": "35.328",
-      "DurationMax": "35.328",
+      "DurationMin": "17.664",
+      "DurationMax": "17.664",
       "MediaRefs": [
        {
         "Id": "63558391"
@@ -1030,7 +1059,7 @@
       "DurationMax": "4.3073125",
       "MediaRefs": [
        {
-        "Id": "869178051"
+        "Id": "589196208"
        }
       ]
      },
@@ -1039,8 +1068,8 @@
       "Name": "Townsfolk_Male_Talk",
       "GUID": "{3114D135-BBA0-409B-B706-55F237CF699A}",
       "DurationType": "OneShot",
-      "DurationMin": "37.674667",
-      "DurationMax": "37.674667",
+      "DurationMin": "18.837334",
+      "DurationMax": "18.837334",
       "MediaRefs": [
        {
         "Id": "1053401280"
@@ -1304,10 +1333,26 @@
     "Type": "User",
     "GUID": "{33846118-30EB-491F-BA51-6B900B7B3237}",
     "Language": "SFX",
-    "Hash": "{A6187AD2-09C3-7CA6-1F19-35837DF469D6}",
+    "Hash": "{25EC8BC4-9DB7-FF04-96DE-9671609265CE}",
     "ShortName": "Music",
     "Path": "Music.bnk",
     "Media": [
+     {
+      "Id": "153992654",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "background music chop chop.wav",
+      "CachePath": "SFX/background music chop chop_818F3B66.wem"
+     },
+     {
+      "Id": "544990344",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "pause.wav",
+      "CachePath": "SFX/pause_818F3B66.wem"
+     },
      {
       "Id": "1053085023",
       "Language": "SFX",
@@ -1323,8 +1368,13 @@
       "Name": "Music",
       "GUID": "{A399DFEE-2EAA-4A3D-A209-A7AD7AAE02B5}",
       "DurationType": "OneShot",
-      "DurationMin": "0",
-      "DurationMax": "0"
+      "DurationMin": "61.18458",
+      "DurationMax": "61.18458",
+      "MediaRefs": [
+       {
+        "Id": "153992654"
+       }
+      ]
      },
      {
       "Id": "1615767906",
@@ -1360,16 +1410,12 @@
       "Id": "3483621035",
       "Name": "Pause_Menu_On",
       "GUID": "{E41AF1B5-7241-472E-9D34-D46A690B69DC}",
-      "MaxAttenuation": "0",
       "DurationType": "OneShot",
-      "DurationMin": "0",
-      "DurationMax": "0",
-      "ActionSetState": [
+      "DurationMin": "1.7383958",
+      "DurationMax": "1.7383958",
+      "MediaRefs": [
        {
-        "GroupId": "3092587493",
-        "Id": "3537680115",
-        "Name": "Pause_On",
-        "GUID": "{66FAFFE6-0D55-4278-8DCA-0354883339FD}"
+        "Id": "544990344"
        }
       ]
      }
@@ -1400,6 +1446,6 @@
     ]
    }
   ],
-  "FileHash": "{FC32C9BF-90DE-D76A-73AB-B496B4C4AC0F}"
+  "FileHash": "{B0DE1A42-8294-86B1-4507-8BE2CF823B4A}"
  }
 }

@@ -57,7 +57,22 @@
 								</Action>
 							</ChildrenList>
 						</Event>
-						<Event Name="Player_Water_Splash" ID="{81987CEA-0D5F-49C0-92C0-928ACB77078F}"/>
+						<Event Name="Player_Water_Splash" ID="{81987CEA-0D5F-49C0-92C0-928ACB77078F}">
+							<ChildrenList>
+								<Action Name="" ID="{D5856FB6-7402-4781-9147-35FD7BA3F398}" ShortID="821143744">
+									<PropertyList>
+										<Property Name="FadeInCurve" Type="int16" Value="0"/>
+										<Property Name="FadeTime" Type="Real64" Value="2.5"/>
+										<Property Name="Probability" Type="Real64" Value="33"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Player_Water_Splash" ID="{6732F6AB-DCC2-4571-AE3A-FC66F2D85043}" WorkUnitID="{BB27B640-3822-49B7-B9D8-D8EF3702B6BB}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 						<Event Name="Player_Grab" ID="{56E32DBE-43ED-4900-BA4C-1D087ACF58D3}">
 							<ChildrenList>
 								<Action Name="" ID="{FED9E0AE-18CD-4030-9497-A4C83E16F017}" ShortID="500570848">

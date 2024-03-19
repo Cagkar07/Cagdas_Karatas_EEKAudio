@@ -207,6 +207,18 @@
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="Player_Water_Splash" ID="{6732F6AB-DCC2-4571-AE3A-FC66F2D85043}" ShortID="358848610">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ValueList>
+												<Value>-1290</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-18</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CA2A11F9-F9B6-45AB-B0AF-48C8E0FFA811}"/>
@@ -215,6 +227,18 @@
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FFF89F6D-37E9-4F4B-BBB7-3E1D357CB3C5}"/>
 										</Reference>
 									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Water Splash Bucket Sound Effects ｜ Best Quality HD - Free Audio &amp; Sound Effects No Copyright" ID="{B108EA9D-4A42-435C-A8E0-97FE303F903A}">
+											<Language>SFX</Language>
+											<AudioFile>Water Splash Bucket Sound Effects ｜ Best Quality HD - Free Audio &amp; Sound Effects No Copyright.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1042422825"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Water Splash Bucket Sound Effects ｜ Best Quality HD - Free Audio &amp; Sound Effects No Copyright" ID="{B108EA9D-4A42-435C-A8E0-97FE303F903A}" Platform="Linked"/>
+									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
 						</RandomSequenceContainer>
