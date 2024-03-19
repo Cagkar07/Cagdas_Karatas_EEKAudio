@@ -18,7 +18,7 @@
     "Type": "User",
     "GUID": "{9DF4FF59-820F-47C8-8B41-ED0471029A30}",
     "Language": "English(US)",
-    "Hash": "{8CA2C4E9-670E-6A78-A667-DE60FF5516D1}",
+    "Hash": "{07E3C579-84C0-3C20-F10A-F7A76C325C41}",
     "ShortName": "SFX",
     "Path": "English(US)/SFX.bnk",
     "Media": [
@@ -44,7 +44,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Stone breaking sound effect  (no copyright).wav",
-      "CachePath": "SFX/Stone breaking sound effect  (no copyright)_6C349E76.wem"
+      "CachePath": "SFX/Stone breaking sound effect  (no copyright)_A9391292.wem"
      },
      {
       "Id": "63558391",
@@ -52,7 +52,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "2024-03-19 06-03-14.wav",
-      "CachePath": "SFX/2024-03-19 06-03-14_818F3B66.wem"
+      "CachePath": "SFX/2024-03-19 06-03-14_FBC78EF0.wem"
      },
      {
       "Id": "76588437",
@@ -68,7 +68,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Critter_Slime_Death.wav",
-      "CachePath": "SFX/Critter_Slime_Death_F974E05A.wem"
+      "CachePath": "SFX/Critter_Slime_Death_3638BAE4.wem"
      },
      {
       "Id": "110159553",
@@ -76,7 +76,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Critter_Slime_Attack.wav",
-      "CachePath": "SFX/Critter_Slime_Attack_818F3B66.wem"
+      "CachePath": "SFX/Critter_Slime_Attack_FBC78EF0.wem"
      },
      {
       "Id": "114639328",
@@ -92,7 +92,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Critter.wav",
-      "CachePath": "SFX/Critter_FA116CAC.wem"
+      "CachePath": "SFX/Critter_264FBA2A.wem"
      },
      {
       "Id": "183560015",
@@ -100,7 +100,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Critter.wav",
-      "CachePath": "SFX/Critter_63C46EB1.wem"
+      "CachePath": "SFX/Critter_B6EE0D8F.wem"
      },
      {
       "Id": "217842963",
@@ -156,7 +156,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Critter.wav",
-      "CachePath": "SFX/Critter_F8840B4A.wem"
+      "CachePath": "SFX/Critter_A4367C58.wem"
      },
      {
       "Id": "403662223",
@@ -172,7 +172,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Stone breaking sound effect  (no copyright).wav",
-      "CachePath": "SFX/Stone breaking sound effect  (no copyright)_326D5772.wem"
+      "CachePath": "SFX/Stone breaking sound effect  (no copyright)_2A973E40.wem"
      },
      {
       "Id": "442237041",
@@ -204,7 +204,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Optimus primal (ROTB) roar sound effect.wav",
-      "CachePath": "SFX/Optimus primal (ROTB) roar sound effect_96D4A4C3.wem"
+      "CachePath": "SFX/Optimus primal (ROTB) roar sound effect_0473C829.wem"
      },
      {
       "Id": "545849856",
@@ -220,7 +220,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Cartoon Character Bad Singing Sound Effect.wav",
-      "CachePath": "SFX/Cartoon Character Bad Singing Sound Effect_0C292235.wem"
+      "CachePath": "SFX/Cartoon Character Bad Singing Sound Effect_4D680782.wem"
      },
      {
       "Id": "578326918",
@@ -228,7 +228,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "sound effect ｜｜ Grumpy old man sound effect, funny sound effect.wav",
-      "CachePath": "SFX/sound effect ｜｜ Grumpy old man sound effect, funny sound effect_C068ED2E.wem"
+      "CachePath": "SFX/sound effect ｜｜ Grumpy old man sound effect, funny sound effect_154734D4.wem"
      },
      {
       "Id": "621310129",
@@ -252,7 +252,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Critter_Slime_GettingHit.wav",
-      "CachePath": "SFX/Critter_Slime_GettingHit_CEBCC822.wem"
+      "CachePath": "SFX/Critter_Slime_GettingHit_11707E5C.wem"
      },
      {
       "Id": "647320324",
@@ -292,7 +292,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Stone breaking sound effect  (no copyright).wav",
-      "CachePath": "SFX/Stone breaking sound effect  (no copyright)_17443C2D.wem"
+      "CachePath": "SFX/Stone breaking sound effect  (no copyright)_83AB5ABF.wem"
      },
      {
       "Id": "741242693",
@@ -300,7 +300,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Critter.wav",
-      "CachePath": "SFX/Critter_23235AB7.wem"
+      "CachePath": "SFX/Critter_0D55D401.wem"
      },
      {
       "Id": "789251376",
@@ -340,7 +340,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Base ui click for all buttons in game2.wav",
-      "CachePath": "SFX/Base ui click for all buttons in game2_818F3B66.wem"
+      "CachePath": "SFX/Base ui click for all buttons in game2_9954E0E3.wem"
      },
      {
       "Id": "913657827",
@@ -356,7 +356,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Optimus primal (ROTB) roar sound effect.wav",
-      "CachePath": "SFX/Optimus primal (ROTB) roar sound effect_71338543.wem"
+      "CachePath": "SFX/Optimus primal (ROTB) roar sound effect_26D4FF29.wem"
      },
      {
       "Id": "970792628",
@@ -364,7 +364,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Critter_Slime_Move.wav",
-      "CachePath": "SFX/Critter_Slime_Move_4D76AC20.wem"
+      "CachePath": "SFX/Critter_Slime_Move_2AD85BB6.wem"
      },
      {
       "Id": "973250072",
@@ -388,7 +388,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "2024-03-19 06-04-00.wav",
-      "CachePath": "SFX/2024-03-19 06-04-00_818F3B66.wem"
+      "CachePath": "SFX/2024-03-19 06-04-00_FBC78EF0.wem"
      }
     ],
     "Events": [
@@ -650,8 +650,8 @@
       "Name": "Critter_Rock_Move",
       "GUID": "{E0CE8149-C52E-499F-8966-219A965EA303}",
       "DurationType": "OneShot",
-      "DurationMin": "0.42353332",
-      "DurationMax": "0.42353332",
+      "DurationMin": "0.33113182",
+      "DurationMax": "0.33113182",
       "MediaRefs": [
        {
         "Id": "33873927"
@@ -793,8 +793,8 @@
       "Name": "NPC_Hare_Song_Long",
       "GUID": "{817A7A19-3F4B-42EC-A50B-2C80B3AC2A94}",
       "DurationType": "OneShot",
-      "DurationMin": "91.42862",
-      "DurationMax": "91.42862",
+      "DurationMin": "60.952415",
+      "DurationMax": "60.952415",
       "MediaRefs": [
        {
         "Id": "554384056"
@@ -806,8 +806,8 @@
       "Name": "NPC_Hare_Talk",
       "GUID": "{EF907750-596B-4C0B-B2EF-C75CFA87C1E1}",
       "DurationType": "OneShot",
-      "DurationMin": "27.829124",
-      "DurationMax": "27.829124",
+      "DurationMin": "18.55275",
+      "DurationMax": "18.55275",
       "MediaRefs": [
        {
         "Id": "578326918"
@@ -1021,8 +1021,8 @@
       "Name": "Townsfolk_Female_Talk",
       "GUID": "{39AF3215-53A0-4F95-A27C-6E5A92827DB3}",
       "DurationType": "OneShot",
-      "DurationMin": "17.664",
-      "DurationMax": "17.664",
+      "DurationMin": "35.328",
+      "DurationMax": "35.328",
       "MediaRefs": [
        {
         "Id": "63558391"
@@ -1047,8 +1047,8 @@
       "Name": "Townsfolk_Male_Talk",
       "GUID": "{3114D135-BBA0-409B-B706-55F237CF699A}",
       "DurationType": "OneShot",
-      "DurationMin": "18.837334",
-      "DurationMax": "18.837334",
+      "DurationMin": "37.674667",
+      "DurationMax": "37.674667",
       "MediaRefs": [
        {
         "Id": "1053401280"
@@ -1060,8 +1060,8 @@
       "Name": "UI_Click",
       "GUID": "{56F9BDEA-1E2C-4C45-A302-DE9A83E21E4E}",
       "DurationType": "OneShot",
-      "DurationMin": "2.1362357",
-      "DurationMax": "2.1362357",
+      "DurationMin": "1.8493211",
+      "DurationMax": "1.8493211",
       "MediaRefs": [
        {
         "Id": "881298068"
@@ -1408,6 +1408,6 @@
     ]
    }
   ],
-  "FileHash": "{1755725C-5A9E-4F70-F859-1A06CDF52314}"
+  "FileHash": "{8DCC6575-E738-53C2-DA8A-DDAF3EBF1069}"
  }
 }

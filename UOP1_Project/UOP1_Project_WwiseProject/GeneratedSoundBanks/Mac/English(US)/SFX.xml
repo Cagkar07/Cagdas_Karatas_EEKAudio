@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="393239870" Type="User" GUID="{9DF4FF59-820F-47C8-8B41-ED0471029A30}" Language="English(US)" Hash="{8CA2C4E9-670E-6A78-A667-DE60FF5516D1}">
+		<SoundBank Id="393239870" Type="User" GUID="{9DF4FF59-820F-47C8-8B41-ED0471029A30}" Language="English(US)" Hash="{07E3C579-84C0-3C20-F10A-F7A76C325C41}">
 			<ShortName>SFX</ShortName>
 			<Path>English(US)/SFX.bnk</Path>
 			<Media>
@@ -15,11 +15,11 @@
 				</File>
 				<File Id="33873927" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Stone breaking sound effect  (no copyright).wav</ShortName>
-					<CachePath>SFX/Stone breaking sound effect  (no copyright)_6C349E76.wem</CachePath>
+					<CachePath>SFX/Stone breaking sound effect  (no copyright)_A9391292.wem</CachePath>
 				</File>
 				<File Id="63558391" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>2024-03-19 06-03-14.wav</ShortName>
-					<CachePath>SFX/2024-03-19 06-03-14_818F3B66.wem</CachePath>
+					<CachePath>SFX/2024-03-19 06-03-14_FBC78EF0.wem</CachePath>
 				</File>
 				<File Id="76588437" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Player attacks somebody with his weapon.wav</ShortName>
@@ -27,11 +27,11 @@
 				</File>
 				<File Id="108433828" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Critter_Slime_Death.wav</ShortName>
-					<CachePath>SFX/Critter_Slime_Death_F974E05A.wem</CachePath>
+					<CachePath>SFX/Critter_Slime_Death_3638BAE4.wem</CachePath>
 				</File>
 				<File Id="110159553" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Critter_Slime_Attack.wav</ShortName>
-					<CachePath>SFX/Critter_Slime_Attack_818F3B66.wem</CachePath>
+					<CachePath>SFX/Critter_Slime_Attack_FBC78EF0.wem</CachePath>
 				</File>
 				<File Id="114639328" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Sound of fire under the pot in the Beach &amp; Field Farm Scenes.wav</ShortName>
@@ -39,11 +39,11 @@
 				</File>
 				<File Id="152861985" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Critter.wav</ShortName>
-					<CachePath>SFX/Critter_FA116CAC.wem</CachePath>
+					<CachePath>SFX/Critter_264FBA2A.wem</CachePath>
 				</File>
 				<File Id="183560015" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Critter.wav</ShortName>
-					<CachePath>SFX/Critter_63C46EB1.wem</CachePath>
+					<CachePath>SFX/Critter_B6EE0D8F.wem</CachePath>
 				</File>
 				<File Id="217842963" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX： Opening Inventory.wav</ShortName>
@@ -71,7 +71,7 @@
 				</File>
 				<File Id="376116721" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Critter.wav</ShortName>
-					<CachePath>SFX/Critter_F8840B4A.wem</CachePath>
+					<CachePath>SFX/Critter_A4367C58.wem</CachePath>
 				</File>
 				<File Id="403662223" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Sound of boiling water in the pot in the Beach &amp; Field Farm Scenes.wav</ShortName>
@@ -79,7 +79,7 @@
 				</File>
 				<File Id="410686793" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Stone breaking sound effect  (no copyright).wav</ShortName>
-					<CachePath>SFX/Stone breaking sound effect  (no copyright)_326D5772.wem</CachePath>
+					<CachePath>SFX/Stone breaking sound effect  (no copyright)_2A973E40.wem</CachePath>
 				</File>
 				<File Id="442237041" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Heartbeat Sound Effect!.wav</ShortName>
@@ -95,7 +95,7 @@
 				</File>
 				<File Id="534270782" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Optimus primal (ROTB) roar sound effect.wav</ShortName>
-					<CachePath>SFX/Optimus primal (ROTB) roar sound effect_96D4A4C3.wem</CachePath>
+					<CachePath>SFX/Optimus primal (ROTB) roar sound effect_0473C829.wem</CachePath>
 				</File>
 				<File Id="545849856" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Tab switch in the settings menu.wav</ShortName>
@@ -103,11 +103,11 @@
 				</File>
 				<File Id="554384056" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Cartoon Character Bad Singing Sound Effect.wav</ShortName>
-					<CachePath>SFX/Cartoon Character Bad Singing Sound Effect_0C292235.wem</CachePath>
+					<CachePath>SFX/Cartoon Character Bad Singing Sound Effect_4D680782.wem</CachePath>
 				</File>
 				<File Id="578326918" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>sound effect ｜｜ Grumpy old man sound effect, funny sound effect.wav</ShortName>
-					<CachePath>SFX/sound effect ｜｜ Grumpy old man sound effect, funny sound effect_C068ED2E.wem</CachePath>
+					<CachePath>SFX/sound effect ｜｜ Grumpy old man sound effect, funny sound effect_154734D4.wem</CachePath>
 				</File>
 				<File Id="621310129" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Beach Sound Effect.wav</ShortName>
@@ -119,7 +119,7 @@
 				</File>
 				<File Id="637780947" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Critter_Slime_GettingHit.wav</ShortName>
-					<CachePath>SFX/Critter_Slime_GettingHit_CEBCC822.wem</CachePath>
+					<CachePath>SFX/Critter_Slime_GettingHit_11707E5C.wem</CachePath>
 				</File>
 				<File Id="647320324" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footsteps  beach (Beach Scene).wav</ShortName>
@@ -139,11 +139,11 @@
 				</File>
 				<File Id="735108681" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Stone breaking sound effect  (no copyright).wav</ShortName>
-					<CachePath>SFX/Stone breaking sound effect  (no copyright)_17443C2D.wem</CachePath>
+					<CachePath>SFX/Stone breaking sound effect  (no copyright)_83AB5ABF.wem</CachePath>
 				</File>
 				<File Id="741242693" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Critter.wav</ShortName>
-					<CachePath>SFX/Critter_23235AB7.wem</CachePath>
+					<CachePath>SFX/Critter_0D55D401.wem</CachePath>
 				</File>
 				<File Id="789251376" Language="English(US)" Streaming="false" Location="Memory">
 					<ShortName>Water moving when the character is in the water..wav</ShortName>
@@ -163,7 +163,7 @@
 				</File>
 				<File Id="881298068" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Base ui click for all buttons in game2.wav</ShortName>
-					<CachePath>SFX/Base ui click for all buttons in game2_818F3B66.wem</CachePath>
+					<CachePath>SFX/Base ui click for all buttons in game2_9954E0E3.wem</CachePath>
 				</File>
 				<File Id="913657827" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Grabbing Loot.wav</ShortName>
@@ -171,11 +171,11 @@
 				</File>
 				<File Id="947053312" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Optimus primal (ROTB) roar sound effect.wav</ShortName>
-					<CachePath>SFX/Optimus primal (ROTB) roar sound effect_71338543.wem</CachePath>
+					<CachePath>SFX/Optimus primal (ROTB) roar sound effect_26D4FF29.wem</CachePath>
 				</File>
 				<File Id="970792628" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Critter_Slime_Move.wav</ShortName>
-					<CachePath>SFX/Critter_Slime_Move_4D76AC20.wem</CachePath>
+					<CachePath>SFX/Critter_Slime_Move_2AD85BB6.wem</CachePath>
 				</File>
 				<File Id="973250072" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Player getting hit by Creatures.wav</ShortName>
@@ -187,7 +187,7 @@
 				</File>
 				<File Id="1053401280" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>2024-03-19 06-04-00.wav</ShortName>
-					<CachePath>SFX/2024-03-19 06-04-00_818F3B66.wem</CachePath>
+					<CachePath>SFX/2024-03-19 06-04-00_FBC78EF0.wem</CachePath>
 				</File>
 			</Media>
 			<Events>
@@ -286,7 +286,7 @@
 						<MediaRef Id="410686793"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="1901333966" Name="Critter_Rock_Move" GUID="{E0CE8149-C52E-499F-8966-219A965EA303}" DurationType="OneShot" DurationMin="0.42353332" DurationMax="0.42353332">
+				<Event Id="1901333966" Name="Critter_Rock_Move" GUID="{E0CE8149-C52E-499F-8966-219A965EA303}" DurationType="OneShot" DurationMin="0.33113182" DurationMax="0.33113182">
 					<MediaRefs>
 						<MediaRef Id="33873927"/>
 					</MediaRefs>
@@ -338,12 +338,12 @@
 						<MediaRef Id="1053085023"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="1717767246" Name="NPC_Hare_Song_Long" GUID="{817A7A19-3F4B-42EC-A50B-2C80B3AC2A94}" DurationType="OneShot" DurationMin="91.42862" DurationMax="91.42862">
+				<Event Id="1717767246" Name="NPC_Hare_Song_Long" GUID="{817A7A19-3F4B-42EC-A50B-2C80B3AC2A94}" DurationType="OneShot" DurationMin="60.952415" DurationMax="60.952415">
 					<MediaRefs>
 						<MediaRef Id="554384056"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="1419286180" Name="NPC_Hare_Talk" GUID="{EF907750-596B-4C0B-B2EF-C75CFA87C1E1}" DurationType="OneShot" DurationMin="27.829124" DurationMax="27.829124">
+				<Event Id="1419286180" Name="NPC_Hare_Talk" GUID="{EF907750-596B-4C0B-B2EF-C75CFA87C1E1}" DurationType="OneShot" DurationMin="18.55275" DurationMax="18.55275">
 					<MediaRefs>
 						<MediaRef Id="578326918"/>
 					</MediaRefs>
@@ -416,7 +416,7 @@
 						<MediaRef Id="869178051"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="2971175702" Name="Townsfolk_Female_Talk" GUID="{39AF3215-53A0-4F95-A27C-6E5A92827DB3}" DurationType="OneShot" DurationMin="17.664" DurationMax="17.664">
+				<Event Id="2971175702" Name="Townsfolk_Female_Talk" GUID="{39AF3215-53A0-4F95-A27C-6E5A92827DB3}" DurationType="OneShot" DurationMin="35.328" DurationMax="35.328">
 					<MediaRefs>
 						<MediaRef Id="63558391"/>
 					</MediaRefs>
@@ -426,12 +426,12 @@
 						<MediaRef Id="869178051"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="660562971" Name="Townsfolk_Male_Talk" GUID="{3114D135-BBA0-409B-B706-55F237CF699A}" DurationType="OneShot" DurationMin="18.837334" DurationMax="18.837334">
+				<Event Id="660562971" Name="Townsfolk_Male_Talk" GUID="{3114D135-BBA0-409B-B706-55F237CF699A}" DurationType="OneShot" DurationMin="37.674667" DurationMax="37.674667">
 					<MediaRefs>
 						<MediaRef Id="1053401280"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="2249769530" Name="UI_Click" GUID="{56F9BDEA-1E2C-4C45-A302-DE9A83E21E4E}" DurationType="OneShot" DurationMin="2.1362357" DurationMax="2.1362357">
+				<Event Id="2249769530" Name="UI_Click" GUID="{56F9BDEA-1E2C-4C45-A302-DE9A83E21E4E}" DurationType="OneShot" DurationMin="1.8493211" DurationMax="1.8493211">
 					<MediaRefs>
 						<MediaRef Id="881298068"/>
 					</MediaRefs>
@@ -470,5 +470,5 @@
 			</StateGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{69FACF4D-2F2E-D6D1-CE04-3499800301EE}</FileHash>
+	<FileHash>{B9DDB7A8-D06B-88C1-8A3E-52428A375682}</FileHash>
 </SoundBanksInfo>
