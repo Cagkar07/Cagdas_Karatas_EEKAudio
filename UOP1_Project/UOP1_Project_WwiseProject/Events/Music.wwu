@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{973EF824-929B-46A2-8D78-81B31C0BDFAC}" SchemaVersion="103">
+<WwiseDocument Type="WorkUnit" ID="{973EF824-929B-46A2-8D78-81B31C0BDFAC}" SchemaVersion="119">
 	<Events>
 		<WorkUnit Name="Music" ID="{973EF824-929B-46A2-8D78-81B31C0BDFAC}" PersistMode="Standalone">
 			<ChildrenList>
@@ -37,6 +37,17 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Pause_Off" ID="{0725D63E-5068-4B78-9CBA-8997F1D1349F}" WorkUnitID="{D65846DE-2431-4946-9099-365C761ABC67}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Music_Main" ID="{413F95DB-D2EC-4193-A904-14E368B096C4}">
+					<ChildrenList>
+						<Action Name="" ID="{BA253D92-175A-4CC9-BB4F-1188C9BD4212}" ShortID="453628745">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Music_Main" ID="{1B8F6EBC-0A93-43AD-810E-4A28D9458811}" WorkUnitID="{0A4A8BEE-3CEF-47ED-A53C-D70D9D8EAAA7}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

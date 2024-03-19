@@ -1,0 +1,114 @@
+Event	ID	Name			Wwise Object Path	Notes
+	65587878	Critter_Rock_GettingHit			\Creatures(Monsters)\Rock Monster\Critter_Rock_GettingHit	
+	317968752	Critter_Slime_Idle			\Creatures(Monsters)\Slime Monster\Critter_Slime_Idle	
+	491961918	Forest			\Ambient (Base)(2D)\Main\Forest	
+	546421005	Critter_Rock_Death			\Creatures(Monsters)\Rock Monster\Critter_Rock_Death	
+	592624029	UI_Shuffle			\UI\UIingredients\UI_Shuffle	
+	660562971	Townsfolk_Male_Talk			\NPC\NPCOthers\Townsfolk_Male_Talk	
+	816303795	Player_Grab			\Player\PlayerAction\Player_Grab	
+	1059927973	Critter_Slime_GettingHit			\Creatures(Monsters)\Slime Monster\Critter_Slime_GettingHit	
+	1299172729	Townsfolk_Female_Footsteps			\NPC\NPCOthers\Townsfolk_Female_Footsteps	
+	1419286180	NPC_Hare_Talk			\NPC\NPCHare\NPC_Hare_Talk	
+	1421862017	Critter_Slime_Move			\Creatures(Monsters)\Slime Monster\Critter_Slime_Move	
+	1542330065	Player_Die			\Player\PlayerAction\Player_Die	
+	1615767906	Music_Main			\Music\Music_Main	
+	1717767246	NPC_Hare_Song_Long			\NPC\NPCHare\NPC_Hare_Song_Long	
+	1822764980	Critter_Plant_GettingHit			\Creatures(Monsters)\Plant Monster\Critter_Plant_GettingHit	
+	1824690809	Amb_BoilingWater			\Ambient (Points)(3D)\Main\Amb_BoilingWater	
+	1863277117	Rocks			\Player\PlayerFootsteps\Rocks	
+	1870809083	NPC_Phoenix_Nibble			\NPC\NPCPhoneix\NPC_Phoenix_Nibble	
+	1879932703	CaveReverb_Disable			\Ambient (Base)(2D)\Reverb\CaveReverb_Disable	
+	1901333966	Critter_Rock_Move			\Creatures(Monsters)\Rock Monster\Critter_Rock_Move	
+	1940944140	CaveReverb_Enable			\Ambient (Base)(2D)\Reverb\CaveReverb_Enable	
+	1969612259	Critter_Plant_Attack			\Creatures(Monsters)\Plant Monster\Critter_Plant_Attack	
+	2060690880	Player_Water_Splash			\Player\PlayerAction\Player_Water_Splash	
+	2179654399	Pause_Menu_Off			\Music\Pause_Menu_Off	
+	2249769530	UI_Click			\UI\UIingredients\UI_Click	
+	2265192688	Waterplane			\Player\PlayerFootsteps\Waterplane	
+	2385628198	Footsteps			\Player\PlayerFootsteps\Footsteps	footsteps ekle
+	2565812264	Amb_torch			\Ambient (Points)(3D)\Main\Amb_torch	
+	2644861617	Amb_Trees			\Ambient (Points)(3D)\Main\Amb_Trees	
+	2675089675	Player_Talk			\Player\PlayerAction\Player_Talk	
+	2701633580	Glade			\Ambient (Base)(2D)\Main\Hills\Glade	
+	2770205059	Critter_Rock_Idle			\Creatures(Monsters)\Rock Monster\Critter_Rock_Idle	
+	2824512041	Player_Attack			\Player\PlayerAction\Player_Attack	
+	2891098061	Critter_Plant_Idle			\Creatures(Monsters)\Plant Monster\Critter_Plant_Idle	
+	2910694179	Critter_Plant_Death			\Creatures(Monsters)\Plant Monster\Critter_Plant_Death	
+	2967641625	Critter_Rock_Attack			\Creatures(Monsters)\Rock Monster\Critter_Rock_Attack	
+	2971175702	Townsfolk_Female_Talk			\NPC\NPCOthers\Townsfolk_Female_Talk	
+	3008108842	Townsfolk_Male_Footsteps			\NPC\NPCOthers\Townsfolk_Male_Footsteps	
+	3034451483	NPC_Phoenix_Sneeze			\NPC\NPCPhoneix\NPC_Phoenix_Sneeze	
+	3072576347	AddToInventory			\UI\UIingredients\AddToInventory	
+	3091570009	Town			\Ambient (Base)(2D)\Main\Town	
+	3170972326	Scene_Change			\Control\Scene_Change	
+	3191519729	Beach_			\Ambient (Base)(2D)\Main\Beach_	
+	3207324726	Amb_Fire			\Ambient (Points)(3D)\Main\Amb_Fire	
+	3210856931	UI_Use			\UI\UIingredients\UI_Use	
+	3483621035	Pause_Menu_On			\Music\Pause_Menu_On	
+	3484321931	Player_Heartbeat			\Player\PlayerAction\Player_Heartbeat	
+	3635877684	Amb_Ocean			\Ambient (Points)(3D)\Main\Amb_Ocean	
+	3755979049	Amb_Cave			\Ambient (Points)(3D)\Main\Amb_Cave	
+	3907341830	Critter_Slime_Attack			\Creatures(Monsters)\Slime Monster\Critter_Slime_Attack	
+	3934772412	Critter_Slime_Death			\Creatures(Monsters)\Slime Monster\Critter_Slime_Death	
+	3945457670	Player_GetHit			\Player\PlayerAction\Player_GetHit	
+	3991942870	Music			\Music\Music	
+	4075332698	Beach			\Player\PlayerFootsteps\Beach	
+	4248645337	Grass			\Player\PlayerFootsteps\Grass	
+	4270597360	NPC_Phoenix_Flap			\NPC\NPCPhoneix\NPC_Phoenix_Flap	
+
+State Group	ID	Name			Wwise Object Path	Notes
+	1697398818	CaveReverb			\Default Work Unit\CaveReverb	
+
+State	ID	Name	State Group			Notes
+	717767040	CaveReverb_Enabled	CaveReverb			
+	748895195	None	CaveReverb			
+	2218728873	CaveReverb_Disabled	CaveReverb			
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	3416651	Amb_Trees	C:\Users\cagka\Documents\GitHub\Cagdas_Karatas_EEKAudio\UOP1_Project\UOP1_Project_WwiseProject\.cache\Mac\SFX\tree leaf ambient_E1C03E6E.wem		\Actor-Mixer Hierarchy\Ambient (Points)(3D)\Main\Amb_Trees		6359764
+	29467327	Glade	C:\Users\cagka\Documents\GitHub\Cagdas_Karatas_EEKAudio\UOP1_Project\UOP1_Project_WwiseProject\.cache\Mac\SFX\glade_05A4D402.wem		\Actor-Mixer Hierarchy\Ambient (Base)(2D)\Main\Hills\Glade		480137
+	33873927	Critter_Rock_Move	C:\Users\cagka\Documents\GitHub\Cagdas_Karatas_EEKAudio\UOP1_Project\UOP1_Project_WwiseProject\.cache\Mac\SFX\Stone breaking sound effect  (no copyright)_6C349E76.wem		\Actor-Mixer Hierarchy\Creatures (Monsters)\Rock Monster\Critter_Rock_Move		81416
+	63558391	Townsfolk_Female_Talk	C:\Users\cagka\Documents\GitHub\Cagdas_Karatas_EEKAudio\UOP1_Project\UOP1_Project_WwiseProject\.cache\Mac\SFX\2024-03-19 06-03-14_818F3B66.wem		\Actor-Mixer Hierarchy\NPC\NPCingredient\NPCOthers\Townsfolk_Female_Talk		3391584
+	76588437	Player_Attack	C:\Users\cagka\Documents\GitHub\Cagdas_Karatas_EEKAudio\UOP1_Project\UOP1_Project_WwiseProject\.cache\Mac\SFX\Player attacks somebody with his weapon_23AEC50A.wem		\Actor-Mixer Hierarchy\Player\Playeringredients\Playeractions\Player_Attack		104500
+	108433828	Critter_Slime_Death	C:\Users\cagka\Documents\GitHub\Cagdas_Karatas_EEKAudio\UOP1_Project\UOP1_Project_WwiseProject\.cache\Mac\SFX\Critter_Slime_Death_F974E05A.wem		\Actor-Mixer Hierarchy\Creatures (Monsters)\Slime Monster\Critter_Slime_Death		532576
+	110159553	Critter_Slime_Attack	C:\Users\cagka\Documents\GitHub\Cagdas_Karatas_EEKAudio\UOP1_Project\UOP1_Project_WwiseProject\.cache\Mac\SFX\Critter_Slime_Attack_818F3B66.wem		\Actor-Mixer Hierarchy\Creatures (Monsters)\Slime Monster\Critter_Slime_Attack		143456
+	114639328	Amb_Fire	C:\Users\cagka\Documents\GitHub\Cagdas_Karatas_EEKAudio\UOP1_Project\UOP1_Project_WwiseProject\.cache\Mac\SFX\Sound of fire under the pot in the Beach & Field Farm Scenes_B5A6FB2D.wem		\Actor-Mixer Hierarchy\Ambient (Points)(3D)\Main\Amb_Fire		3160982
+	152861985	Critter_Plant_Death	C:\Users\cagka\Documents\GitHub\Cagdas_Karatas_EEKAudio\UOP1_Project\UOP1_Project_WwiseProject\.cache\Mac\SFX\Critter_FA116CAC.wem		\Actor-Mixer Hierarchy\Creatures (Monsters)\Plant Moster\Critter_Plant_Death		488896
+	183560015	Critter_Plant_GettingHit	C:\Users\cagka\Documents\GitHub\Cagdas_Karatas_EEKAudio\UOP1_Project\UOP1_Project_WwiseProject\.cache\Mac\SFX\Critter_63C46EB1.wem		\Actor-Mixer Hierarchy\Creatures (Monsters)\Plant Moster\Critter_Plant_GettingHit		664124
+	217842963	UI_Use	C:\Users\cagka\Documents\GitHub\Cagdas_Karatas_EEKAudio\UOP1_Project\UOP1_Project_WwiseProject\.cache\Mac\SFX\SFX： Opening Inventory_0653ED14.wem		\Actor-Mixer Hierarchy\UI\UIingredients\UI_Use		30180
+	233919794	AddToInventory	C:\Users\cagka\Documents\GitHub\Cagdas_Karatas_EEKAudio\UOP1_Project\UOP1_Project_WwiseProject\.cache\Mac\SFX\Use a button in the Inventory_2EF1DBD2.wem		\Actor-Mixer Hierarchy\UI\UIingredients\AddToInventory		52772
+	258502752	Town	C:\Users\cagka\Documents\GitHub\Cagdas_Karatas_EEKAudio\UOP1_Project\UOP1_Project_WwiseProject\.cache\Mac\SFX\village sound effect (no copyright)_282A23B1.wem		\Actor-Mixer Hierarchy\Ambient (Base)(2D)\Main\Town		250686
+	296239010	Player_Talk	C:\Users\cagka\Documents\GitHub\Cagdas_Karatas_EEKAudio\UOP1_Project\UOP1_Project_WwiseProject\.cache\Mac\SFX\Player talks with NPC_84E566DD.wem		\Actor-Mixer Hierarchy\Player\Playeringredients\Playeractions\Player_Talk		430316
+	327875454	Player_Die	C:\Users\cagka\Documents\GitHub\Cagdas_Karatas_EEKAudio\UOP1_Project\UOP1_Project_WwiseProject\.cache\Mac\SFX\Player character's Death_A55756C9.wem		\Actor-Mixer Hierarchy\Player\Playeringredients\Playeractions\Player_Die		235808
+	337225054	Amb_Cave	C:\Users\cagka\Documents\GitHub\Cagdas_Karatas_EEKAudio\UOP1_Project\UOP1_Project_WwiseProject\.cache\Mac\SFX\Cave ambience_818F3B66.wem		\Actor-Mixer Hierarchy\Ambient (Points)(3D)\Main\Amb_Cave		8224864
+	376116721	Critter_Plant_Idle	C:\Users\cagka\Documents\GitHub\Cagdas_Karatas_EEKAudio\UOP1_Project\UOP1_Project_WwiseProject\.cache\Mac\SFX\Critter_F8840B4A.wem		\Actor-Mixer Hierarchy\Creatures (Monsters)\Plant Moster\Critter_Plant_Idle		350552
+	403662223	Amb_BoilingWater	C:\Users\cagka\Documents\GitHub\Cagdas_Karatas_EEKAudio\UOP1_Project\UOP1_Project_WwiseProject\.cache\Mac\SFX\Sound of boiling water in the pot in the Beach & Field Farm Scenes_818F3B66.wem		\Actor-Mixer Hierarchy\Ambient (Points)(3D)\Main\Amb_BoilingWater		348256
+	410686793	Critter_Rock_Idle	C:\Users\cagka\Documents\GitHub\Cagdas_Karatas_EEKAudio\UOP1_Project\UOP1_Project_WwiseProject\.cache\Mac\SFX\Stone breaking sound effect  (no copyright)_326D5772.wem		\Actor-Mixer Hierarchy\Creatures (Monsters)\Rock Monster\Critter_Rock_Idle		113604
+	442237041	Player_Heartbeat	C:\Users\cagka\Documents\GitHub\Cagdas_Karatas_EEKAudio\UOP1_Project\UOP1_Project_WwiseProject\.cache\Mac\SFX\Heartbeat Sound Effect!_E8F46F8E.wem		\Actor-Mixer Hierarchy\Player\Playeringredients\Playeractions\Player_Heartbeat		865816
+	511138320	NPC_Phoenix_Flap	C:\Users\cagka\Documents\GitHub\Cagdas_Karatas_EEKAudio\UOP1_Project\UOP1_Project_WwiseProject\.cache\Mac\SFX\Flapping Wings - Sound Effect_818F3B66.wem		\Actor-Mixer Hierarchy\NPC\NPCingredient\NPCPhoneix\NPC_Phoenix_Flap		1201592
+	527445594	Rocks	C:\Users\cagka\Documents\GitHub\Cagdas_Karatas_EEKAudio\UOP1_Project\UOP1_Project_WwiseProject\.cache\Mac\SFX\Footsteps  rocks (All stones in game)_818F3B66.wem		\Actor-Mixer Hierarchy\Player\Playeringredients\Playerfootsteps\Rocks		187342
+	534270782	Critter_Rock_Death	C:\Users\cagka\Documents\GitHub\Cagdas_Karatas_EEKAudio\UOP1_Project\UOP1_Project_WwiseProject\.cache\Mac\SFX\Optimus primal (ROTB) roar sound effect_96D4A4C3.wem		\Actor-Mixer Hierarchy\Creatures (Monsters)\Rock Monster\Critter_Rock_Death		383372
+	545849856	UI_Shuffle	C:\Users\cagka\Documents\GitHub\Cagdas_Karatas_EEKAudio\UOP1_Project\UOP1_Project_WwiseProject\.cache\Mac\SFX\Tab switch in the settings menu_818F3B66.wem		\Actor-Mixer Hierarchy\UI\UIingredients\UI_Shuffle		65632
+	554384056	NPC_Hare_Song_Long	C:\Users\cagka\Documents\GitHub\Cagdas_Karatas_EEKAudio\UOP1_Project\UOP1_Project_WwiseProject\.cache\Mac\SFX\Cartoon Character Bad Singing Sound Effect_0C292235.wem		\Actor-Mixer Hierarchy\NPC\NPCingredient\NPCHare\NPC_Hare_Song_Long		5851528
+	578326918	NPC_Hare_Talk	C:\Users\cagka\Documents\GitHub\Cagdas_Karatas_EEKAudio\UOP1_Project\UOP1_Project_WwiseProject\.cache\Mac\SFX\sound effect ｜｜ Grumpy old man sound effect, funny sound effect_C068ED2E.wem		\Actor-Mixer Hierarchy\NPC\NPCingredient\NPCHare\NPC_Hare_Talk		1781160
+	621310129	Beach	C:\Users\cagka\Documents\GitHub\Cagdas_Karatas_EEKAudio\UOP1_Project\UOP1_Project_WwiseProject\.cache\Mac\SFX\Beach Sound Effect_05A4D402.wem		\Actor-Mixer Hierarchy\Ambient (Base)(2D)\Main\Beach		138613
+	626669347	Grass	C:\Users\cagka\Documents\GitHub\Cagdas_Karatas_EEKAudio\UOP1_Project\UOP1_Project_WwiseProject\.cache\Mac\SFX\Footsteps  grass (Field Scene)_818F3B66.wem		\Actor-Mixer Hierarchy\Player\Playeringredients\Playerfootsteps\Grass		71428
+	637780947	Critter_Slime_GettingHit	C:\Users\cagka\Documents\GitHub\Cagdas_Karatas_EEKAudio\UOP1_Project\UOP1_Project_WwiseProject\.cache\Mac\SFX\Critter_Slime_GettingHit_CEBCC822.wem		\Actor-Mixer Hierarchy\Creatures (Monsters)\Slime Monster\Critter_Slime_GettingHit		109322
+	647320324	Beach	C:\Users\cagka\Documents\GitHub\Cagdas_Karatas_EEKAudio\UOP1_Project\UOP1_Project_WwiseProject\.cache\Mac\SFX\Footsteps  beach (Beach Scene)_8FF08425.wem		\Actor-Mixer Hierarchy\Player\Playeringredients\Playerfootsteps\Beach		145132
+	653628138	Footsteps	C:\Users\cagka\Documents\GitHub\Cagdas_Karatas_EEKAudio\UOP1_Project\UOP1_Project_WwiseProject\.cache\Mac\SFX\Walking sound effect_3CBE9588.wem		\Actor-Mixer Hierarchy\Player\Playeringredients\Playerfootsteps\Footsteps		91616
+	682324940	Amb_torch	C:\Users\cagka\Documents\GitHub\Cagdas_Karatas_EEKAudio\UOP1_Project\UOP1_Project_WwiseProject\.cache\Mac\SFX\Sound of torches in the Cave (multi position mode)_818F3B66.wem		\Actor-Mixer Hierarchy\Ambient (Points)(3D)\Main\Amb_torch		301026
+	733032371	Waterplane	C:\Users\cagka\Documents\GitHub\Cagdas_Karatas_EEKAudio\UOP1_Project\UOP1_Project_WwiseProject\.cache\Mac\SFX\Footsteps  water plane (appears sometimes)_818F3B66.wem		\Actor-Mixer Hierarchy\Player\Playeringredients\Playerfootsteps\Waterplane		131614
+	735108681	Critter_Rock_Attack	C:\Users\cagka\Documents\GitHub\Cagdas_Karatas_EEKAudio\UOP1_Project\UOP1_Project_WwiseProject\.cache\Mac\SFX\Stone breaking sound effect  (no copyright)_17443C2D.wem		\Actor-Mixer Hierarchy\Creatures (Monsters)\Rock Monster\Critter_Rock_Attack		118688
+	741242693	Critter_Plant_Attack	C:\Users\cagka\Documents\GitHub\Cagdas_Karatas_EEKAudio\UOP1_Project\UOP1_Project_WwiseProject\.cache\Mac\SFX\Critter_23235AB7.wem		\Actor-Mixer Hierarchy\Creatures (Monsters)\Plant Moster\Critter_Plant_Attack		304444
+	789251376	Amb_Ocean	C:\Users\cagka\Documents\GitHub\Cagdas_Karatas_EEKAudio\UOP1_Project\UOP1_Project_WwiseProject\.cache\Mac\Voices\English(US)\Water moving when the character is in the water._3B4CF61A.wem		\Actor-Mixer Hierarchy\Ambient (Points)(3D)\Main\Amb_Ocean		664372
+	799313110	NPC_Phoenix_Nibble	C:\Users\cagka\Documents\GitHub\Cagdas_Karatas_EEKAudio\UOP1_Project\UOP1_Project_WwiseProject\.cache\Mac\SFX\bite sound effect_818F3B66.wem		\Actor-Mixer Hierarchy\NPC\NPCingredient\NPCPhoneix\NPC_Phoenix_Nibble		180656
+	830834029	Forest	C:\Users\cagka\Documents\GitHub\Cagdas_Karatas_EEKAudio\UOP1_Project\UOP1_Project_WwiseProject\.cache\Mac\SFX\Forest sound effect for editing for free_05A4D402.wem		\Actor-Mixer Hierarchy\Ambient (Base)(2D)\Main\Forest		351928
+	869178051	Townsfolk_Male_Footsteps	C:\Users\cagka\Documents\GitHub\Cagdas_Karatas_EEKAudio\UOP1_Project\UOP1_Project_WwiseProject\.cache\Mac\SFX\Walking sound effect_715BE83E.wem		\Actor-Mixer Hierarchy\NPC\NPCingredient\NPCOthers\Townsfolk_Male_Footsteps		827100
+	881298068	UI_Click	C:\Users\cagka\Documents\GitHub\Cagdas_Karatas_EEKAudio\UOP1_Project\UOP1_Project_WwiseProject\.cache\Mac\SFX\Base ui click for all buttons in game2_818F3B66.wem		\Actor-Mixer Hierarchy\UI\UIingredients\UI_Click		376928
+	913657827	Player_Grab	C:\Users\cagka\Documents\GitHub\Cagdas_Karatas_EEKAudio\UOP1_Project\UOP1_Project_WwiseProject\.cache\Mac\SFX\Grabbing Loot_EE467589.wem		\Actor-Mixer Hierarchy\Player\Playeringredients\Playeractions\Player_Grab		18164
+	947053312	Critter_Rock_GettingHit	C:\Users\cagka\Documents\GitHub\Cagdas_Karatas_EEKAudio\UOP1_Project\UOP1_Project_WwiseProject\.cache\Mac\SFX\Optimus primal (ROTB) roar sound effect_71338543.wem		\Actor-Mixer Hierarchy\Creatures (Monsters)\Rock Monster\Critter_Rock_GettingHit		251272
+	970792628	Critter_Slime_Move	C:\Users\cagka\Documents\GitHub\Cagdas_Karatas_EEKAudio\UOP1_Project\UOP1_Project_WwiseProject\.cache\Mac\SFX\Critter_Slime_Move_4D76AC20.wem		\Actor-Mixer Hierarchy\Creatures (Monsters)\Slime Monster\Critter_Slime_Move		59892
+	973250072	Player_GetHit	C:\Users\cagka\Documents\GitHub\Cagdas_Karatas_EEKAudio\UOP1_Project\UOP1_Project_WwiseProject\.cache\Mac\SFX\Player getting hit by Creatures_E2559C71.wem		\Actor-Mixer Hierarchy\Player\Playeringredients\Playeractions\Player_GetHit		116542
+	1053085023	Music_Main	C:\Users\cagka\Documents\GitHub\Cagdas_Karatas_EEKAudio\UOP1_Project\UOP1_Project_WwiseProject\.cache\Mac\SFX\background music chop chop_552F4CF6.wem		\Actor-Mixer Hierarchy\Music\Musicingredients\Music_Main		10793056
+	1053401280	Townsfolk_Male_Talk	C:\Users\cagka\Documents\GitHub\Cagdas_Karatas_EEKAudio\UOP1_Project\UOP1_Project_WwiseProject\.cache\Mac\SFX\2024-03-19 06-04-00_818F3B66.wem		\Actor-Mixer Hierarchy\NPC\NPCingredient\NPCOthers\Townsfolk_Male_Talk		3616864
+

@@ -1,0 +1,474 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="393239870" Type="User" GUID="{9DF4FF59-820F-47C8-8B41-ED0471029A30}" Language="English(US)" Hash="{8CA2C4E9-670E-6A78-A667-DE60FF5516D1}">
+			<ShortName>SFX</ShortName>
+			<Path>English(US)/SFX.bnk</Path>
+			<Media>
+				<File Id="3416651" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>tree leaf ambient.wav</ShortName>
+					<CachePath>SFX/tree leaf ambient_E1C03E6E.wem</CachePath>
+				</File>
+				<File Id="29467327" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>glade.wav</ShortName>
+					<CachePath>SFX/glade_05A4D402.wem</CachePath>
+				</File>
+				<File Id="33873927" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Stone breaking sound effect  (no copyright).wav</ShortName>
+					<CachePath>SFX/Stone breaking sound effect  (no copyright)_6C349E76.wem</CachePath>
+				</File>
+				<File Id="63558391" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>2024-03-19 06-03-14.wav</ShortName>
+					<CachePath>SFX/2024-03-19 06-03-14_818F3B66.wem</CachePath>
+				</File>
+				<File Id="76588437" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Player attacks somebody with his weapon.wav</ShortName>
+					<CachePath>SFX/Player attacks somebody with his weapon_23AEC50A.wem</CachePath>
+				</File>
+				<File Id="108433828" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Critter_Slime_Death.wav</ShortName>
+					<CachePath>SFX/Critter_Slime_Death_F974E05A.wem</CachePath>
+				</File>
+				<File Id="110159553" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Critter_Slime_Attack.wav</ShortName>
+					<CachePath>SFX/Critter_Slime_Attack_818F3B66.wem</CachePath>
+				</File>
+				<File Id="114639328" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Sound of fire under the pot in the Beach &amp; Field Farm Scenes.wav</ShortName>
+					<CachePath>SFX/Sound of fire under the pot in the Beach &amp; Field Farm Scenes_B5A6FB2D.wem</CachePath>
+				</File>
+				<File Id="152861985" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Critter.wav</ShortName>
+					<CachePath>SFX/Critter_FA116CAC.wem</CachePath>
+				</File>
+				<File Id="183560015" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Critter.wav</ShortName>
+					<CachePath>SFX/Critter_63C46EB1.wem</CachePath>
+				</File>
+				<File Id="217842963" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX： Opening Inventory.wav</ShortName>
+					<CachePath>SFX/SFX： Opening Inventory_0653ED14.wem</CachePath>
+				</File>
+				<File Id="233919794" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Use a button in the Inventory.wav</ShortName>
+					<CachePath>SFX/Use a button in the Inventory_2EF1DBD2.wem</CachePath>
+				</File>
+				<File Id="258502752" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>village sound effect (no copyright).wav</ShortName>
+					<CachePath>SFX/village sound effect (no copyright)_282A23B1.wem</CachePath>
+				</File>
+				<File Id="296239010" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Player talks with NPC.wav</ShortName>
+					<CachePath>SFX/Player talks with NPC_84E566DD.wem</CachePath>
+				</File>
+				<File Id="327875454" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Player character's Death.wav</ShortName>
+					<CachePath>SFX/Player character's Death_A55756C9.wem</CachePath>
+				</File>
+				<File Id="337225054" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Cave ambience.wav</ShortName>
+					<CachePath>SFX/Cave ambience_818F3B66.wem</CachePath>
+				</File>
+				<File Id="376116721" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Critter.wav</ShortName>
+					<CachePath>SFX/Critter_F8840B4A.wem</CachePath>
+				</File>
+				<File Id="403662223" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Sound of boiling water in the pot in the Beach &amp; Field Farm Scenes.wav</ShortName>
+					<CachePath>SFX/Sound of boiling water in the pot in the Beach &amp; Field Farm Scenes_818F3B66.wem</CachePath>
+				</File>
+				<File Id="410686793" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Stone breaking sound effect  (no copyright).wav</ShortName>
+					<CachePath>SFX/Stone breaking sound effect  (no copyright)_326D5772.wem</CachePath>
+				</File>
+				<File Id="442237041" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Heartbeat Sound Effect!.wav</ShortName>
+					<CachePath>SFX/Heartbeat Sound Effect!_E8F46F8E.wem</CachePath>
+				</File>
+				<File Id="511138320" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Flapping Wings - Sound Effect.wav</ShortName>
+					<CachePath>SFX/Flapping Wings - Sound Effect_818F3B66.wem</CachePath>
+				</File>
+				<File Id="527445594" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Footsteps  rocks (All stones in game).wav</ShortName>
+					<CachePath>SFX/Footsteps  rocks (All stones in game)_818F3B66.wem</CachePath>
+				</File>
+				<File Id="534270782" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Optimus primal (ROTB) roar sound effect.wav</ShortName>
+					<CachePath>SFX/Optimus primal (ROTB) roar sound effect_96D4A4C3.wem</CachePath>
+				</File>
+				<File Id="545849856" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Tab switch in the settings menu.wav</ShortName>
+					<CachePath>SFX/Tab switch in the settings menu_818F3B66.wem</CachePath>
+				</File>
+				<File Id="554384056" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Cartoon Character Bad Singing Sound Effect.wav</ShortName>
+					<CachePath>SFX/Cartoon Character Bad Singing Sound Effect_0C292235.wem</CachePath>
+				</File>
+				<File Id="578326918" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>sound effect ｜｜ Grumpy old man sound effect, funny sound effect.wav</ShortName>
+					<CachePath>SFX/sound effect ｜｜ Grumpy old man sound effect, funny sound effect_C068ED2E.wem</CachePath>
+				</File>
+				<File Id="621310129" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Beach Sound Effect.wav</ShortName>
+					<CachePath>SFX/Beach Sound Effect_05A4D402.wem</CachePath>
+				</File>
+				<File Id="626669347" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Footsteps  grass (Field Scene).wav</ShortName>
+					<CachePath>SFX/Footsteps  grass (Field Scene)_818F3B66.wem</CachePath>
+				</File>
+				<File Id="637780947" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Critter_Slime_GettingHit.wav</ShortName>
+					<CachePath>SFX/Critter_Slime_GettingHit_CEBCC822.wem</CachePath>
+				</File>
+				<File Id="647320324" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Footsteps  beach (Beach Scene).wav</ShortName>
+					<CachePath>SFX/Footsteps  beach (Beach Scene)_8FF08425.wem</CachePath>
+				</File>
+				<File Id="653628138" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Walking sound effect.wav</ShortName>
+					<CachePath>SFX/Walking sound effect_3CBE9588.wem</CachePath>
+				</File>
+				<File Id="682324940" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Sound of torches in the Cave (multi position mode).wav</ShortName>
+					<CachePath>SFX/Sound of torches in the Cave (multi position mode)_818F3B66.wem</CachePath>
+				</File>
+				<File Id="733032371" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Footsteps  water plane (appears sometimes).wav</ShortName>
+					<CachePath>SFX/Footsteps  water plane (appears sometimes)_818F3B66.wem</CachePath>
+				</File>
+				<File Id="735108681" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Stone breaking sound effect  (no copyright).wav</ShortName>
+					<CachePath>SFX/Stone breaking sound effect  (no copyright)_17443C2D.wem</CachePath>
+				</File>
+				<File Id="741242693" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Critter.wav</ShortName>
+					<CachePath>SFX/Critter_23235AB7.wem</CachePath>
+				</File>
+				<File Id="789251376" Language="English(US)" Streaming="false" Location="Memory">
+					<ShortName>Water moving when the character is in the water..wav</ShortName>
+					<CachePath>Voices/English(US)/Water moving when the character is in the water._3B4CF61A.wem</CachePath>
+				</File>
+				<File Id="799313110" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>bite sound effect.wav</ShortName>
+					<CachePath>SFX/bite sound effect_818F3B66.wem</CachePath>
+				</File>
+				<File Id="830834029" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Forest sound effect for editing for free.wav</ShortName>
+					<CachePath>SFX/Forest sound effect for editing for free_05A4D402.wem</CachePath>
+				</File>
+				<File Id="869178051" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Walking sound effect.wav</ShortName>
+					<CachePath>SFX/Walking sound effect_715BE83E.wem</CachePath>
+				</File>
+				<File Id="881298068" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Base ui click for all buttons in game2.wav</ShortName>
+					<CachePath>SFX/Base ui click for all buttons in game2_818F3B66.wem</CachePath>
+				</File>
+				<File Id="913657827" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Grabbing Loot.wav</ShortName>
+					<CachePath>SFX/Grabbing Loot_EE467589.wem</CachePath>
+				</File>
+				<File Id="947053312" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Optimus primal (ROTB) roar sound effect.wav</ShortName>
+					<CachePath>SFX/Optimus primal (ROTB) roar sound effect_71338543.wem</CachePath>
+				</File>
+				<File Id="970792628" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Critter_Slime_Move.wav</ShortName>
+					<CachePath>SFX/Critter_Slime_Move_4D76AC20.wem</CachePath>
+				</File>
+				<File Id="973250072" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Player getting hit by Creatures.wav</ShortName>
+					<CachePath>SFX/Player getting hit by Creatures_E2559C71.wem</CachePath>
+				</File>
+				<File Id="1053085023" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>background music chop chop.wav</ShortName>
+					<CachePath>SFX/background music chop chop_552F4CF6.wem</CachePath>
+				</File>
+				<File Id="1053401280" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>2024-03-19 06-04-00.wav</ShortName>
+					<CachePath>SFX/2024-03-19 06-04-00_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="3072576347" Name="AddToInventory" GUID="{7C5F0C0A-D599-4BA7-9AA2-9E2726522F9B}" DurationType="OneShot" DurationMin="0.5487013" DurationMax="0.5487013">
+					<MediaRefs>
+						<MediaRef Id="233919794"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1824690809" Name="Amb_BoilingWater" GUID="{863F926D-10F9-4A4B-A39C-049D7F18389A}" DurationType="OneShot" DurationMin="1.9736961" DurationMax="1.9736961">
+					<MediaRefs>
+						<MediaRef Id="403662223"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3755979049" Name="Amb_Cave" GUID="{CA9A6D2D-3B11-4CEE-90A1-6640B63E3C88}" DurationType="OneShot" DurationMin="46.625668" DurationMax="46.625668">
+					<MediaRefs>
+						<MediaRef Id="337225054"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3207324726" Name="Amb_Fire" GUID="{82922484-1BD4-447A-A2C9-264A9F6F5D17}" DurationType="OneShot" DurationMin="32.925896" DurationMax="32.925896">
+					<MediaRefs>
+						<MediaRef Id="114639328"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3635877684" Name="Amb_Ocean" GUID="{283D059E-FE96-4292-86D1-973E8790EDCD}" DurationType="OneShot" DurationMin="6.919542" DurationMax="6.919542">
+					<MediaRefs>
+						<MediaRef Id="789251376"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2565812264" Name="Amb_torch" GUID="{8A88166B-5D59-44FA-B62F-EC9B2E49CE78}" DurationType="OneShot" DurationMin="3.1346874" DurationMax="3.1346874">
+					<MediaRefs>
+						<MediaRef Id="682324940"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2644861617" Name="Amb_Trees" GUID="{6998807E-BF14-4646-8645-B3760AE264A1}" DurationType="OneShot" DurationMin="33.123272" DurationMax="33.123272">
+					<MediaRefs>
+						<MediaRef Id="3416651"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="4075332698" Name="Beach" GUID="{3B1618CC-9F13-498C-9BF8-A3D069097FDE}" DurationType="OneShot" DurationMin="1.5107906" DurationMax="1.5107906">
+					<MediaRefs>
+						<MediaRef Id="647320324"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3191519729" Name="Beach_" GUID="{D3B63BE0-6575-41E1-9283-CF75E0A74998}" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="621310129"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1879932703" Name="CaveReverb_Disable" GUID="{B1387412-0137-4348-BA74-549A18F48604}" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0">
+					<ActionSetState>
+						<ActionSetStateEntry GroupId="1697398818" Id="2218728873" Name="CaveReverb_Disabled" GUID="{4D48F241-4CE6-4A55-BD4F-E00457F05B3C}"/>
+					</ActionSetState>
+				</Event>
+				<Event Id="1940944140" Name="CaveReverb_Enable" GUID="{ED01CA85-5445-4A10-BA81-E68194E22985}" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0">
+					<ActionSetState>
+						<ActionSetStateEntry GroupId="1697398818" Id="717767040" Name="CaveReverb_Enabled" GUID="{8A133C79-884E-460F-AC8D-A9C0F138B1C2}"/>
+					</ActionSetState>
+				</Event>
+				<Event Id="1969612259" Name="Critter_Plant_Attack" GUID="{0AB5776A-EA33-4204-BAE6-0709EE38769F}" DurationType="OneShot" DurationMin="1.5851339" DurationMax="1.5851339">
+					<MediaRefs>
+						<MediaRef Id="741242693"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2910694179" Name="Critter_Plant_Death" GUID="{4D9F6C25-0F18-4A4C-8142-3174898B2F43}" DurationType="OneShot" DurationMin="2.5458212" DurationMax="2.5458212">
+					<MediaRefs>
+						<MediaRef Id="152861985"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1822764980" Name="Critter_Plant_GettingHit" GUID="{04514875-35A1-4F1A-81F7-49CB6B47CE82}" DurationType="OneShot" DurationMin="3.458474" DurationMax="3.458474">
+					<MediaRefs>
+						<MediaRef Id="183560015"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2891098061" Name="Critter_Plant_Idle" GUID="{E9E0994C-CFD9-4A32-BDA2-186EE2C0C7AA}" DurationType="OneShot" DurationMin="1.8253057" DurationMax="1.8253057">
+					<MediaRefs>
+						<MediaRef Id="376116721"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2967641625" Name="Critter_Rock_Attack" GUID="{2D54819C-1F71-4222-BA22-056D64D7E13D}" DurationType="OneShot" DurationMin="0.6176528" DurationMax="0.6176528">
+					<MediaRefs>
+						<MediaRef Id="735108681"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="546421005" Name="Critter_Rock_Death" GUID="{41AA3134-D9F0-49AD-8215-07B0AC29BCAB}" DurationType="OneShot" DurationMin="1.9962373" DurationMax="1.9962373">
+					<MediaRefs>
+						<MediaRef Id="534270782"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="65587878" Name="Critter_Rock_GettingHit" GUID="{C3429843-A1C4-4425-B050-4CA4E665E7AE}" DurationType="OneShot" DurationMin="1.3082137" DurationMax="1.3082137">
+					<MediaRefs>
+						<MediaRef Id="947053312"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2770205059" Name="Critter_Rock_Idle" GUID="{BA3E47DD-D0CB-4B68-B506-FC479F38637E}" DurationType="OneShot" DurationMin="0.59118193" DurationMax="0.59118193">
+					<MediaRefs>
+						<MediaRef Id="410686793"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1901333966" Name="Critter_Rock_Move" GUID="{E0CE8149-C52E-499F-8966-219A965EA303}" DurationType="OneShot" DurationMin="0.42353332" DurationMax="0.42353332">
+					<MediaRefs>
+						<MediaRef Id="33873927"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3907341830" Name="Critter_Slime_Attack" GUID="{888C3EEC-1CC9-4D9D-99FA-C6DB409EFFE1}" DurationType="OneShot" DurationMin="0.8126984" DurationMax="0.8126984">
+					<MediaRefs>
+						<MediaRef Id="110159553"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3934772412" Name="Critter_Slime_Death" GUID="{9B3A13D6-D8DA-4F4A-BCF8-50CF7252822A}" DurationType="OneShot" DurationMin="3.018594" DurationMax="3.018594">
+					<MediaRefs>
+						<MediaRef Id="108433828"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1059927973" Name="Critter_Slime_GettingHit" GUID="{C1C7D3A5-3977-4E71-BCCD-6CDE21DA8CF7}" DurationType="OneShot" DurationMin="1.1377709" DurationMax="1.1377709">
+					<MediaRefs>
+						<MediaRef Id="637780947"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="317968752" Name="Critter_Slime_Idle" GUID="{8F716485-570B-45AA-990E-B25AAEC7CBCD}" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="1421862017" Name="Critter_Slime_Move" GUID="{8C5D801E-FAAA-47BE-87AB-578722E21E5C}" DurationType="OneShot" DurationMin="0.62288386" DurationMax="0.62288386">
+					<MediaRefs>
+						<MediaRef Id="970792628"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2385628198" Name="Footsteps" GUID="{A0206903-EB18-406A-930C-30CC72CF858B}" DurationType="OneShot" DurationMin="0.47667593" DurationMax="0.47667593">
+					<MediaRefs>
+						<MediaRef Id="653628138"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="491961918" Name="Forest" GUID="{209C6ADE-234D-4059-8D16-4489C15DBAFB}" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="830834029"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2701633580" Name="Glade" GUID="{36BDC85B-7931-48AE-8243-8D399FB13EAF}" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="29467327"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="4248645337" Name="Grass" GUID="{B1E6F0DC-99BA-4818-A403-B7D42E64CDDE}" DurationType="OneShot" DurationMin="0.7430417" DurationMax="0.7430417">
+					<MediaRefs>
+						<MediaRef Id="626669347"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3991942870" Name="Music" GUID="{A399DFEE-2EAA-4A3D-A209-A7AD7AAE02B5}" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="1615767906" Name="Music_Main" GUID="{413F95DB-D2EC-4193-A904-14E368B096C4}" DurationType="OneShot" DurationMin="61.18458" DurationMax="61.18458">
+					<MediaRefs>
+						<MediaRef Id="1053085023"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1717767246" Name="NPC_Hare_Song_Long" GUID="{817A7A19-3F4B-42EC-A50B-2C80B3AC2A94}" DurationType="OneShot" DurationMin="91.42862" DurationMax="91.42862">
+					<MediaRefs>
+						<MediaRef Id="554384056"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1419286180" Name="NPC_Hare_Talk" GUID="{EF907750-596B-4C0B-B2EF-C75CFA87C1E1}" DurationType="OneShot" DurationMin="27.829124" DurationMax="27.829124">
+					<MediaRefs>
+						<MediaRef Id="578326918"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="4270597360" Name="NPC_Phoenix_Flap" GUID="{C7E6F5A6-6629-4CC2-B381-EE65EF069D99}" DurationType="OneShot" DurationMin="6.2577915" DurationMax="6.2577915">
+					<MediaRefs>
+						<MediaRef Id="511138320"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1870809083" Name="NPC_Phoenix_Nibble" GUID="{1243B35B-F68F-43FE-A049-0992D3B87D89}" DurationType="OneShot" DurationMin="0.9404167" DurationMax="0.9404167">
+					<MediaRefs>
+						<MediaRef Id="799313110"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3034451483" Name="NPC_Phoenix_Sneeze" GUID="{5D02465E-D2FC-4599-8269-7F2BDCE204A2}" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="2179654399" Name="Pause_Menu_Off" GUID="{08DFDC1B-8276-411D-A16D-09B36D0FE31D}" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0">
+					<ActionSetState>
+						<ActionSetStateEntry GroupId="3092587493" Id="3967028551" Name="Pause_Off" GUID="{0725D63E-5068-4B78-9CBA-8997F1D1349F}"/>
+					</ActionSetState>
+				</Event>
+				<Event Id="3483621035" Name="Pause_Menu_On" GUID="{E41AF1B5-7241-472E-9D34-D46A690B69DC}" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0">
+					<ActionSetState>
+						<ActionSetStateEntry GroupId="3092587493" Id="3537680115" Name="Pause_On" GUID="{66FAFFE6-0D55-4278-8DCA-0354883339FD}"/>
+					</ActionSetState>
+				</Event>
+				<Event Id="2824512041" Name="Player_Attack" GUID="{50C1037F-A208-4CE7-9883-62B8A4436806}" DurationType="OneShot" DurationMin="0.59185016" DurationMax="0.59185016">
+					<MediaRefs>
+						<MediaRef Id="76588437"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1542330065" Name="Player_Die" GUID="{C7E65B81-9BEC-49CD-AAF6-A8532782AE57}" DurationType="OneShot" DurationMin="2.4553435" DurationMax="2.4553435">
+					<MediaRefs>
+						<MediaRef Id="327875454"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3945457670" Name="Player_GetHit" GUID="{E5B0888D-28DC-4186-8FE8-C720B3CA9EC5}" DurationType="OneShot" DurationMin="1.2129831" DurationMax="1.2129831">
+					<MediaRefs>
+						<MediaRef Id="973250072"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="816303795" Name="Player_Grab" GUID="{56E32DBE-43ED-4900-BA4C-1D087ACF58D3}" DurationType="OneShot" DurationMin="0.18820904" DurationMax="0.18820904">
+					<MediaRefs>
+						<MediaRef Id="913657827"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3484321931" Name="Player_Heartbeat" GUID="{D02E4303-6827-4473-A91E-8241D6ECF653}" DurationType="OneShot" DurationMin="4.5089574" DurationMax="4.5089574">
+					<MediaRefs>
+						<MediaRef Id="442237041"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2675089675" Name="Player_Talk" GUID="{E15B9AF9-0F67-4B04-9F65-3205A0934667}" DurationType="OneShot" DurationMin="4.481458" DurationMax="4.481458">
+					<MediaRefs>
+						<MediaRef Id="296239010"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2060690880" Name="Player_Water_Splash" GUID="{81987CEA-0D5F-49C0-92C0-928ACB77078F}" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="1863277117" Name="Rocks" GUID="{60E327E8-020B-4D9E-BCF7-EF115C5D1060}" DurationType="OneShot" DurationMin="1.9504791" DurationMax="1.9504791">
+					<MediaRefs>
+						<MediaRef Id="527445594"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3170972326" Name="Scene_Change" GUID="{07C77A48-4161-4733-9374-1E25B5B1642D}" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="3091570009" Name="Town" GUID="{BC682128-7682-47DF-A223-84E14C9A5BCE}" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="258502752"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1299172729" Name="Townsfolk_Female_Footsteps" GUID="{C4264CB9-E7A6-40FF-AFD3-244586CC76EC}" DurationType="OneShot" DurationMin="4.3073125" DurationMax="4.3073125">
+					<MediaRefs>
+						<MediaRef Id="869178051"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2971175702" Name="Townsfolk_Female_Talk" GUID="{39AF3215-53A0-4F95-A27C-6E5A92827DB3}" DurationType="OneShot" DurationMin="17.664" DurationMax="17.664">
+					<MediaRefs>
+						<MediaRef Id="63558391"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3008108842" Name="Townsfolk_Male_Footsteps" GUID="{CBE9B35D-2BE6-451F-BDA3-28F10D0C7D45}" DurationType="OneShot" DurationMin="4.3073125" DurationMax="4.3073125">
+					<MediaRefs>
+						<MediaRef Id="869178051"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="660562971" Name="Townsfolk_Male_Talk" GUID="{3114D135-BBA0-409B-B706-55F237CF699A}" DurationType="OneShot" DurationMin="18.837334" DurationMax="18.837334">
+					<MediaRefs>
+						<MediaRef Id="1053401280"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2249769530" Name="UI_Click" GUID="{56F9BDEA-1E2C-4C45-A302-DE9A83E21E4E}" DurationType="OneShot" DurationMin="2.1362357" DurationMax="2.1362357">
+					<MediaRefs>
+						<MediaRef Id="881298068"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="592624029" Name="UI_Shuffle" GUID="{DBAEBF6C-EE94-46F9-B2C4-31FD8EE55DF3}" DurationType="OneShot" DurationMin="0.37151927" DurationMax="0.37151927">
+					<MediaRefs>
+						<MediaRef Id="545849856"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3210856931" Name="UI_Use" GUID="{1B095AEC-5F86-4FC2-9C5C-5204354BF3C6}" DurationType="OneShot" DurationMin="0.15669017" DurationMax="0.15669017">
+					<MediaRefs>
+						<MediaRef Id="217842963"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2265192688" Name="Waterplane" GUID="{6ECAA3B5-E97D-47F3-8849-33FFC45A4DE2}" DurationType="OneShot" DurationMin="1.3699791" DurationMax="1.3699791">
+					<MediaRefs>
+						<MediaRef Id="733032371"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+			<StateGroups>
+				<StateGroup Id="1697398818" Name="CaveReverb" GUID="{62F7C846-EA92-462C-9F4E-7B3474524FDE}">
+					<States>
+						<State Id="717767040" Name="CaveReverb_Enabled" GUID="{8A133C79-884E-460F-AC8D-A9C0F138B1C2}"/>
+						<State Id="748895195" Name="None" GUID="{9BE472C1-7012-44DA-9381-6EF282B2097B}"/>
+						<State Id="2218728873" Name="CaveReverb_Disabled" GUID="{4D48F241-4CE6-4A55-BD4F-E00457F05B3C}"/>
+					</States>
+				</StateGroup>
+				<StateGroup Id="3092587493" Name="Pause" GUID="{5D3C779C-8130-47C3-BFED-1E0641098106}">
+					<States>
+						<State Id="748895195" Name="None" GUID="{F12F1341-B1A1-414E-90DF-4D572B9DB180}"/>
+						<State Id="3537680115" Name="Pause_On" GUID="{66FAFFE6-0D55-4278-8DCA-0354883339FD}"/>
+						<State Id="3967028551" Name="Pause_Off" GUID="{0725D63E-5068-4B78-9CBA-8997F1D1349F}"/>
+					</States>
+				</StateGroup>
+			</StateGroups>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{601A0B23-4A15-A99B-B463-02575A3E8CE8}</FileHash>
+</SoundBanksInfo>

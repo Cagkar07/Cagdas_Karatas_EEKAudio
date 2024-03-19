@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{6E2C918D-FB47-49B8-85AC-8A24F6EF70A5}" SchemaVersion="119">
+	<Events>
+		<WorkUnit Name="Player" ID="{6E2C918D-FB47-49B8-85AC-8A24F6EF70A5}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="PlayerAction" ID="{84DAB861-50FB-444B-B2E4-8512F69AAD5A}" ShortID="436260884">
+					<ChildrenList>
+						<Event Name="Player_Attack" ID="{50C1037F-A208-4CE7-9883-62B8A4436806}">
+							<ChildrenList>
+								<Action Name="" ID="{9CC8061C-BE66-4461-8ACD-A31684569155}" ShortID="532809735">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Player_Attack" ID="{C71A6B4B-E5C3-4FE6-ADCC-FCB8EB362363}" WorkUnitID="{BB27B640-3822-49B7-B9D8-D8EF3702B6BB}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Player_Talk" ID="{E15B9AF9-0F67-4B04-9F65-3205A0934667}">
+							<ChildrenList>
+								<Action Name="" ID="{3EF93902-5BF4-4CDA-B0C1-0B9FEEDD630E}" ShortID="481767128">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Player_Talk" ID="{AA899D7F-B0ED-457E-B76D-3E79A8175457}" WorkUnitID="{BB27B640-3822-49B7-B9D8-D8EF3702B6BB}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Player_Die" ID="{C7E65B81-9BEC-49CD-AAF6-A8532782AE57}">
+							<ChildrenList>
+								<Action Name="" ID="{82FD5BF9-A2C0-4818-BBF8-37794B76D51E}" ShortID="286667692">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Player_Die" ID="{8A480EBD-3B2F-4930-A243-D80C7BC78E93}" WorkUnitID="{BB27B640-3822-49B7-B9D8-D8EF3702B6BB}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Player_GetHit" ID="{E5B0888D-28DC-4186-8FE8-C720B3CA9EC5}">
+							<ChildrenList>
+								<Action Name="" ID="{A5CED947-AA54-4300-A900-4BFE91F223E2}" ShortID="335137943">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Player_GetHit" ID="{3A0BC4E3-3C09-4109-B0DF-B27FD4A17AD2}" WorkUnitID="{BB27B640-3822-49B7-B9D8-D8EF3702B6BB}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Player_Water_Splash" ID="{81987CEA-0D5F-49C0-92C0-928ACB77078F}"/>
+						<Event Name="Player_Grab" ID="{56E32DBE-43ED-4900-BA4C-1D087ACF58D3}">
+							<ChildrenList>
+								<Action Name="" ID="{FED9E0AE-18CD-4030-9497-A4C83E16F017}" ShortID="500570848">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Player_Grab" ID="{F9D682A4-473D-4D6D-81E2-6A61C42F4C18}" WorkUnitID="{BB27B640-3822-49B7-B9D8-D8EF3702B6BB}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Player_Heartbeat" ID="{D02E4303-6827-4473-A91E-8241D6ECF653}">
+							<ChildrenList>
+								<Action Name="" ID="{3E5E4805-7F02-4D5A-89EE-6FE0EE02CA39}" ShortID="16399793">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Player_Heartbeat" ID="{F988A01C-3DF3-41BB-88AD-5AF820AF98A1}" WorkUnitID="{BB27B640-3822-49B7-B9D8-D8EF3702B6BB}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="PlayerFootsteps" ID="{7CE67BB3-3924-45A1-887C-FA93C3300CC1}" ShortID="955288015">
+					<ChildrenList>
+						<Event Name="Waterplane" ID="{6ECAA3B5-E97D-47F3-8849-33FFC45A4DE2}">
+							<ChildrenList>
+								<Action Name="" ID="{226EA920-496B-4305-84C9-EB56454FF7F8}" ShortID="312298348">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Waterplane" ID="{D1382165-C0F7-41F4-8DE7-3DBF14FB0892}" WorkUnitID="{BB27B640-3822-49B7-B9D8-D8EF3702B6BB}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Beach" ID="{3B1618CC-9F13-498C-9BF8-A3D069097FDE}">
+							<ChildrenList>
+								<Action Name="" ID="{741CD460-DE86-433E-93BE-9883276B1349}" ShortID="736888227">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Beach" ID="{A7BD32E8-F396-4FBC-B024-E9C0D5ED98F2}" WorkUnitID="{BB27B640-3822-49B7-B9D8-D8EF3702B6BB}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Grass" ID="{B1E6F0DC-99BA-4818-A403-B7D42E64CDDE}">
+							<ChildrenList>
+								<Action Name="" ID="{C0CCE6B7-ACE7-4503-9544-F8ADCC65DD25}" ShortID="531896384">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Grass" ID="{5DF5CF4B-F29D-474E-AB9D-045D417ACC79}" WorkUnitID="{BB27B640-3822-49B7-B9D8-D8EF3702B6BB}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Rocks" ID="{60E327E8-020B-4D9E-BCF7-EF115C5D1060}">
+							<ChildrenList>
+								<Action Name="" ID="{BBB90EA5-B0CC-4662-86DC-63A9AE715DA7}" ShortID="439172361">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Rocks" ID="{51165106-DA82-456D-BDEA-02C353F197B5}" WorkUnitID="{BB27B640-3822-49B7-B9D8-D8EF3702B6BB}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Footsteps" ID="{A0206903-EB18-406A-930C-30CC72CF858B}">
+							<Comment>footsteps ekle</Comment>
+							<ChildrenList>
+								<Action Name="" ID="{3FE99EE7-683A-4846-9F9D-976514CA3DBD}" ShortID="190756191">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Footsteps" ID="{A2130621-4A21-4E72-B8EE-1B4CACF1BBBE}" WorkUnitID="{BB27B640-3822-49B7-B9D8-D8EF3702B6BB}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

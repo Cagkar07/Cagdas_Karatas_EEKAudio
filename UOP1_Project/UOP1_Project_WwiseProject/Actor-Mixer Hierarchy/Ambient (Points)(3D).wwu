@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{4636C391-5690-4235-BAF0-F126A22B3A48}" SchemaVersion="119">
+	<AudioObjects>
+		<WorkUnit Name="Ambient (Points)(3D)" ID="{4636C391-5690-4235-BAF0-F126A22B3A48}" PersistMode="Standalone">
+			<ChildrenList>
+				<ActorMixer Name="Main" ID="{D85E4569-A7F8-46EB-9ED0-18DC24D6ED99}" ShortID="218299735">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CA2A11F9-F9B6-45AB-B0AF-48C8E0FFA811}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FFF89F6D-37E9-4F4B-BBB7-3E1D357CB3C5}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Amb_Fire" ID="{A3D877C8-D503-4E2B-881A-914B8432E8E5}" ShortID="897600705">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CA2A11F9-F9B6-45AB-B0AF-48C8E0FFA811}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FFF89F6D-37E9-4F4B-BBB7-3E1D357CB3C5}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Sound of fire under the pot in the Beach &amp; Field Farm Scenes" ID="{A5C76774-5ACF-4910-B9FF-1683914D2A6E}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="19.8073213466579"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="11.7808251146789"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Sound of fire under the pot in the Beach &amp; Field Farm Scenes.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="114639328"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Sound of fire under the pot in the Beach &amp; Field Farm Scenes" ID="{A5C76774-5ACF-4910-B9FF-1683914D2A6E}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Amb_BoilingWater" ID="{8FC4E4A4-C311-4313-A63D-DA73568A9C1E}" ShortID="198512536">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CA2A11F9-F9B6-45AB-B0AF-48C8E0FFA811}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FFF89F6D-37E9-4F4B-BBB7-3E1D357CB3C5}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="boiling water" ID="{1825A8C6-9A11-45C1-B6C0-1936936E566E}">
+									<Language>SFX</Language>
+									<AudioFile>Sound of boiling water in the pot in the Beach &amp; Field Farm Scenes.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="403662223"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="boiling water" ID="{1825A8C6-9A11-45C1-B6C0-1936936E566E}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Amb_torch" ID="{E7A67975-E214-4A6A-9F54-3B349124C52F}" ShortID="886541428">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CA2A11F9-F9B6-45AB-B0AF-48C8E0FFA811}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FFF89F6D-37E9-4F4B-BBB7-3E1D357CB3C5}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Sound of torches in the Cave (multi position mode)" ID="{0F6C37A0-CDB4-4265-998B-51693A1FE239}">
+									<Language>SFX</Language>
+									<AudioFile>Sound of torches in the Cave (multi position mode).wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="682324940"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Sound of torches in the Cave (multi position mode)" ID="{0F6C37A0-CDB4-4265-998B-51693A1FE239}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Amb_Ocean" ID="{FF3AEAB0-66B1-41C1-A5E7-36D8671F27C6}" ShortID="997502548">
+							<PropertyList>
+								<Property Name="IsVoice" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CA2A11F9-F9B6-45AB-B0AF-48C8E0FFA811}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FFF89F6D-37E9-4F4B-BBB7-3E1D357CB3C5}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Water moving when the character is in the water_" ID="{08258C6C-8CED-4496-BF62-C92B58DBB780}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="6.91954166666667"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="6.91954166666667"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
+									<Language>English(US)</Language>
+									<AudioFile>Water moving when the character is in the water..wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="789251376"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Water moving when the character is in the water_" ID="{08258C6C-8CED-4496-BF62-C92B58DBB780}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Amb_Cave" ID="{78C04D92-5B17-435F-B1D8-FA1E5BEF835F}" ShortID="619216706">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CA2A11F9-F9B6-45AB-B0AF-48C8E0FFA811}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FFF89F6D-37E9-4F4B-BBB7-3E1D357CB3C5}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Cave ambience" ID="{B5037ABB-6657-4F8C-BFC0-7AE04A8EA906}">
+									<Language>SFX</Language>
+									<AudioFile>Cave ambience.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="337225054"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Cave ambience" ID="{B5037ABB-6657-4F8C-BFC0-7AE04A8EA906}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Amb_Trees" ID="{BDF47286-DAEA-42C9-8217-6CC3DA0DC8E7}" ShortID="399861716">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CA2A11F9-F9B6-45AB-B0AF-48C8E0FFA811}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FFF89F6D-37E9-4F4B-BBB7-3E1D357CB3C5}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="tree leaf ambient" ID="{667ADB89-EDE1-4531-BC31-715B15F98631}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="33.1232708333333"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="33.1232708333333"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>tree leaf ambient.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="3416651"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="tree leaf ambient" ID="{667ADB89-EDE1-4531-BC31-715B15F98631}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</ActorMixer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

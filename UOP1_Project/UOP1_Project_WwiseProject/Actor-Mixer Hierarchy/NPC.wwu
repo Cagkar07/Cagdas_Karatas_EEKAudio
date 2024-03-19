@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{6E29D3A7-C266-46B1-83E3-E2784CB23ADC}" SchemaVersion="119">
+	<AudioObjects>
+		<WorkUnit Name="NPC" ID="{6E29D3A7-C266-46B1-83E3-E2784CB23ADC}" PersistMode="Standalone">
+			<ChildrenList>
+				<ActorMixer Name="NPCingredient" ID="{272F8B67-8738-44A3-9974-928A6A391C77}" ShortID="916815895">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CA2A11F9-F9B6-45AB-B0AF-48C8E0FFA811}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FFF89F6D-37E9-4F4B-BBB7-3E1D357CB3C5}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Folder Name="NPCHare" ID="{5FBC1230-C00E-49E2-8E70-003E06E1E21B}" ShortID="219446704">
+							<ChildrenList>
+								<Sound Name="NPC_Hare_Talk" ID="{D2E0F99D-EFC7-4633-BE34-8B3A4529ACCB}" ShortID="724502843">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="IsLoopingInfinite" Type="bool" Value="False"/>
+										<Property Name="LoopCount" Type="int32" Value="3"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CA2A11F9-F9B6-45AB-B0AF-48C8E0FFA811}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FFF89F6D-37E9-4F4B-BBB7-3E1D357CB3C5}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="sound effect ｜｜ Grumpy old man sound effect, funny sound effect" ID="{6285E0FB-7D6C-41DC-AC0E-89FCEA36A5BA}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="3.0797565"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="4.502134"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>sound effect ｜｜ Grumpy old man sound effect, funny sound effect.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="578326918"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="sound effect ｜｜ Grumpy old man sound effect, funny sound effect" ID="{6285E0FB-7D6C-41DC-AC0E-89FCEA36A5BA}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="NPC_Hare_Song_Long" ID="{3D74EC04-A125-40F0-AEDA-CD5A8FACBE10}" ShortID="942624284">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="IsLoopingInfinite" Type="bool" Value="False"/>
+										<Property Name="LoopCount" Type="int32" Value="3"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-2</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CA2A11F9-F9B6-45AB-B0AF-48C8E0FFA811}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FFF89F6D-37E9-4F4B-BBB7-3E1D357CB3C5}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Singing" ID="{57E890AB-1AB3-42A3-A812-4773CA6C0469}">
+											<PropertyList>
+												<Property Name="CrossfadeShape" Type="int16" Value="0"/>
+												<Property Name="FadeInDuration" Type="Real64" Value="24.9904908333333"/>
+												<Property Name="FadeInShape" Type="int16" Value="9"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="25.7219198333333"/>
+												<Property Name="FadeOutShape" Type="int16" Value="0"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Cartoon Character Bad Singing Sound Effect.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="554384056"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Singing" ID="{57E890AB-1AB3-42A3-A812-4773CA6C0469}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="NPCOthers" ID="{396C6161-53D7-440E-8808-B059E7AA6B75}" ShortID="678889342">
+							<ChildrenList>
+								<Sound Name="Townsfolk_Female_Talk" ID="{357E5136-B4E2-490A-9780-FE15A8935FC5}" ShortID="342726701">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CA2A11F9-F9B6-45AB-B0AF-48C8E0FFA811}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FFF89F6D-37E9-4F4B-BBB7-3E1D357CB3C5}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="2024-03-19 06-03-14" ID="{C1C2419E-AB24-4BA2-B07C-E4E49C163AD5}">
+											<Language>SFX</Language>
+											<AudioFile>2024-03-19 06-03-14.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="63558391"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="2024-03-19 06-03-14" ID="{C1C2419E-AB24-4BA2-B07C-E4E49C163AD5}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Townsfolk_Male_Footsteps" ID="{343F3D03-FE36-4C85-8BF8-3DFC80D041E0}" ShortID="751021643">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CA2A11F9-F9B6-45AB-B0AF-48C8E0FFA811}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FFF89F6D-37E9-4F4B-BBB7-3E1D357CB3C5}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Walking sound effect" ID="{B64AE56D-FE4A-497B-979D-B83AEB5F36BA}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="4.3073125"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="4.3073125"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Walking sound effect.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="869178051"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Walking sound effect" ID="{B64AE56D-FE4A-497B-979D-B83AEB5F36BA}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Townsfolk_Male_Talk" ID="{CE12D693-38C9-4FCB-8D54-275EBBE1E522}" ShortID="191347137">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CA2A11F9-F9B6-45AB-B0AF-48C8E0FFA811}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FFF89F6D-37E9-4F4B-BBB7-3E1D357CB3C5}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="2024-03-19 06-04-00" ID="{575311D5-AFE3-4274-9622-08D95962F8AB}">
+											<Language>SFX</Language>
+											<AudioFile>2024-03-19 06-04-00.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1053401280"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="2024-03-19 06-04-00" ID="{575311D5-AFE3-4274-9622-08D95962F8AB}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Townsfolk_Female_Footsteps" ID="{EB785A91-4B1E-4766-B210-4AC2044131B5}" ShortID="1052081961">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CA2A11F9-F9B6-45AB-B0AF-48C8E0FFA811}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FFF89F6D-37E9-4F4B-BBB7-3E1D357CB3C5}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Walking sound effect" ID="{1C6F08E9-6748-4BAA-BFCF-AE9EC29BC449}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="4.3073125"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="4.3073125"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Walking sound effect.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="869178051"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Walking sound effect" ID="{1C6F08E9-6748-4BAA-BFCF-AE9EC29BC449}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="NPCPhoneix" ID="{82E2B0B9-1166-4FBB-99F3-AD52C92DAAA0}" ShortID="998740067">
+							<ChildrenList>
+								<Sound Name="NPC_Phoenix_Sneeze" ID="{2CBFCAA1-D471-49DC-AA1E-0E9E11FE26E1}" ShortID="107365110">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CA2A11F9-F9B6-45AB-B0AF-48C8E0FFA811}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FFF89F6D-37E9-4F4B-BBB7-3E1D357CB3C5}"/>
+										</Reference>
+									</ReferenceList>
+								</Sound>
+								<Sound Name="NPC_Phoenix_Nibble" ID="{88BAACDF-E37D-4826-9192-AD982DED8F82}" ShortID="247418266">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CA2A11F9-F9B6-45AB-B0AF-48C8E0FFA811}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FFF89F6D-37E9-4F4B-BBB7-3E1D357CB3C5}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="bite sound effect" ID="{3497659B-6BD6-4C75-8F36-75C6C29A55BA}">
+											<Language>SFX</Language>
+											<AudioFile>bite sound effect.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="799313110"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="bite sound effect" ID="{3497659B-6BD6-4C75-8F36-75C6C29A55BA}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="NPC_Phoenix_Flap" ID="{1F3C769E-8A58-459D-B2F7-25B64E98DD01}" ShortID="129666474">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CA2A11F9-F9B6-45AB-B0AF-48C8E0FFA811}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FFF89F6D-37E9-4F4B-BBB7-3E1D357CB3C5}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Flapping Wings - Sound Effect" ID="{FE999E8F-6822-4133-9F43-163D99D23D8B}">
+											<Language>SFX</Language>
+											<AudioFile>Flapping Wings - Sound Effect.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="511138320"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Flapping Wings - Sound Effect" ID="{FE999E8F-6822-4133-9F43-163D99D23D8B}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</Folder>
+					</ChildrenList>
+				</ActorMixer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

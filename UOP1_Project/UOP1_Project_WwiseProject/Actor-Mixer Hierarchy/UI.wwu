@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{F413FAE8-F2AD-45B7-811F-E11F3EFE5CE9}" SchemaVersion="119">
+	<AudioObjects>
+		<WorkUnit Name="UI" ID="{F413FAE8-F2AD-45B7-811F-E11F3EFE5CE9}" PersistMode="Standalone">
+			<ChildrenList>
+				<ActorMixer Name="UIingredients" ID="{93295D74-B2E0-47BC-ABB2-EE2803F94D45}" ShortID="684095326">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CA2A11F9-F9B6-45AB-B0AF-48C8E0FFA811}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FFF89F6D-37E9-4F4B-BBB7-3E1D357CB3C5}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="UI_Click" ID="{455C5483-FD1E-4224-96AA-EE5338F7B97A}" ShortID="177385436">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CA2A11F9-F9B6-45AB-B0AF-48C8E0FFA811}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FFF89F6D-37E9-4F4B-BBB7-3E1D357CB3C5}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Base ui click for all buttons in game2" ID="{11F29271-3386-400C-905A-2955BF285620}">
+									<PropertyList>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Base ui click for all buttons in game2.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="881298068"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Base ui click for all buttons in game2" ID="{11F29271-3386-400C-905A-2955BF285620}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="UI_Shuffle" ID="{733C8365-4550-4478-B75D-276DC4A2B369}" ShortID="409077748">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CA2A11F9-F9B6-45AB-B0AF-48C8E0FFA811}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FFF89F6D-37E9-4F4B-BBB7-3E1D357CB3C5}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Tab switch in the settings menu" ID="{EAA4CA8D-FE91-4E0C-A536-7E2395844B6F}">
+									<Language>SFX</Language>
+									<AudioFile>Tab switch in the settings menu.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="545849856"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Tab switch in the settings menu" ID="{EAA4CA8D-FE91-4E0C-A536-7E2395844B6F}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="UI_Use" ID="{3A256692-3EE0-4F98-976A-2E6C9E994ED3}" ShortID="633953871">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CA2A11F9-F9B6-45AB-B0AF-48C8E0FFA811}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FFF89F6D-37E9-4F4B-BBB7-3E1D357CB3C5}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Inventory" ID="{AD2D80EF-68A3-4892-8967-CE8A550FB7AA}">
+									<PropertyList>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.0344588333333333"/>
+										<Property Name="TrimEnd" Type="Real64" Value="0.191149"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>SFX： Opening Inventory.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="217842963"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Inventory" ID="{AD2D80EF-68A3-4892-8967-CE8A550FB7AA}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="AddToInventory" ID="{C5B8BC1F-6D74-4913-85C7-35A67A735EA0}" ShortID="404837498">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CA2A11F9-F9B6-45AB-B0AF-48C8E0FFA811}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FFF89F6D-37E9-4F4B-BBB7-3E1D357CB3C5}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Use a button in the Inventory" ID="{A3BE5640-D9F1-4322-B9A5-A8CC06235102}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.540484491044124"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.540484491044124"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.147902850589777"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Use a button in the Inventory.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="233919794"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Use a button in the Inventory" ID="{A3BE5640-D9F1-4322-B9A5-A8CC06235102}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</ActorMixer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

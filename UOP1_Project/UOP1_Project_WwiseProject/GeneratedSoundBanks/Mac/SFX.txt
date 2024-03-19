@@ -1,5 +1,61 @@
 Event	ID	Name			Wwise Object Path	Notes
-	1879932703	CaveReverb_Disable			\Ambience\Reverb\CaveReverb_Disable	
-	1940944140	CaveReverb_Enable			\Ambience\Reverb\CaveReverb_Enable	
+	65587878	Critter_Rock_GettingHit			\Creatures(Monsters)\Rock Monster\Critter_Rock_GettingHit	
+	317968752	Critter_Slime_Idle			\Creatures(Monsters)\Slime Monster\Critter_Slime_Idle	
+	519524256	npcaaaaaa			\NPC\NPCHare\npcaaaaaa	
+	546421005	Critter_Rock_Death			\Creatures(Monsters)\Rock Monster\Critter_Rock_Death	
+	816303795	Player_Grab			\Player\PlayerAction\Player_Grab	
+	1059927973	Critter_Slime_GettingHit			\Creatures(Monsters)\Slime Monster\Critter_Slime_GettingHit	
+	1385124624	npcaaaaaa_07			\NPC\NPCOthers\npcaaaaaa_07	
+	1385124625	npcaaaaaa_06			\NPC\NPCPhoneix\npcaaaaaa_06	
+	1385124626	npcaaaaaa_05			\NPC\NPCOthers\npcaaaaaa_05	
+	1385124627	npcaaaaaa_04			\NPC\NPCOthers\npcaaaaaa_04	
+	1385124628	npcaaaaaa_03			\NPC\NPCPhoneix\npcaaaaaa_03	
+	1385124629	npcaaaaaa_02			\NPC\NPCPhoneix\npcaaaaaa_02	
+	1385124630	npcaaaaaa_01			\NPC\NPCHare\npcaaaaaa_01	
+	1385124639	npcaaaaaa_08			\NPC\NPCOthers\npcaaaaaa_08	
+	1421862017	Critter_Slime_Move			\Creatures(Monsters)\Slime Monster\Critter_Slime_Move	
+	1542330065	Player_Die			\Player\PlayerAction\Player_Die	
+	1615767906	Music_Main			\Music\Music_Main	
+	1822764980	Critter_Plant_GettingHit			\Creatures(Monsters)\Plant Monster\Critter_Plant_GettingHit	
+	1824690809	Amb_BoilingWater			\Ambient (Points)(3D)\Main\Amb_BoilingWater	
+	1863277117	Rocks			\Player\PlayerFootsteps\Rocks	
+	1879932703	CaveReverb_Disable			\Ambient (Base)(2D)\Reverb\CaveReverb_Disable	
+	1901333966	Critter_Rock_Move			\Creatures(Monsters)\Rock Monster\Critter_Rock_Move	
+	1940944140	CaveReverb_Enable			\Ambient (Base)(2D)\Reverb\CaveReverb_Enable	
+	1969612259	Critter_Plant_Attack			\Creatures(Monsters)\Plant Monster\Critter_Plant_Attack	
+	2060690880	Player_Water_Splash			\Player\PlayerAction\Player_Water_Splash	
+	2179654399	Pause_Menu_Off			\Music\Pause_Menu_Off	
+	2265192688	Waterplane			\Player\PlayerFootsteps\Waterplane	
+	2385628198	Footsteps			\Player\PlayerFootsteps\Footsteps	
+	2565812264	Amb_torch			\Ambient (Points)(3D)\Main\Amb_torch	
+	2644861617	Amb_Trees			\Ambient (Points)(3D)\Main\Amb_Trees	
+	2675089675	Player_Talk			\Player\PlayerAction\Player_Talk	
+	2770205059	Critter_Rock_Idle			\Creatures(Monsters)\Rock Monster\Critter_Rock_Idle	
+	2824512041	Player_Attack			\Player\PlayerAction\Player_Attack	
+	2891098061	Critter_Plant_Idle			\Creatures(Monsters)\Plant Monster\Critter_Plant_Idle	
+	2910694179	Critter_Plant_Death			\Creatures(Monsters)\Plant Monster\Critter_Plant_Death	
+	2967641625	Critter_Rock_Attack			\Creatures(Monsters)\Rock Monster\Critter_Rock_Attack	
 	3170972326	Scene_Change			\Control\Scene_Change	
+	3207324726	Amb_Fire			\Ambient (Points)(3D)\Main\Amb_Fire	
+	3483621035	Pause_Menu_On			\Music\Pause_Menu_On	
+	3484321931	Player_Heartbeat			\Player\PlayerAction\Player_Heartbeat	
+	3635877684	Amb_Ocean			\Ambient (Points)(3D)\Main\Amb_Ocean	
+	3755979049	Amb_Cave			\Ambient (Points)(3D)\Main\Amb_Cave	
+	3907341830	Critter_Slime_Attack			\Creatures(Monsters)\Slime Monster\Critter_Slime_Attack	
+	3934772412	Critter_Slime_Death			\Creatures(Monsters)\Slime Monster\Critter_Slime_Death	
+	3945457670	Player_GetHit			\Player\PlayerAction\Player_GetHit	
+	3991942870	Music			\Music\Music	
+	4075332698	Beach			\Player\PlayerFootsteps\Beach	
+	4248645337	Grass			\Player\PlayerFootsteps\Grass	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	76588437	Player_Attack	C:\Users\cagka\Documents\GitHub\Cagdas_Karatas_EEKAudio\UOP1_Project\UOP1_Project_WwiseProject\.cache\Mac\SFX\Player attacks somebody with his weapon_EF1A7AD2.wem		\Actor-Mixer Hierarchy\Player\Playeringredients\Playeractions\Player_Attack		104500
+	114639328	Amb_Fire	C:\Users\cagka\Documents\GitHub\Cagdas_Karatas_EEKAudio\UOP1_Project\UOP1_Project_WwiseProject\.cache\Mac\SFX\Sound of fire under the pot in the Beach & Field Farm Scenes_1E637183.wem		\Actor-Mixer Hierarchy\Ambient (Points)(3D)\Main\Amb_Fire		3160982
+	296239010	Player_Talk	C:\Users\cagka\Documents\GitHub\Cagdas_Karatas_EEKAudio\UOP1_Project\UOP1_Project_WwiseProject\.cache\Mac\SFX\Player talks with NPC_C6DB7424.wem		\Actor-Mixer Hierarchy\Player\Playeringredients\Playeractions\Player_Talk		430316
+	327875454	Player_Die	C:\Users\cagka\Documents\GitHub\Cagdas_Karatas_EEKAudio\UOP1_Project\UOP1_Project_WwiseProject\.cache\Mac\SFX\Player character's Death_1CEE5259.wem		\Actor-Mixer Hierarchy\Player\Playeringredients\Playeractions\Player_Die		235808
+	337225054	Amb_Cave	C:\Users\cagka\Documents\GitHub\Cagdas_Karatas_EEKAudio\UOP1_Project\UOP1_Project_WwiseProject\.cache\Mac\SFX\Cave ambience_818F3B66.wem		\Actor-Mixer Hierarchy\Ambient (Points)(3D)\Main\Amb_Cave		8224864
+	403662223	Amb_BoilingWater	C:\Users\cagka\Documents\GitHub\Cagdas_Karatas_EEKAudio\UOP1_Project\UOP1_Project_WwiseProject\.cache\Mac\SFX\Sound of boiling water in the pot in the Beach & Field Farm Scenes_818F3B66.wem		\Actor-Mixer Hierarchy\Ambient (Points)(3D)\Main\Amb_BoilingWater		348256
+	442237041	Player_Heartbeat	C:\Users\cagka\Documents\GitHub\Cagdas_Karatas_EEKAudio\UOP1_Project\UOP1_Project_WwiseProject\.cache\Mac\SFX\Heartbeat Sound Effect!_0FD058C7.wem		\Actor-Mixer Hierarchy\Player\Playeringredients\Playeractions\Player_Heartbeat		865816
+	913657827	Player_Grab	C:\Users\cagka\Documents\GitHub\Cagdas_Karatas_EEKAudio\UOP1_Project\UOP1_Project_WwiseProject\.cache\Mac\SFX\Grabbing Loot_68A8826A.wem		\Actor-Mixer Hierarchy\Player\Playeringredients\Playeractions\Player_Grab		18164
+	973250072	Player_GetHit	C:\Users\cagka\Documents\GitHub\Cagdas_Karatas_EEKAudio\UOP1_Project\UOP1_Project_WwiseProject\.cache\Mac\SFX\Player getting hit by Creatures_DF9032E9.wem		\Actor-Mixer Hierarchy\Player\Playeringredients\Playeractions\Player_GetHit		116542
 

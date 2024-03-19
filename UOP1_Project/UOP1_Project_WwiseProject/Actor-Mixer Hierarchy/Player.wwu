@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{BB27B640-3822-49B7-B9D8-D8EF3702B6BB}" SchemaVersion="119">
+	<AudioObjects>
+		<WorkUnit Name="Player" ID="{BB27B640-3822-49B7-B9D8-D8EF3702B6BB}" PersistMode="Standalone">
+			<ChildrenList>
+				<ActorMixer Name="Playeringredients" ID="{47C65981-3E6E-4B28-9858-16D629993607}" ShortID="754138251">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CA2A11F9-F9B6-45AB-B0AF-48C8E0FFA811}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FFF89F6D-37E9-4F4B-BBB7-3E1D357CB3C5}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<RandomSequenceContainer Name="Playeractions" ID="{B69ACD64-5562-4B05-AE80-379762D8E79D}" ShortID="522493645">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CA2A11F9-F9B6-45AB-B0AF-48C8E0FFA811}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FFF89F6D-37E9-4F4B-BBB7-3E1D357CB3C5}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Player_Attack" ID="{C71A6B4B-E5C3-4FE6-ADCC-FCB8EB362363}" ShortID="952190816">
+									<PropertyList>
+										<Property Name="Weight" Type="Real64">
+											<ValueList>
+												<Value>15</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CA2A11F9-F9B6-45AB-B0AF-48C8E0FFA811}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FFF89F6D-37E9-4F4B-BBB7-3E1D357CB3C5}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Player attacks somebody with his weapon" ID="{3E44C393-6D7E-4EDA-9904-877117CF2036}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.568051996683339"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.568051996683339"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.197628290285096"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Player attacks somebody with his weapon.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="76588437"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Player attacks somebody with his weapon" ID="{3E44C393-6D7E-4EDA-9904-877117CF2036}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Player_Talk" ID="{AA899D7F-B0ED-457E-B76D-3E79A8175457}" ShortID="305025082">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CA2A11F9-F9B6-45AB-B0AF-48C8E0FFA811}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FFF89F6D-37E9-4F4B-BBB7-3E1D357CB3C5}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Player talks with NPC" ID="{AD96B54E-46FF-4204-AC31-F35BDEF76552}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="1.61520451070336"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="2.70767010703365"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Player talks with NPC.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="296239010"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Player talks with NPC" ID="{AD96B54E-46FF-4204-AC31-F35BDEF76552}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Player_Grab" ID="{F9D682A4-473D-4D6D-81E2-6A61C42F4C18}" ShortID="854498093">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CA2A11F9-F9B6-45AB-B0AF-48C8E0FFA811}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FFF89F6D-37E9-4F4B-BBB7-3E1D357CB3C5}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Grabbing Loot" ID="{863323E6-AE7E-44BA-A819-2AEDC9807B39}">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.161575688073395"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.00532667103538663"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.193535714285714"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Grabbing Loot.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="913657827"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Grabbing Loot" ID="{863323E6-AE7E-44BA-A819-2AEDC9807B39}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Player_Die" ID="{8A480EBD-3B2F-4930-A243-D80C7BC78E93}" ShortID="980277641">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CA2A11F9-F9B6-45AB-B0AF-48C8E0FFA811}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FFF89F6D-37E9-4F4B-BBB7-3E1D357CB3C5}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Player character's Death" ID="{64CCB243-03E0-4C29-99F1-C7DC34BBFF78}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="2.422750327654"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="2.422750327654"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.307823285277414"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Player character's Death.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="327875454"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Player character's Death" ID="{64CCB243-03E0-4C29-99F1-C7DC34BBFF78}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Player_GetHit" ID="{3A0BC4E3-3C09-4109-B0DF-B27FD4A17AD2}" ShortID="493672232">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CA2A11F9-F9B6-45AB-B0AF-48C8E0FFA811}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FFF89F6D-37E9-4F4B-BBB7-3E1D357CB3C5}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Player getting hit by Creatures" ID="{BCA29634-7BF2-4102-9A75-7422930B6949}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="1.21298318042813"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="1.21298318042813"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.598183486238532"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Player getting hit by Creatures.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="973250072"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Player getting hit by Creatures" ID="{BCA29634-7BF2-4102-9A75-7422930B6949}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Player_Heartbeat" ID="{F988A01C-3DF3-41BB-88AD-5AF820AF98A1}" ShortID="104734829">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CA2A11F9-F9B6-45AB-B0AF-48C8E0FFA811}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FFF89F6D-37E9-4F4B-BBB7-3E1D357CB3C5}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Heartbeat Sound Effect!" ID="{BF3B2389-7610-4F00-ACCA-C2C397EF3348}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="1.7768631498471"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="2.52501605504587"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.0601194298820445"/>
+												<Property Name="TrimEnd" Type="Real64" Value="4.56907667103539"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Heartbeat Sound Effect!.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="442237041"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Heartbeat Sound Effect!" ID="{BF3B2389-7610-4F00-ACCA-C2C397EF3348}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Player_Water_Splash" ID="{6732F6AB-DCC2-4571-AE3A-FC66F2D85043}" ShortID="358848610">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CA2A11F9-F9B6-45AB-B0AF-48C8E0FFA811}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FFF89F6D-37E9-4F4B-BBB7-3E1D357CB3C5}"/>
+										</Reference>
+									</ReferenceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Playerfootsteps" ID="{3583B460-3569-490A-A284-A5A17114019D}" ShortID="20088484">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CA2A11F9-F9B6-45AB-B0AF-48C8E0FFA811}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FFF89F6D-37E9-4F4B-BBB7-3E1D357CB3C5}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Footsteps" ID="{A2130621-4A21-4E72-B8EE-1B4CACF1BBBE}" ShortID="642800436">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CA2A11F9-F9B6-45AB-B0AF-48C8E0FFA811}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FFF89F6D-37E9-4F4B-BBB7-3E1D357CB3C5}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Walking sound effect" ID="{6B3D2073-A2AE-4A24-BC6D-12505C809C36}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.476675916666665"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.430731249999998"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.476675916666665"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Walking sound effect.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="653628138"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Walking sound effect" ID="{6B3D2073-A2AE-4A24-BC6D-12505C809C36}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Grass" ID="{5DF5CF4B-F29D-474E-AB9D-045D417ACC79}" ShortID="726365166">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CA2A11F9-F9B6-45AB-B0AF-48C8E0FFA811}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FFF89F6D-37E9-4F4B-BBB7-3E1D357CB3C5}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Footsteps  grass (Field Scene)" ID="{0C68557F-9E7F-42FB-BD93-FA98E7C19946}">
+											<Language>SFX</Language>
+											<AudioFile>Footsteps  grass (Field Scene).wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="626669347"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Footsteps  grass (Field Scene)" ID="{0C68557F-9E7F-42FB-BD93-FA98E7C19946}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Beach" ID="{A7BD32E8-F396-4FBC-B024-E9C0D5ED98F2}" ShortID="206541589">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CA2A11F9-F9B6-45AB-B0AF-48C8E0FFA811}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FFF89F6D-37E9-4F4B-BBB7-3E1D357CB3C5}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Footsteps  beach (Beach Scene)" ID="{86934A2B-0958-494E-A872-36F007E2DE1D}">
+											<PropertyList>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.43968861948449"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Footsteps  beach (Beach Scene).wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="647320324"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Footsteps  beach (Beach Scene)" ID="{86934A2B-0958-494E-A872-36F007E2DE1D}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Rocks" ID="{51165106-DA82-456D-BDEA-02C353F197B5}" ShortID="688319966">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CA2A11F9-F9B6-45AB-B0AF-48C8E0FFA811}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FFF89F6D-37E9-4F4B-BBB7-3E1D357CB3C5}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Footsteps  rocks (All stones in game)" ID="{9BADBF66-2F40-43AA-9DDA-5D34C0070042}">
+											<Language>SFX</Language>
+											<AudioFile>Footsteps  rocks (All stones in game).wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="527445594"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Footsteps  rocks (All stones in game)" ID="{9BADBF66-2F40-43AA-9DDA-5D34C0070042}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Waterplane" ID="{D1382165-C0F7-41F4-8DE7-3DBF14FB0892}" ShortID="955479597">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CA2A11F9-F9B6-45AB-B0AF-48C8E0FFA811}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FFF89F6D-37E9-4F4B-BBB7-3E1D357CB3C5}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Footsteps  water plane (appears sometimes)" ID="{E78C5272-25D4-4502-83E7-6645ED019961}">
+											<Language>SFX</Language>
+											<AudioFile>Footsteps  water plane (appears sometimes).wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="733032371"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Footsteps  water plane (appears sometimes)" ID="{E78C5272-25D4-4502-83E7-6645ED019961}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+					</ChildrenList>
+				</ActorMixer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

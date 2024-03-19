@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{4A433657-2B44-4DE5-B57D-C20E791EEDF7}" SchemaVersion="119">
+	<Events>
+		<WorkUnit Name="Creatures(Monsters)" ID="{4A433657-2B44-4DE5-B57D-C20E791EEDF7}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="Plant Monster" ID="{AEF272F8-2216-4C42-A73B-234AC4DBCE27}" ShortID="457653605">
+					<Comment>0</Comment>
+					<ChildrenList>
+						<Event Name="Critter_Plant_Idle" ID="{E9E0994C-CFD9-4A32-BDA2-186EE2C0C7AA}">
+							<ChildrenList>
+								<Action Name="" ID="{12E4FFB2-B28C-4311-B031-064370DCE6F9}" ShortID="777654448">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Critter_Plant_Idle" ID="{EE1AEC40-63A4-497A-8061-FA9797ED4980}" WorkUnitID="{77850EB1-8E96-4B4B-BE30-37FBF70BFBD9}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Critter_Plant_Attack" ID="{0AB5776A-EA33-4204-BAE6-0709EE38769F}">
+							<ChildrenList>
+								<Action Name="" ID="{8DBED657-E8CE-4D29-B7EE-6E3B6370484D}" ShortID="976189051">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Critter_Plant_Attack" ID="{5B242968-2A96-4D56-92F1-EC646F528D12}" WorkUnitID="{77850EB1-8E96-4B4B-BE30-37FBF70BFBD9}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Critter_Plant_GettingHit" ID="{04514875-35A1-4F1A-81F7-49CB6B47CE82}">
+							<ChildrenList>
+								<Action Name="" ID="{54546F5E-44CD-4F6C-AB76-22DC4AE093D0}" ShortID="276621778">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Critter_Plant_GettingHit" ID="{1E4FB459-CFAA-45EC-9A9C-39EBCE00203E}" WorkUnitID="{77850EB1-8E96-4B4B-BE30-37FBF70BFBD9}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Critter_Plant_Death" ID="{4D9F6C25-0F18-4A4C-8142-3174898B2F43}">
+							<ChildrenList>
+								<Action Name="" ID="{4E3FFC7D-85EC-48F2-A37E-66E739E4F9DA}" ShortID="878743439">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Critter_Plant_Death" ID="{3AB66E2F-1179-4F36-8F66-4A82E3DEB9C2}" WorkUnitID="{77850EB1-8E96-4B4B-BE30-37FBF70BFBD9}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Slime Monster" ID="{1B372461-3FC2-4503-B26E-7CCF69072E2D}" ShortID="964775112">
+					<Comment>idle ekle</Comment>
+					<ChildrenList>
+						<Event Name="Critter_Slime_Idle" ID="{8F716485-570B-45AA-990E-B25AAEC7CBCD}"/>
+						<Event Name="Critter_Slime_Attack" ID="{888C3EEC-1CC9-4D9D-99FA-C6DB409EFFE1}">
+							<ChildrenList>
+								<Action Name="" ID="{B15F3135-3FE4-45BC-9FC1-C152CDED9647}" ShortID="750060361">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Critter_Slime_Attack" ID="{2AD96581-87CA-49F0-94C7-E9B54CE3F469}" WorkUnitID="{77850EB1-8E96-4B4B-BE30-37FBF70BFBD9}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Critter_Slime_GettingHit" ID="{C1C7D3A5-3977-4E71-BCCD-6CDE21DA8CF7}">
+							<ChildrenList>
+								<Action Name="" ID="{B723B7B5-89DD-44B7-8D68-592500E0FDCE}" ShortID="924086806">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Critter_Slime_GettingHit" ID="{B265DF76-C602-4430-B8D2-2DF7E70A4B3E}" WorkUnitID="{77850EB1-8E96-4B4B-BE30-37FBF70BFBD9}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Critter_Slime_Death" ID="{9B3A13D6-D8DA-4F4A-BCF8-50CF7252822A}">
+							<ChildrenList>
+								<Action Name="" ID="{6A30D53B-3267-4B84-886B-6E9D782C172D}" ShortID="346648755">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Critter_Slime_Death" ID="{AC0C2A8A-BEE9-4717-9636-3500251EFB40}" WorkUnitID="{77850EB1-8E96-4B4B-BE30-37FBF70BFBD9}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Critter_Slime_Move" ID="{8C5D801E-FAAA-47BE-87AB-578722E21E5C}">
+							<ChildrenList>
+								<Action Name="" ID="{CC4571C1-F5DC-42BE-8E42-E84C7E5323D7}" ShortID="890222628">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Critter_Slime_Move" ID="{CBB06BC6-D772-49B4-A33A-9B01203396D7}" WorkUnitID="{77850EB1-8E96-4B4B-BE30-37FBF70BFBD9}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Rock Monster" ID="{0543ABD6-02B3-4C1B-A1CD-8FCA73DFF171}" ShortID="349002967">
+					<Comment>0</Comment>
+					<ChildrenList>
+						<Event Name="Critter_Rock_Idle" ID="{BA3E47DD-D0CB-4B68-B506-FC479F38637E}">
+							<ChildrenList>
+								<Action Name="" ID="{460E12B6-8294-46E0-A821-A076E99814FF}" ShortID="819740146">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Critter_Rock_Idle" ID="{6286C81A-97A4-4B11-B9B1-09F969FCF4C9}" WorkUnitID="{77850EB1-8E96-4B4B-BE30-37FBF70BFBD9}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Critter_Rock_Attack" ID="{2D54819C-1F71-4222-BA22-056D64D7E13D}">
+							<ChildrenList>
+								<Action Name="" ID="{FCD11E40-C9CD-4E8F-8BA4-4D65B44D6214}" ShortID="177666412">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Critter_Rock_Attack" ID="{52741CB2-79A6-41FD-818B-99C4DE7652FF}" WorkUnitID="{77850EB1-8E96-4B4B-BE30-37FBF70BFBD9}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Critter_Rock_GettingHit" ID="{C3429843-A1C4-4425-B050-4CA4E665E7AE}">
+							<ChildrenList>
+								<Action Name="" ID="{86354C16-E65A-4B90-BF67-B6CFE05AE7D3}" ShortID="426322345">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Critter_Rock_GettingHit" ID="{8FB9567D-BF19-4DA4-B2E4-5EC233F3C187}" WorkUnitID="{77850EB1-8E96-4B4B-BE30-37FBF70BFBD9}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Critter_Rock_Death" ID="{41AA3134-D9F0-49AD-8215-07B0AC29BCAB}">
+							<ChildrenList>
+								<Action Name="" ID="{68735F5E-77D3-40E3-83F1-B5BC91F53381}" ShortID="178749099">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Critter_Rock_Death" ID="{F188AFF0-E785-461D-AB74-4B968F755611}" WorkUnitID="{77850EB1-8E96-4B4B-BE30-37FBF70BFBD9}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Critter_Rock_Move" ID="{E0CE8149-C52E-499F-8966-219A965EA303}">
+							<ChildrenList>
+								<Action Name="" ID="{15E68087-016C-453D-93D6-04253EE4D26A}" ShortID="670816066">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Critter_Rock_Move" ID="{E9975A4C-6F68-443E-B6BC-54EAEBBBF49A}" WorkUnitID="{77850EB1-8E96-4B4B-BE30-37FBF70BFBD9}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

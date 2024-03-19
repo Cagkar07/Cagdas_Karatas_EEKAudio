@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{768CE607-81D0-4279-AA7A-F676E48DEC95}" SchemaVersion="119">
+	<Events>
+		<WorkUnit Name="UI" ID="{768CE607-81D0-4279-AA7A-F676E48DEC95}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="UIingredients" ID="{30DEBA77-24E4-41D8-AB2E-5D080BEF53F0}" ShortID="590150932">
+					<ChildrenList>
+						<Event Name="UI_Use" ID="{1B095AEC-5F86-4FC2-9C5C-5204354BF3C6}">
+							<ChildrenList>
+								<Action Name="" ID="{D92DCF7B-F2F6-441B-AE6B-106EA8029BF4}" ShortID="922269204">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="UI_Use" ID="{3A256692-3EE0-4F98-976A-2E6C9E994ED3}" WorkUnitID="{F413FAE8-F2AD-45B7-811F-E11F3EFE5CE9}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="UI_Shuffle" ID="{DBAEBF6C-EE94-46F9-B2C4-31FD8EE55DF3}">
+							<ChildrenList>
+								<Action Name="" ID="{B67AD77E-EA77-4197-B471-84084E9AD71B}" ShortID="297374289">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="UI_Shuffle" ID="{733C8365-4550-4478-B75D-276DC4A2B369}" WorkUnitID="{F413FAE8-F2AD-45B7-811F-E11F3EFE5CE9}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="AddToInventory" ID="{7C5F0C0A-D599-4BA7-9AA2-9E2726522F9B}">
+							<ChildrenList>
+								<Action Name="" ID="{1B855CFC-27BA-44C2-A55B-199ADB8C75B2}" ShortID="165311054">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="AddToInventory" ID="{C5B8BC1F-6D74-4913-85C7-35A67A735EA0}" WorkUnitID="{F413FAE8-F2AD-45B7-811F-E11F3EFE5CE9}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="UI_Click" ID="{56F9BDEA-1E2C-4C45-A302-DE9A83E21E4E}">
+							<ChildrenList>
+								<Action Name="" ID="{9C8F2FB4-B38F-402B-8164-B2800997279F}" ShortID="643438798">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="UI_Click" ID="{455C5483-FD1E-4224-96AA-EE5338F7B97A}" WorkUnitID="{F413FAE8-F2AD-45B7-811F-E11F3EFE5CE9}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

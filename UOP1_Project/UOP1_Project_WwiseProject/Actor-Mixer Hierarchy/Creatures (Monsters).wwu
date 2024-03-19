@@ -1,0 +1,414 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{77850EB1-8E96-4B4B-BE30-37FBF70BFBD9}" SchemaVersion="119">
+	<AudioObjects>
+		<WorkUnit Name="Creatures (Monsters)" ID="{77850EB1-8E96-4B4B-BE30-37FBF70BFBD9}" PersistMode="Standalone">
+			<ChildrenList>
+				<ActorMixer Name="Plant Moster" ID="{B0D1AC15-9E41-4424-BE1C-B59CDF9D7AFB}" ShortID="41440285">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CA2A11F9-F9B6-45AB-B0AF-48C8E0FFA811}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FFF89F6D-37E9-4F4B-BBB7-3E1D357CB3C5}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Critter_Plant_Idle" ID="{EE1AEC40-63A4-497A-8061-FA9797ED4980}" ShortID="118934627">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CA2A11F9-F9B6-45AB-B0AF-48C8E0FFA811}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FFF89F6D-37E9-4F4B-BBB7-3E1D357CB3C5}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Critter" ID="{B37F4AAC-12EB-415B-94BE-02F4D0B74388}">
+									<PropertyList>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="33.0476404444444"/>
+										<Property Name="TrimEnd" Type="Real64" Value="34.8729461666667"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Critter.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="376116721"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Critter" ID="{B37F4AAC-12EB-415B-94BE-02F4D0B74388}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Critter_Plant_Attack" ID="{5B242968-2A96-4D56-92F1-EC646F528D12}" ShortID="819849342">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CA2A11F9-F9B6-45AB-B0AF-48C8E0FFA811}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FFF89F6D-37E9-4F4B-BBB7-3E1D357CB3C5}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Critter" ID="{8CA2661F-2E27-4840-AA61-F7B39F6C61F1}">
+									<PropertyList>
+										<Property Name="FadeOutDuration" Type="Real64" Value="1.58513391666665"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="2.54582113888889"/>
+										<Property Name="TrimEnd" Type="Real64" Value="4.13095505555554"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Critter.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="741242693"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Critter" ID="{8CA2661F-2E27-4840-AA61-F7B39F6C61F1}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Critter_Plant_GettingHit" ID="{1E4FB459-CFAA-45EC-9A9C-39EBCE00203E}" ShortID="890878304">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CA2A11F9-F9B6-45AB-B0AF-48C8E0FFA811}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FFF89F6D-37E9-4F4B-BBB7-3E1D357CB3C5}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Critter" ID="{57B3F536-FBE6-46EB-BB43-844076BC5DC2}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="3.45847399999998"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="3.45847399999998"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="26.2747955277778"/>
+										<Property Name="TrimEnd" Type="Real64" Value="29.7332695277778"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Critter.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="183560015"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Critter" ID="{57B3F536-FBE6-46EB-BB43-844076BC5DC2}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Critter_Plant_Death" ID="{3AB66E2F-1179-4F36-8F66-4A82E3DEB9C2}" ShortID="114820406">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CA2A11F9-F9B6-45AB-B0AF-48C8E0FFA811}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FFF89F6D-37E9-4F4B-BBB7-3E1D357CB3C5}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Critter" ID="{4A75813B-40C8-4333-A8D5-71BCB8B1EB65}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="2.54582113888892"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="2.54582113888892"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="29.82933825"/>
+										<Property Name="TrimEnd" Type="Real64" Value="32.3751593888889"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Critter.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="152861985"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Critter" ID="{4A75813B-40C8-4333-A8D5-71BCB8B1EB65}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</ActorMixer>
+				<ActorMixer Name="Slime Monster" ID="{8EB356B7-381A-483C-B0F1-BF24979261E9}" ShortID="1022429341">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CA2A11F9-F9B6-45AB-B0AF-48C8E0FFA811}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FFF89F6D-37E9-4F4B-BBB7-3E1D357CB3C5}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Critter_Slime_Idle" ID="{27CDBAB0-F65A-426F-A88E-F2E15C823B6A}" ShortID="531542874">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CA2A11F9-F9B6-45AB-B0AF-48C8E0FFA811}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FFF89F6D-37E9-4F4B-BBB7-3E1D357CB3C5}"/>
+								</Reference>
+							</ReferenceList>
+						</Sound>
+						<Sound Name="Critter_Slime_Death" ID="{AC0C2A8A-BEE9-4717-9636-3500251EFB40}" ShortID="816461782">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CA2A11F9-F9B6-45AB-B0AF-48C8E0FFA811}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FFF89F6D-37E9-4F4B-BBB7-3E1D357CB3C5}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Critter_Slime_Death" ID="{2273F114-24EF-41E2-B216-6706AA4FE970}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="3.01859410430839"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="3.01859410430839"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Critter_Slime_Death.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="108433828"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Critter_Slime_Death" ID="{2273F114-24EF-41E2-B216-6706AA4FE970}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Critter_Slime_GettingHit" ID="{B265DF76-C602-4430-B8D2-2DF7E70A4B3E}" ShortID="266242966">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CA2A11F9-F9B6-45AB-B0AF-48C8E0FFA811}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FFF89F6D-37E9-4F4B-BBB7-3E1D357CB3C5}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Critter_Slime_GettingHit" ID="{2A9E0491-FF51-42D7-ABA0-3D4549F024E6}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="1.13777083333333"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="1.13777083333333"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Critter_Slime_GettingHit.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="637780947"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Critter_Slime_GettingHit" ID="{2A9E0491-FF51-42D7-ABA0-3D4549F024E6}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Critter_Slime_Attack" ID="{2AD96581-87CA-49F0-94C7-E9B54CE3F469}" ShortID="499770215">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CA2A11F9-F9B6-45AB-B0AF-48C8E0FFA811}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FFF89F6D-37E9-4F4B-BBB7-3E1D357CB3C5}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Critter_Slime_Attack" ID="{0CEAE8DD-0F23-40B6-A86C-9A50C4B9A916}">
+									<Language>SFX</Language>
+									<AudioFile>Critter_Slime_Attack.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="110159553"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Critter_Slime_Attack" ID="{0CEAE8DD-0F23-40B6-A86C-9A50C4B9A916}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Critter_Slime_Move" ID="{CBB06BC6-D772-49B4-A33A-9B01203396D7}" ShortID="264457887">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CA2A11F9-F9B6-45AB-B0AF-48C8E0FFA811}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FFF89F6D-37E9-4F4B-BBB7-3E1D357CB3C5}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Critter_Slime_Move" ID="{21E07018-CD14-4C30-BB30-0A18BCD5EBE5}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.606444111111111"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimEnd" Type="Real64" Value="0.622883861111111"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Critter_Slime_Move.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="970792628"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Critter_Slime_Move" ID="{21E07018-CD14-4C30-BB30-0A18BCD5EBE5}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</ActorMixer>
+				<ActorMixer Name="Rock Monster" ID="{1F539D3F-480D-4551-8E13-BD45B98A8A3D}" ShortID="541545548">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CA2A11F9-F9B6-45AB-B0AF-48C8E0FFA811}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FFF89F6D-37E9-4F4B-BBB7-3E1D357CB3C5}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Critter_Rock_Death" ID="{F188AFF0-E785-461D-AB74-4B968F755611}" ShortID="85132234">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CA2A11F9-F9B6-45AB-B0AF-48C8E0FFA811}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FFF89F6D-37E9-4F4B-BBB7-3E1D357CB3C5}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="roar" ID="{87B846AD-A23D-4791-9432-879519056820}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.43607125"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="2.31602286111111"/>
+										<Property Name="TrimEnd" Type="Real64" Value="4.31226013888889"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Optimus primal (ROTB) roar sound effect.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="534270782"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="roar" ID="{87B846AD-A23D-4791-9432-879519056820}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Critter_Rock_GettingHit" ID="{8FB9567D-BF19-4DA4-B2E4-5EC233F3C187}" ShortID="914716839">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CA2A11F9-F9B6-45AB-B0AF-48C8E0FFA811}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FFF89F6D-37E9-4F4B-BBB7-3E1D357CB3C5}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="roar" ID="{06B8E54C-5367-4BA7-A7C7-7E8F398CCB4F}">
+									<PropertyList>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="1.67645169444444"/>
+										<Property Name="TrimEnd" Type="Real64" Value="2.98466544444444"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Optimus primal (ROTB) roar sound effect.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="947053312"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="roar" ID="{06B8E54C-5367-4BA7-A7C7-7E8F398CCB4F}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Critter_Rock_Idle" ID="{6286C81A-97A4-4B11-B9B1-09F969FCF4C9}" ShortID="900103239">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CA2A11F9-F9B6-45AB-B0AF-48C8E0FFA811}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FFF89F6D-37E9-4F4B-BBB7-3E1D357CB3C5}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Optimus primal (ROTB) roar sound effect" ID="{D153A119-E7B1-421B-8D25-99CB8F155044}">
+									<Language>SFX</Language>
+									<AudioFile>Optimus primal (ROTB) roar sound effect.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="903708450"/>
+									</MediaIDList>
+								</AudioFileSource>
+								<AudioFileSource Name="Stone breaking" ID="{657032DB-78F7-4871-8CB9-9ED2FE6F46AB}">
+									<PropertyList>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="1.79560486111111"/>
+										<Property Name="TrimEnd" Type="Real64" Value="2.38678680555555"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Stone breaking sound effect  (no copyright).wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="410686793"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Stone breaking" ID="{657032DB-78F7-4871-8CB9-9ED2FE6F46AB}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Critter_Rock_Move" ID="{E9975A4C-6F68-443E-B6BC-54EAEBBBF49A}" ShortID="1034432218">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CA2A11F9-F9B6-45AB-B0AF-48C8E0FFA811}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FFF89F6D-37E9-4F4B-BBB7-3E1D357CB3C5}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Stone breaking" ID="{EFB5E14F-5499-46FE-A1CD-8A84FCF3D803}">
+									<PropertyList>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.392650694444445"/>
+										<Property Name="TrimEnd" Type="Real64" Value="0.816184027777778"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Stone breaking sound effect  (no copyright).wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="33873927"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Stone breaking" ID="{EFB5E14F-5499-46FE-A1CD-8A84FCF3D803}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Critter_Rock_Attack" ID="{52741CB2-79A6-41FD-818B-99C4DE7652FF}" ShortID="301109571">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CA2A11F9-F9B6-45AB-B0AF-48C8E0FFA811}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FFF89F6D-37E9-4F4B-BBB7-3E1D357CB3C5}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Rock" ID="{CABEDF51-A586-4771-8D80-AC4981B06045}">
+									<PropertyList>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.388238888888889"/>
+										<Property Name="TrimEnd" Type="Real64" Value="1.00589166666667"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Stone breaking sound effect  (no copyright).wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="735108681"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Rock" ID="{CABEDF51-A586-4771-8D80-AC4981B06045}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</ActorMixer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

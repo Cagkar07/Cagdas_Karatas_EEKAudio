@@ -1,5 +1,9 @@
 Event	ID	Name			Wwise Object Path	Notes
+	1615767906	Music_Main			\Music\Music_Main	
 	2179654399	Pause_Menu_Off			\Music\Pause_Menu_Off	
 	3483621035	Pause_Menu_On			\Music\Pause_Menu_On	
 	3991942870	Music			\Music\Music	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	1053085023	Music_Main	C:\Users\cagka\Documents\GitHub\Cagdas_Karatas_EEKAudio\UOP1_Project\UOP1_Project_WwiseProject\.cache\Windows\SFX\background music chop chop_552F4CF6.wem		\Actor-Mixer Hierarchy\Music\Musicingredients\Music_Main		10793056
 
